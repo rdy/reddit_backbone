@@ -1,0 +1,11 @@
+<li class="reddit" data-score="<%= reddit.score %>">
+  <h3><%= link_to reddit.title, reddit.url %></h3>
+  <div class="comments">
+    <%= link_to "http://www.reddit.com#{reddit.permalink}" do %>
+      <em>comments</em><%= reddit.num_comments %>
+    <% end %>
+  </div>
+  <div class="ups"><em>ups</em><%= reddit.ups %></div>
+  <div class="downs"><em>downs</em><%= reddit.downs %></div>
+  <div class="submitted"><em>submitted</em><%= time_ago_in_words(Time.at(reddit.created_utc)) %> ago</div>
+</li>

@@ -1,3 +1,13 @@
+GIT
+  remote: https://github.com/pivotal/jasmine-gem.git
+  revision: 14e8ee9156094a016c92f43a20ccee83aa8b68a6
+  specs:
+    jasmine (1.2.0.rc2)
+      jasmine-core (>= 1.2.0.rc1)
+      rack (>= 1.1)
+      rspec (>= 1.3.1)
+      selenium-webdriver (>= 0.1.3)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -29,10 +39,12 @@ GEM
       activesupport (= 3.1.1)
     activesupport (3.1.1)
       multi_json (~> 1.0)
+    addressable (2.2.6)
     arel (2.2.1)
     builder (3.0.0)
     childprocess (0.2.2)
       ffi (~> 1.0.6)
+    chunky_png (1.2.5)
     coffee-rails (3.1.1)
       coffee-script (>= 2.2.0)
       railties (~> 3.1.0)
@@ -40,6 +52,11 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.1.2)
+    compass (0.12.alpha.0)
+      chunky_png (~> 1.2)
+      fssm (>= 0.2.7)
+      sass (~> 3.1)
+    crack (0.3.1)
     daemons (1.1.4)
     diff-lcs (1.1.3)
     erubis (2.7.0)
@@ -47,14 +64,11 @@ GEM
     execjs (1.2.9)
       multi_json (~> 1.0)
     ffi (1.0.9)
+    fssm (0.2.7)
+    hashie (1.2.0)
     hike (1.2.1)
     i18n (0.6.0)
-    jasmine (1.1.2)
-      jasmine-core (>= 1.1.0)
-      rack (>= 1.1)
-      rspec (>= 1.3.1)
-      selenium-webdriver (>= 0.1.3)
-    jasmine-core (1.1.0)
+    jasmine-core (1.2.0.rc1)
     jquery-rails (1.0.16)
       railties (~> 3.0)
       thor (~> 0.14)
@@ -125,6 +139,8 @@ GEM
       hike (~> 1.2)
       rack (~> 1.0)
       tilt (!= 1.3.0, ~> 1.1)
+    sprockets-jquery-tmpl (0.1.0)
+      actionpack (~> 3.1.0)
     thin (1.2.11)
       daemons (>= 1.0.9)
       eventmachine (>= 0.12.6)
@@ -134,17 +150,25 @@ GEM
     treetop (1.4.10)
       polyglot
       polyglot (>= 0.3.1)
+    typhoeus (0.3.2)
+      mime-types
     tzinfo (0.3.30)
     uglifier (1.0.4)
       execjs (>= 0.3.0)
       multi_json (>= 1.0.2)
+    vcr (1.11.3)
+    webmock (1.7.7)
+      addressable (~> 2.2, > 2.2.5)
+      crack (>= 0.1.7)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   coffee-rails (~> 3.1.1)
-  jasmine
+  compass (~> 0.12.alpha.0)
+  hashie
+  jasmine!
   jquery-rails
   mysql2
   rack (= 1.3.3)
@@ -152,5 +176,9 @@ DEPENDENCIES
   rspec
   rspec-rails
   sass-rails (~> 3.1.4)
+  sprockets-jquery-tmpl
   thin
+  typhoeus
   uglifier (>= 1.0.3)
+  vcr
+  webmock

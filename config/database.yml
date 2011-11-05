@@ -1,5 +1,5 @@
 # MySQL.  Versions 4.1 and 5.0 are recommended.
-# 
+#
 # Install the MYSQL driver
 #   gem install mysql2
 #
@@ -15,7 +15,7 @@ development:
   database: reddit_backbone_development
   pool: 5
   username: root
-  password:
+  password: password
   socket: /tmp/mysql.sock
 
 # Warning: The database defined as "test" will be erased and
@@ -28,7 +28,7 @@ test:
   database: reddit_backbone_test
   pool: 5
   username: root
-  password:
+  password: password
   socket: /tmp/mysql.sock
 
 production:
@@ -38,5 +38,5 @@ production:
   database: reddit_backbone_production
   pool: 5
   username: root
-  password:
+  password: password
   socket: /tmp/mysql.sock

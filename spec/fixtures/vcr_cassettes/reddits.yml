@@ -1,0 +1,368 @@
+---
+- !ruby/struct:VCR::HTTPInteraction
+  request: !ruby/struct:VCR::Request
+    method: :get
+    uri: http://www.reddit.com:80/.json
+    body: !!null 
+    headers: !!null 
+  response: !ruby/struct:VCR::Response
+    status: !ruby/struct:VCR::ResponseStatus
+      code: 200
+      message: OK
+    headers:
+      content-type:
+      - application/json; charset=UTF-8
+      vary:
+      - Accept-Encoding
+      set-cookie:
+      - reddit_first=%7B%22firsttime%22%3A%20%22first%22%7D; Domain=reddit.com; expires=Thu,
+        31 Dec 2037 23:59:59 GMT; Path=/
+      content-encoding:
+      - gzip
+      server:
+      - ! '''; DROP TABLE servertypes; --'
+      content-length:
+      - '6759'
+      date:
+      - Thu, 03 Nov 2011 06:59:43 GMT
+      connection:
+      - keep-alive
+    body: ! '{"kind": "Listing", "data": {"modhash": "", "children": [{"kind": "t3",
+      "data": {"domain": "i.imgur.com", "media_embed": {}, "levenshtein": null, "subreddit":
+      "gaming", "selftext_html": null, "selftext": "", "likes": null, "saved": false,
+      "id": "lydz0", "clicked": false, "title": "My grandpa asked for some videogames
+      for his birthday a few months ago.  He e-mailed this to me today.", "media":
+      null, "score": 3048, "over_18": false, "hidden": false, "thumbnail": "http://e.thumbs.redditmedia.com/blfRU7T1bpXOtXVX.jpg",
+      "subreddit_id": "t5_2qh03", "author_flair_css_class": null, "downs": 20174,
+      "is_self": false, "permalink": "/r/gaming/comments/lydz0/my_grandpa_asked_for_some_videogames_for_his/",
+      "name": "t3_lydz0", "created": 1320306993.0, "url": "http://i.imgur.com/LU0Gb.jpg",
+      "author_flair_text": null, "author": "Jungleradio", "created_utc": 1320281793.0,
+      "num_comments": 2004, "ups": 23222}}, {"kind": "t3", "data": {"domain": "i.imgur.com",
+      "media_embed": {}, "levenshtein": null, "subreddit": "funny", "selftext_html":
+      null, "selftext": "", "likes": null, "saved": false, "id": "lydb8", "clicked":
+      false, "title": "Value of a college degree", "media": null, "score": 2002, "over_18":
+      false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2qh33", "author_flair_css_class":
+      null, "downs": 13053, "is_self": false, "permalink": "/r/funny/comments/lydb8/value_of_a_college_degree/",
+      "name": "t3_lydb8", "created": 1320305943.0, "url": "http://i.imgur.com/YqUif.jpg",
+      "author_flair_text": null, "author": "heybigpancakes", "created_utc": 1320280743.0,
+      "num_comments": 1870, "ups": 15055}}, {"kind": "t3", "data": {"domain": "i.imgur.com",
+      "media_embed": {}, "levenshtein": null, "subreddit": "WTF", "selftext_html":
+      null, "selftext": "", "likes": null, "saved": false, "id": "lyd8f", "clicked":
+      false, "title": "Unacceptable.", "media": null, "score": 1725, "over_18": false,
+      "hidden": false, "thumbnail": "", "subreddit_id": "t5_2qh61", "author_flair_css_class":
+      null, "downs": 6506, "is_self": false, "permalink": "/r/WTF/comments/lyd8f/unacceptable/",
+      "name": "t3_lyd8f", "created": 1320280639.0, "url": "http://i.imgur.com/UlOeN.png",
+      "author_flair_text": null, "author": "willex", "created_utc": 1320280639.0,
+      "num_comments": 331, "ups": 8231}}, {"kind": "t3", "data": {"domain": "freakoutnation.com",
+      "media_embed": {}, "levenshtein": null, "subreddit": "politics", "selftext_html":
+      null, "selftext": "", "likes": null, "saved": false, "id": "lyeku", "clicked":
+      false, "title": "Another Man to be Executed in Texas in a few days Without DNA
+      testing, Witnesses have Recanted", "media": null, "score": 1258, "over_18":
+      false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2cneq", "author_flair_css_class":
+      null, "downs": 1270, "is_self": false, "permalink": "/r/politics/comments/lyeku/another_man_to_be_executed_in_texas_in_a_few_days/",
+      "name": "t3_lyeku", "created": 1320307932.0, "url": "http://freakoutnation.com/2011/11/02/another-man-to-be-executed-in-texas-in-a-few-days-without-dna-testing-witnesses-have-recanted/",
+      "author_flair_text": null, "author": "shihtzuman", "created_utc": 1320282732.0,
+      "num_comments": 268, "ups": 2528}}, {"kind": "t3", "data": {"domain": "imgur.com",
+      "media_embed": {}, "levenshtein": null, "subreddit": "pics", "selftext_html":
+      null, "selftext": "", "likes": null, "saved": false, "id": "lyf7p", "clicked":
+      false, "title": "Ladies, you had to live up to Barbie, big whoop.  Try having
+      to live up to this.", "media": null, "score": 1233, "over_18": false, "hidden":
+      false, "thumbnail": "http://a.thumbs.redditmedia.com/rOaJX8zqR7SVYW_T.jpg",
+      "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "downs": 5392, "is_self":
+      false, "permalink": "/r/pics/comments/lyf7p/ladies_you_had_to_live_up_to_barbie_big_whoop_try/",
+      "name": "t3_lyf7p", "created": 1320308834.0, "url": "http://imgur.com/3hvY4",
+      "author_flair_text": null, "author": "crmacjr", "created_utc": 1320283634.0,
+      "num_comments": 646, "ups": 6625}}, {"kind": "t3", "data": {"domain": "youtube.com",
+      "media_embed": {"content": "&lt;object width=\"600\" height=\"338\"&gt;&lt;param
+      name=\"movie\" value=\"http://www.youtube.com/v/E8WvPHSMJ6c?version=3&amp;feature=oembed\"&gt;&lt;/param&gt;&lt;param
+      name=\"allowFullScreen\" value=\"true\"&gt;&lt;/param&gt;&lt;param name=\"allowscriptaccess\"
+      value=\"always\"&gt;&lt;/param&gt;&lt;embed src=\"http://www.youtube.com/v/E8WvPHSMJ6c?version=3&amp;feature=oembed\"
+      type=\"application/x-shockwave-flash\" width=\"600\" height=\"338\" allowscriptaccess=\"always\"
+      allowfullscreen=\"true\"&gt;&lt;/embed&gt;&lt;/object&gt;", "width": 600, "scrolling":
+      false, "height": 338}, "levenshtein": null, "subreddit": "videos", "selftext_html":
+      null, "selftext": "", "likes": null, "saved": false, "id": "ly3o5", "clicked":
+      false, "title": "Conan Delivers Chinese Food in NYC", "media": {"type": "youtube.com",
+      "oembed": {"provider_url": "http://www.youtube.com/", "description": "Watch
+      CONAN @ http://teamcoco.com/video. Conan returns to NYC to live the glamorous
+      life of a Chinese food delivery man.", "title": "Conan Delivers Chinese Food
+      in NYC", "url": "http://www.youtube.com/watch?v=E8WvPHSMJ6c", "author_name":
+      "teamcoco", "height": 338, "width": 600, "html": "&lt;object width=\"600\" height=\"338\"&gt;&lt;param
+      name=\"movie\" value=\"http://www.youtube.com/v/E8WvPHSMJ6c?version=3&amp;feature=oembed\"&gt;&lt;/param&gt;&lt;param
+      name=\"allowFullScreen\" value=\"true\"&gt;&lt;/param&gt;&lt;param name=\"allowscriptaccess\"
+      value=\"always\"&gt;&lt;/param&gt;&lt;embed src=\"http://www.youtube.com/v/E8WvPHSMJ6c?version=3&amp;feature=oembed\"
+      type=\"application/x-shockwave-flash\" width=\"600\" height=\"338\" allowscriptaccess=\"always\"
+      allowfullscreen=\"true\"&gt;&lt;/embed&gt;&lt;/object&gt;", "thumbnail_width":
+      480, "version": "1.0", "provider_name": "YouTube", "thumbnail_url": "http://i2.ytimg.com/vi/E8WvPHSMJ6c/hqdefault.jpg",
+      "type": "video", "thumbnail_height": 360, "author_url": "http://www.youtube.com/user/teamcoco"}},
+      "score": 2217, "over_18": false, "hidden": false, "thumbnail": "http://b.thumbs.redditmedia.com/qeAt-tNfrvAOtYcg.jpg",
+      "subreddit_id": "t5_2qh1e", "author_flair_css_class": null, "downs": 7174, "is_self":
+      false, "permalink": "/r/videos/comments/ly3o5/conan_delivers_chinese_food_in_nyc/",
+      "name": "t3_ly3o5", "created": 1320291222.0, "url": "http://www.youtube.com/watch?v=E8WvPHSMJ6c",
+      "author_flair_text": null, "author": "traviemccoy", "created_utc": 1320266022.0,
+      "num_comments": 684, "ups": 9391}}, {"kind": "t3", "data": {"domain": "i.imgur.com",
+      "media_embed": {}, "levenshtein": null, "subreddit": "atheism", "selftext_html":
+      null, "selftext": "", "likes": null, "saved": false, "id": "lya8q", "clicked":
+      false, "title": "Barack Obama on the importance of separation of church and
+      state", "media": null, "score": 1290, "over_18": false, "hidden": false, "thumbnail":
+      "http://c.thumbs.redditmedia.com/LxgrOC1CLNcMChL8.jpg", "subreddit_id": "t5_2qh2p",
+      "author_flair_css_class": null, "downs": 2777, "is_self": false, "permalink":
+      "/r/atheism/comments/lya8q/barack_obama_on_the_importance_of_separation_of/",
+      "name": "t3_lya8q", "created": 1320301270.0, "url": "http://i.imgur.com/Y0i2u.jpg",
+      "author_flair_text": null, "author": "Tularemia", "created_utc": 1320276070.0,
+      "num_comments": 492, "ups": 4067}}, {"kind": "t3", "data": {"domain": "en.wikipedia.net",
+      "media_embed": {}, "levenshtein": null, "subreddit": "todayilearned", "selftext_html":
+      null, "selftext": "", "likes": null, "saved": false, "id": "lya6h", "clicked":
+      false, "title": "TIL there is an elevator that has no doors and won''t stop.",
+      "media": null, "score": 973, "over_18": false, "hidden": false, "thumbnail":
+      "http://e.thumbs.redditmedia.com/zdIvEl3MXxYPo93L.jpg", "subreddit_id": "t5_2qqjc",
+      "author_flair_css_class": null, "downs": 1575, "is_self": false, "permalink":
+      "/r/todayilearned/comments/lya6h/til_there_is_an_elevator_that_has_no_doors_and/",
+      "name": "t3_lya6h", "created": 1320301168.0, "url": "http://en.wikipedia.net/wiki/Paternoster",
+      "author_flair_text": null, "author": "Targ", "created_utc": 1320275968.0, "num_comments":
+      391, "ups": 2548}}, {"kind": "t3", "data": {"domain": "qkme.me", "media_embed":
+      {}, "levenshtein": null, "subreddit": "AdviceAnimals", "selftext_html": null,
+      "selftext": "", "likes": null, "saved": false, "id": "lyem9", "clicked": false,
+      "title": "Justification", "media": null, "score": 651, "over_18": false, "hidden":
+      false, "thumbnail": "http://d.thumbs.redditmedia.com/WJ4UFRpWl6RBZ1-u.jpg",
+      "subreddit_id": "t5_2s7tt", "author_flair_css_class": null, "downs": 902, "is_self":
+      false, "permalink": "/r/AdviceAnimals/comments/lyem9/justification/", "name":
+      "t3_lyem9", "created": 1320307980.0, "url": "http://qkme.me/358njw", "author_flair_text":
+      null, "author": "Shanethesemi", "created_utc": 1320282780.0, "num_comments":
+      69, "ups": 1553}}, {"kind": "t3", "data": {"domain": "imgur.com", "media_embed":
+      {}, "levenshtein": null, "subreddit": "aww", "selftext_html": null, "selftext":
+      "", "likes": null, "saved": false, "id": "lyacc", "clicked": false, "title":
+      "Like a parrot, but cuter.", "media": null, "score": 891, "over_18": false,
+      "hidden": false, "thumbnail": "http://d.thumbs.redditmedia.com/aJUkRwwkc4I-5ODW.jpg",
+      "subreddit_id": "t5_2qh1o", "author_flair_css_class": null, "downs": 1809, "is_self":
+      false, "permalink": "/r/aww/comments/lyacc/like_a_parrot_but_cuter/", "name":
+      "t3_lyacc", "created": 1320301430.0, "url": "http://imgur.com/MF5KD", "author_flair_text":
+      null, "author": "brownsocks", "created_utc": 1320276230.0, "num_comments": 188,
+      "ups": 2700}}, {"kind": "t3", "data": {"domain": "self.AskReddit", "media_embed":
+      {}, "levenshtein": null, "subreddit": "AskReddit", "selftext_html": "&lt;!--
+      SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I would like to toss some judgement
+      around based on nothing but the way you look.  If you would kindly post a picture
+      of yourself so that I can tell you what kind of person you are.  Thanks.&lt;/p&gt;&lt;/div&gt;&lt;!--
+      SC_ON --&gt;", "selftext": "I would like to toss some judgement around based
+      on nothing but the way you look.  If you would kindly post a picture of yourself
+      so that I can tell you what kind of person you are.  Thanks. \n\n[Edit: 5 Hours
+      after post]:  Well, this certainly got out of hand.  I''ve got to stop judging
+      you people.   I have fulfilled my judgement quote for the next few years and
+      I guess I''m just going to have to go around being nice and fake to people for
+      a while now.  I''m sorry I couldn''t get to the rest of you, I really wanted
+      to unfairly judge.  My wife is pissed because I''ve ignored her all night.  I
+      will try to come judge more of you if I can find the time, I doubt I really
+      do.  \n\n[Edit 2]:  What I''ve learned is that pretty girls and Asians like
+      to be judged.  Weird. ", "likes": null, "saved": false, "id": "ly5lu", "clicked":
+      false, "title": "Can I judge you by your looks? ", "media": null, "score": 1051,
+      "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2qh1i",
+      "author_flair_css_class": null, "downs": 1697, "is_self": true, "permalink":
+      "/r/AskReddit/comments/ly5lu/can_i_judge_you_by_your_looks/", "name": "t3_ly5lu",
+      "created": 1320294138.0, "url": "http://www.reddit.com/r/AskReddit/comments/ly5lu/can_i_judge_you_by_your_looks/",
+      "author_flair_text": null, "author": "wekulm", "created_utc": 1320268938.0,
+      "num_comments": 6760, "ups": 2748}}, {"kind": "t3", "data": {"domain": "bbc.co.uk",
+      "media_embed": {}, "levenshtein": null, "subreddit": "science", "selftext_html":
+      null, "selftext": "", "likes": null, "saved": false, "id": "lxy4i", "clicked":
+      false, "title": "Signs of ageing halted in the lab,The onset of wrinkles, muscle
+      wasting and cataracts has been delayed and even eliminated in mice.", "media":
+      null, "score": 1759, "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id":
+      "t5_mouw", "author_flair_css_class": null, "downs": 3038, "is_self": false,
+      "permalink": "/r/science/comments/lxy4i/signs_of_ageing_halted_in_the_labthe_onset_of/",
+      "name": "t3_lxy4i", "created": 1320283280.0, "url": "http://www.bbc.co.uk/news/health-15552964",
+      "author_flair_text": null, "author": "CG10277", "created_utc": 1320258080.0,
+      "num_comments": 629, "ups": 4797}}, {"kind": "t3", "data": {"domain": "youtube.com",
+      "media_embed": {"content": "&lt;object width=\"600\" height=\"338\"&gt;&lt;param
+      name=\"movie\" value=\"http://www.youtube.com/v/z2nQZPC2uTs?version=3&amp;feature=oembed\"&gt;&lt;/param&gt;&lt;param
+      name=\"allowFullScreen\" value=\"true\"&gt;&lt;/param&gt;&lt;param name=\"allowscriptaccess\"
+      value=\"always\"&gt;&lt;/param&gt;&lt;embed src=\"http://www.youtube.com/v/z2nQZPC2uTs?version=3&amp;feature=oembed\"
+      type=\"application/x-shockwave-flash\" width=\"600\" height=\"338\" allowscriptaccess=\"always\"
+      allowfullscreen=\"true\"&gt;&lt;/embed&gt;&lt;/object&gt;", "width": 600, "scrolling":
+      false, "height": 338}, "levenshtein": null, "subreddit": "Music", "selftext_html":
+      null, "selftext": "", "likes": null, "saved": false, "id": "lya2i", "clicked":
+      false, "title": "Dire Straits - Sultans of Swing", "media": {"oembed": {"provider_url":
+      "http://www.youtube.com/", "description": "Live preformance from Mark Knopfler,
+      of the Dire Straits fame. This was taken from the ''Night in London'' VHS.",
+      "title": "Dire Straits - Sultans Of Swing (Live)", "url": "http://www.youtube.com/watch?v=z2nQZPC2uTs",
+      "type": "video", "author_name": "kazimann", "height": 338, "width": 600, "html":
+      "&lt;object width=\"600\" height=\"338\"&gt;&lt;param name=\"movie\" value=\"http://www.youtube.com/v/z2nQZPC2uTs?version=3&amp;feature=oembed\"&gt;&lt;/param&gt;&lt;param
+      name=\"allowFullScreen\" value=\"true\"&gt;&lt;/param&gt;&lt;param name=\"allowscriptaccess\"
+      value=\"always\"&gt;&lt;/param&gt;&lt;embed src=\"http://www.youtube.com/v/z2nQZPC2uTs?version=3&amp;feature=oembed\"
+      type=\"application/x-shockwave-flash\" width=\"600\" height=\"338\" allowscriptaccess=\"always\"
+      allowfullscreen=\"true\"&gt;&lt;/embed&gt;&lt;/object&gt;", "thumbnail_width":
+      480, "version": "1.0", "provider_name": "YouTube", "thumbnail_url": "http://i3.ytimg.com/vi/z2nQZPC2uTs/hqdefault.jpg",
+      "thumbnail_height": 360, "author_url": "http://www.youtube.com/user/kazimann"},
+      "type": "youtube.com"}, "score": 642, "over_18": false, "hidden": false, "thumbnail":
+      "", "subreddit_id": "t5_2qh1u", "author_flair_css_class": null, "downs": 371,
+      "is_self": false, "permalink": "/r/Music/comments/lya2i/dire_straits_sultans_of_swing/",
+      "name": "t3_lya2i", "created": 1320300967.0, "url": "http://www.youtube.com/watch?v=z2nQZPC2uTs",
+      "author_flair_text": null, "author": "snokidd47", "created_utc": 1320275767.0,
+      "num_comments": 130, "ups": 1013}}, {"kind": "t3", "data": {"domain": "hurriyetdailynews.com",
+      "media_embed": {}, "levenshtein": null, "subreddit": "worldnews", "selftext_html":
+      null, "selftext": "", "likes": null, "saved": false, "id": "ly7yq", "clicked":
+      false, "title": "In 2002, 26 men bought and, to preserve her virginity, anally
+      raped  a 13 year old girl in Mardin. After eight years, Turkish court rules
+      minimum penalty on the grounds that she consented to the act. ", "media": null,
+      "score": 585, "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id":
+      "t5_2qh13", "author_flair_css_class": null, "downs": 541, "is_self": false,
+      "permalink": "/r/worldnews/comments/ly7yq/in_2002_26_men_bought_and_to_preserve_her/",
+      "name": "t3_ly7yq", "created": 1320297762.0, "url": "http://www.hurriyetdailynews.com/n.php?n=fury-rages-over-rape-case-2011-11-02",
+      "author_flair_text": null, "author": "fritwick", "created_utc": 1320272562.0,
+      "num_comments": 250, "ups": 1126}}, {"kind": "t3", "data": {"domain": "i.imgur.com",
+      "media_embed": {}, "levenshtein": null, "subreddit": "technology", "selftext_html":
+      null, "selftext": "", "likes": null, "saved": false, "id": "lxrpk", "clicked":
+      false, "title": "So I emailed my House Representative about the E-PARASITES
+      (formerly PROTECT IP) Act. Here is his reply.", "media": null, "score": 1868,
+      "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2qh16",
+      "author_flair_css_class": null, "downs": 5695, "is_self": false, "permalink":
+      "/r/technology/comments/lxrpk/so_i_emailed_my_house_representative_about_the/",
+      "name": "t3_lxrpk", "created": 1320273417.0, "url": "http://i.imgur.com/ZCUWb.png",
+      "author_flair_text": null, "author": "TheWorldIsEnding", "created_utc": 1320248217.0,
+      "num_comments": 456, "ups": 7563}}, {"kind": "t3", "data": {"domain": "self.IAmA",
+      "media_embed": {}, "levenshtein": null, "subreddit": "IAmA", "selftext_html":
+      "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I thought there might
+      be some interest especially in regards to wealth inequality and the OWS movement.
+      I will answer to the best of my ability but the company is private so there
+      are questions I may not be able to answer due to confidentiality. Proof sent
+      to the mods.&lt;/p&gt;\n\n&lt;p&gt;EDIT: I am going for a break. I''ll be back
+      in a couple hours. This has been really interesting for me!&lt;/p&gt;\n\n&lt;p&gt;Back.&lt;/p&gt;\n\n&lt;p&gt;EDIT:
+      Thanks for the questions. I am off to bed as it''s pretty late. The questions
+      are getting nastier and more hateful as this goes on and I feel I''m too tired
+      to answer properly. If there''s still interest in the morning then I''ll answer
+      some more.&lt;/p&gt;\n\n&lt;p&gt;Thanks.&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON
+      --&gt;", "selftext": "I thought there might be some interest especially in regards
+      to wealth inequality and the OWS movement. I will answer to the best of my ability
+      but the company is private so there are questions I may not be able to answer
+      due to confidentiality. Proof sent to the mods.\n\nEDIT: I am going for a break.
+      I''ll be back in a couple hours. This has been really interesting for me!\n\nBack.\n\nEDIT:
+      Thanks for the questions. I am off to bed as it''s pretty late. The questions
+      are getting nastier and more hateful as this goes on and I feel I''m too tired
+      to answer properly. If there''s still interest in the morning then I''ll answer
+      some more.\n\nThanks.", "likes": null, "saved": false, "id": "ly3g8", "clicked":
+      false, "title": "IAMA heir to a billion dollar corporation", "media": null,
+      "score": 509, "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id":
+      "t5_2qzb6", "author_flair_css_class": null, "downs": 1703, "is_self": true,
+      "permalink": "/r/IAmA/comments/ly3g8/iama_heir_to_a_billion_dollar_corporation/",
+      "name": "t3_ly3g8", "created": 1320290883.0, "url": "http://www.reddit.com/r/IAmA/comments/ly3g8/iama_heir_to_a_billion_dollar_corporation/",
+      "author_flair_text": null, "author": "heir_chair", "created_utc": 1320265683.0,
+      "num_comments": 2565, "ups": 2212}}, {"kind": "t3", "data": {"domain": "self.askscience",
+      "media_embed": {}, "levenshtein": null, "subreddit": "askscience", "selftext_html":
+      "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;&lt;em&gt;[Post correction
+      for neutrality]&lt;/em&gt;&lt;/p&gt;\n\n&lt;p&gt;I am also wondering about the
+      actual effectiveness of corporal punishment, and how it can affect children
+      in their future.&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;", "selftext": "*[Post
+      correction for neutrality]*\n\nI am also wondering about the actual effectiveness
+      of corporal punishment, and how it can affect children in their future.", "likes":
+      null, "saved": false, "id": "ly00i", "clicked": false, "title": "Are there any
+      scientific studies that support corporal punishment of children as helpful or
+      conducive to their mental and emotional maturity?", "media": null, "score":
+      285, "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2qm4e",
+      "author_flair_css_class": null, "downs": 227, "is_self": true, "permalink":
+      "/r/askscience/comments/ly00i/are_there_any_scientific_studies_that_support/",
+      "name": "t3_ly00i", "created": 1320260740.0, "url": "http://www.reddit.com/r/askscience/comments/ly00i/are_there_any_scientific_studies_that_support/",
+      "author_flair_text": null, "author": "libertasmens", "created_utc": 1320260740.0,
+      "num_comments": 300, "ups": 512}}, {"kind": "t3", "data": {"domain": "self.IAmA",
+      "media_embed": {}, "levenshtein": null, "subreddit": "IAmA", "selftext_html":
+      "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Technically my diagnosis
+      is Psychotic disorder NOS (not otherwise specified).  I''ve been considering
+      doing something like this for awhile, since I keep running into misconceptions
+      that drive me bonkers, and I have nothing to do tonight.  So why not?  I will
+      answer anything to the best of my ability.  I just really need to talk about
+      this stuff...&lt;/p&gt;\n\n&lt;p&gt;EDIT: Also, I guess I should also say that
+      I have childhood onset schizophrenia.  The weird stuff started around 6th grade,
+      so I was... 10 or 11 years old. I just say that because I think it''s not as
+      common as adult onset.&lt;/p&gt;\n\n&lt;p&gt;EDIT number 2: Oh my gosh, didn''t
+      think I''d have so many replies!  I''m typing as fast as I can, but I''m not
+      the best typer, so bear with me. I''m doing my best and all questions will be
+      answered!!  It just might be a little bit...&lt;/p&gt;\n\n&lt;p&gt;OMG another
+      edit: People are at my house now...  so I will answer questions more later.  Now
+      is the time for real life social interaction. Weird.  *And they are now gone.  Back
+      to typing furiously.  This is enjoyably cathartic.  Keep the questions coming!&lt;/p&gt;\n\n&lt;p&gt;So
+      many edits!: I gotta go to bed now.  6 am is going to come way too fast, but
+      i will return to answer your questions!&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+      "selftext": "Technically my diagnosis is Psychotic disorder NOS (not otherwise
+      specified).  I''ve been considering doing something like this for awhile, since
+      I keep running into misconceptions that drive me bonkers, and I have nothing
+      to do tonight.  So why not?  I will answer anything to the best of my ability.  I
+      just really need to talk about this stuff...\n\nEDIT: Also, I guess I should
+      also say that I have childhood onset schizophrenia.  The weird stuff started
+      around 6th grade, so I was... 10 or 11 years old. I just say that because I
+      think it''s not as common as adult onset.\n\nEDIT number 2: Oh my gosh, didn''t
+      think I''d have so many replies!  I''m typing as fast as I can, but I''m not
+      the best typer, so bear with me. I''m doing my best and all questions will be
+      answered!!  It just might be a little bit...\n\nOMG another edit: People are
+      at my house now...  so I will answer questions more later.  Now is the time
+      for real life social interaction. Weird.  *And they are now gone.  Back to typing
+      furiously.  This is enjoyably cathartic.  Keep the questions coming!\n\nSo many
+      edits!: I gotta go to bed now.  6 am is going to come way too fast, but i will
+      return to answer your questions!", "likes": null, "saved": false, "id": "lybhk",
+      "clicked": false, "title": "IAmA schizophrenic who needs to talk about it, AMA.",
+      "media": null, "score": 245, "over_18": false, "hidden": false, "thumbnail":
+      "", "subreddit_id": "t5_2qzb6", "author_flair_css_class": null, "downs": 159,
+      "is_self": true, "permalink": "/r/IAmA/comments/lybhk/iama_schizophrenic_who_needs_to_talk_about_it_ama/",
+      "name": "t3_lybhk", "created": 1320303254.0, "url": "http://www.reddit.com/r/IAmA/comments/lybhk/iama_schizophrenic_who_needs_to_talk_about_it_ama/",
+      "author_flair_text": null, "author": "thelostant", "created_utc": 1320278054.0,
+      "num_comments": 363, "ups": 404}}, {"kind": "t3", "data": {"domain": "i.imgur.com",
+      "media_embed": {}, "levenshtein": null, "subreddit": "pics", "selftext_html":
+      null, "selftext": "", "likes": null, "saved": false, "id": "lydfi", "clicked":
+      false, "title": "Party on!", "media": null, "score": 1058, "over_18": false,
+      "hidden": false, "thumbnail": "http://a.thumbs.redditmedia.com/zjQlXKfQePRsY470.jpg",
+      "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "downs": 2462, "is_self":
+      false, "permalink": "/r/pics/comments/lydfi/party_on/", "name": "t3_lydfi",
+      "created": 1320280948.0, "url": "http://i.imgur.com/Vvyiw.jpg", "author_flair_text":
+      null, "author": "Targ", "created_utc": 1320280948.0, "num_comments": 135, "ups":
+      3520}}, {"kind": "t3", "data": {"domain": "qkme.me", "media_embed": {}, "levenshtein":
+      null, "subreddit": "AdviceAnimals", "selftext_html": null, "selftext": "", "likes":
+      null, "saved": false, "id": "ly4pv", "clicked": false, "title": "Judge Irony",
+      "media": null, "score": 1180, "over_18": false, "hidden": false, "thumbnail":
+      "http://a.thumbs.redditmedia.com/BoVp7eG0DUodTIfr.jpg", "subreddit_id": "t5_2s7tt",
+      "author_flair_css_class": null, "downs": 4554, "is_self": false, "permalink":
+      "/r/AdviceAnimals/comments/ly4pv/judge_irony/", "name": "t3_ly4pv", "created":
+      1320292813.0, "url": "http://qkme.me/358m7a", "author_flair_text": null, "author":
+      "homestar440", "created_utc": 1320267613.0, "num_comments": 203, "ups": 5734}},
+      {"kind": "t3", "data": {"domain": "dailykos.com", "media_embed": {}, "levenshtein":
+      null, "subreddit": "politics", "selftext_html": null, "selftext": "", "likes":
+      null, "saved": false, "id": "lydk7", "clicked": false, "title": "\"He has a
+      right to speak,\" said the cop to the banker", "media": null, "score": 1109,
+      "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2cneq",
+      "author_flair_css_class": null, "downs": 1103, "is_self": false, "permalink":
+      "/r/politics/comments/lydk7/he_has_a_right_to_speak_said_the_cop_to_the_banker/",
+      "name": "t3_lydk7", "created": 1320306336.0, "url": "http://www.dailykos.com/story/2011/11/02/1032624/-He-has-a-right-to-speak,-said-the-cop-to-the-banker",
+      "author_flair_text": null, "author": "icebergslim", "created_utc": 1320281136.0,
+      "num_comments": 244, "ups": 2212}}, {"kind": "t3", "data": {"domain": "i.imgur.com",
+      "media_embed": {}, "levenshtein": null, "subreddit": "pics", "selftext_html":
+      null, "selftext": "", "likes": null, "saved": false, "id": "lyee1", "clicked":
+      false, "title": "My friend just got a cow, he''s two days old and his name is
+      Norman.", "media": null, "score": 913, "over_18": false, "hidden": false, "thumbnail":
+      "http://b.thumbs.redditmedia.com/46jYQ3mX-f1w01Ms.jpg", "subreddit_id": "t5_2qh0u",
+      "author_flair_css_class": null, "downs": 1406, "is_self": false, "permalink":
+      "/r/pics/comments/lyee1/my_friend_just_got_a_cow_hes_two_days_old_and_his/",
+      "name": "t3_lyee1", "created": 1320282417.0, "url": "http://i.imgur.com/KMhKY.jpg",
+      "author_flair_text": null, "author": "mamabear08", "created_utc": 1320282417.0,
+      "num_comments": 263, "ups": 2319}}, {"kind": "t3", "data": {"domain": "i.imgur.com",
+      "media_embed": {}, "levenshtein": null, "subreddit": "pics", "selftext_html":
+      null, "selftext": "", "likes": null, "saved": false, "id": "lyhj8", "clicked":
+      false, "title": "One of the funniest face swaps i''ve ever seen", "media": null,
+      "score": 659, "over_18": false, "hidden": false, "thumbnail": "http://d.thumbs.redditmedia.com/XDyIKNqWwlceUQyW.jpg",
+      "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "downs": 1334, "is_self":
+      false, "permalink": "/r/pics/comments/lyhj8/one_of_the_funniest_face_swaps_ive_ever_seen/",
+      "name": "t3_lyhj8", "created": 1320312345.0, "url": "http://i.imgur.com/Fqnkg.jpg",
+      "author_flair_text": null, "author": "mokadude1", "created_utc": 1320287145.0,
+      "num_comments": 36, "ups": 1993}}, {"kind": "t3", "data": {"domain": "dailymail.co.uk",
+      "media_embed": {}, "levenshtein": null, "subreddit": "worldnews", "selftext_html":
+      null, "selftext": "", "likes": null, "saved": false, "id": "lxvgq", "clicked":
+      false, "title": "Six police officers who used baseball bats to smash \nup a
+      suspect''s car WILL keep their jobs.", "media": null, "score": 1104, "over_18":
+      false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2qh13", "author_flair_css_class":
+      null, "downs": 3667, "is_self": false, "permalink": "/r/worldnews/comments/lxvgq/six_police_officers_who_used_baseball_bats_to/",
+      "name": "t3_lxvgq", "created": 1320279278.0, "url": "http://www.dailymail.co.uk/news/article-2056589/Six-police-officers-used-baseball-bats-smash-suspects-car-WILL-jobs.html?ITO=1490",
+      "author_flair_text": null, "author": "parastar", "created_utc": 1320254078.0,
+      "num_comments": 296, "ups": 4771}}, {"kind": "t3", "data": {"domain": "i.imgur.com",
+      "media_embed": {}, "levenshtein": null, "subreddit": "pics", "selftext_html":
+      null, "selftext": "", "likes": null, "saved": false, "id": "lyf3t", "clicked":
+      false, "title": "Damn hawk, you scary.", "media": null, "score": 772, "over_18":
+      false, "hidden": false, "thumbnail": "http://e.thumbs.redditmedia.com/zWXm-J1QdTzDaqKv.jpg",
+      "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "downs": 1284, "is_self":
+      false, "permalink": "/r/pics/comments/lyf3t/damn_hawk_you_scary/", "name": "t3_lyf3t",
+      "created": 1320308683.0, "url": "http://i.imgur.com/NNPWn.jpg", "author_flair_text":
+      null, "author": "gr33nspan", "created_utc": 1320283483.0, "num_comments": 203,
+      "ups": 2056}}], "after": "t3_lyf3t", "before": null}}'
+    http_version: '1.1'
