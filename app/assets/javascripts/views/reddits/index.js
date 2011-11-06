@@ -34,7 +34,7 @@
         $reddit.data('view', view);
       }
       view.openDialog();
-      comments.fetch({url: '/comment?' + $.param({permalink: reddit.get('permalink')})});
+      comments.fetch({dataType: 'jsonp', url: 'http://www.reddit.com' + reddit.get('permalink') + '.json', jsonp: 'jsonp'});
     };
 
     function initialize() {
