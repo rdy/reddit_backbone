@@ -1,4 +1,4 @@
-//= require config/routes
+//= require lib/router
 (function(namespace) {
   namespace.Application = function(options) {
     options = options || {};
