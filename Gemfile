@@ -3,7 +3,8 @@ source 'http://rubygems.org'
 gem 'rails', '3.1.1'
 
 gem 'jquery-rails'
-gem 'mysql2'
+#gem 'mysql2'
+gem 'sqlite3'
 gem 'rack', '1.3.3'
 gem 'thin'
 
