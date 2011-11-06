@@ -1,3 +1,10 @@
-<ol class="reddits">
-  <%= render partial: 'reddit', collection: @reddits %>
-</ol>
+<% content_for :javascript do %>
+  <script type="text/javascript">
+    $(function() {
+      var reddits = new redditBackbone.Reddits();
+      var view = new redditBackbone.views.reddits.Index({collection: reddits}).render();
+      $('#root').append(view.el);
+      reddits.fetch();
+    });
+  </script>
+<% end %>

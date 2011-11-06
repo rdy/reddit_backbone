@@ -1,0 +1,1 @@
+var redditBackbone = window.redditBackbone || {};

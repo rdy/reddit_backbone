@@ -25,6 +25,7 @@ src_files:
 #   - stylesheets/*.css
 #
 stylesheets:
+  - __spec__/support/jasmine.css
   - assets/application.css
 
 # helpers

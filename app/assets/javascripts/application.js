@@ -4,6 +4,12 @@
 // It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
 // the compiled file.
 //
-//= require jquery
+//= require jquery-1.7
 //= require jquery_ujs
+//= require jquery-tmpl
+//= require jquery.timeago
+//= require underscore
+//= require backbone
+//= require reddit_backbone
+//= require_tree ./models
 //= require_tree .

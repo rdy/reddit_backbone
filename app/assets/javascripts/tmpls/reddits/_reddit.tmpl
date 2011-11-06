@@ -1,0 +1,11 @@
+<li class="reddit" data-score="{{= score }}">
+  <h3><a href="{{= url}}">{{= title}}</a></h3>
+  <div class="comments">
+    <a href="http://www.reddit.com{{= permalink}}">
+      <em>comments</em>{{= num_comments}}
+    </a>
+  </div>
+  <div class="ups"><em>ups</em>{{= ups}}</div>
+  <div class="downs"><em>downs</em>{{= downs}}</div>
+  <div class="submitted"><em>submitted</em>{{= $item.timeAgo(created_utc)}}</div>
+</li>
