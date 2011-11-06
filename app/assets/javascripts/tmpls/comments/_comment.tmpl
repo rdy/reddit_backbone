@@ -1,0 +1,23 @@
+{{if kind === 'Listing'}}
+  {{each(i, comment) data.children}}
+    {{if comment.data.author}}
+      <li class="comment">
+        <h4>{{= comment.data.title}}</h4>
+        <h5>{{= comment.data.author}}</h5>
+        <p>
+          {{if comment.data.body_html}}
+            {{html _(comment.data.body_html).unescapeHTML()}}
+          {{else}}
+            {{= comment.data.body}}
+          {{/if}}
+
+          {{if comment.data.replies}}
+            <ol class="comments replies">
+              {{tmpl(comment.data.replies) 'comments/_comment'}}
+            </ol>
+          {{/if}}
+        </p>
+      </li>
+    {{/if}}
+  {{/each}}
+{{/if}}

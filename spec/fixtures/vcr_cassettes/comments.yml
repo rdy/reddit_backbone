@@ -1,0 +1,2142 @@
+---
+- !ruby/struct:VCR::HTTPInteraction
+  request: !ruby/struct:VCR::Request
+    method: :get
+    uri: http://www.reddit.com:80/.json
+    body: !!null 
+    headers: !!null 
+  response: !ruby/struct:VCR::Response
+    status: !ruby/struct:VCR::ResponseStatus
+      code: 200
+      message: OK
+    headers:
+      content-type:
+      - application/json; charset=UTF-8
+      vary:
+      - Accept-Encoding
+      set-cookie:
+      - reddit_first=%7B%22firsttime%22%3A%20%22first%22%7D; Domain=reddit.com; expires=Thu,
+        31 Dec 2037 23:59:59 GMT; Path=/
+      content-encoding:
+      - gzip
+      server:
+      - ! '''; DROP TABLE servertypes; --'
+      content-length:
+      - '7809'
+      date:
+      - Sun, 06 Nov 2011 06:50:30 GMT
+      connection:
+      - keep-alive
+    body: ! '{"kind": "Listing", "data": {"modhash": "", "children": [{"kind": "t3",
+      "data": {"domain": "i.imgur.com", "media_embed": {}, "levenshtein": null, "subreddit":
+      "pics", "selftext_html": null, "selftext": "", "likes": null, "saved": false,
+      "id": "m1yc5", "clicked": false, "title": "No, Paula.  It''s a pot.", "media":
+      null, "score": 1483, "over_18": false, "hidden": false, "thumbnail": "http://f.thumbs.redditmedia.com/llXi45JyOxK3IwVq.jpg",
+      "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "downs": 4578, "is_self":
+      false, "permalink": "/r/pics/comments/m1yc5/no_paula_its_a_pot/", "name": "t3_m1yc5",
+      "created": 1320567888.0, "url": "http://i.imgur.com/Izid9.png", "author_flair_text":
+      null, "author": "ajoshw", "created_utc": 1320542688.0, "num_comments": 377,
+      "ups": 6061}}, {"kind": "t3", "data": {"domain": "i.imgur.com", "media_embed":
+      {}, "levenshtein": null, "subreddit": "funny", "selftext_html": null, "selftext":
+      "", "likes": null, "saved": false, "id": "m1ybd", "clicked": false, "title":
+      "So quick to judge....", "media": null, "score": 1332, "over_18": false, "hidden":
+      false, "thumbnail": "", "subreddit_id": "t5_2qh33", "author_flair_css_class":
+      null, "downs": 5297, "is_self": false, "permalink": "/r/funny/comments/m1ybd/so_quick_to_judge/",
+      "name": "t3_m1ybd", "created": 1320567837.0, "url": "http://i.imgur.com/H5H6f.png",
+      "author_flair_text": null, "author": "microsby29", "created_utc": 1320542637.0,
+      "num_comments": 122, "ups": 6629}}, {"kind": "t3", "data": {"domain": "i.imgur.com",
+      "media_embed": {}, "levenshtein": null, "subreddit": "gaming", "selftext_html":
+      null, "selftext": "", "likes": null, "saved": false, "id": "m1vzr", "clicked":
+      false, "title": "This is unacceptable.", "media": null, "score": 1505, "over_18":
+      false, "hidden": false, "thumbnail": "http://c.thumbs.redditmedia.com/ApBr-zqlzax93M4t.jpg",
+      "subreddit_id": "t5_2qh03", "author_flair_css_class": null, "downs": 11002,
+      "is_self": false, "permalink": "/r/gaming/comments/m1vzr/this_is_unacceptable/",
+      "name": "t3_m1vzr", "created": 1320563097.0, "url": "http://i.imgur.com/DlwiE.jpg",
+      "author_flair_text": null, "author": "FizzFio", "created_utc": 1320537897.0,
+      "num_comments": 923, "ups": 12507}}, {"kind": "t3", "data": {"domain": "i.imgur.com",
+      "media_embed": {}, "levenshtein": null, "subreddit": "WTF", "selftext_html":
+      null, "selftext": "", "likes": null, "saved": false, "id": "m22my", "clicked":
+      false, "title": "Here''s your young voters America. Be proud. Be very proud.
+      They''re both in college. ", "media": null, "score": 669, "over_18": false,
+      "hidden": false, "thumbnail": "", "subreddit_id": "t5_2qh61", "author_flair_css_class":
+      null, "downs": 598, "is_self": false, "permalink": "/r/WTF/comments/m22my/heres_your_young_voters_america_be_proud_be_very/",
+      "name": "t3_m22my", "created": 1320576327.0, "url": "http://i.imgur.com/Yi7El.png",
+      "author_flair_text": null, "author": "Ninja_Roz", "created_utc": 1320551127.0,
+      "num_comments": 154, "ups": 1267}}, {"kind": "t3", "data": {"domain": "imgur.com",
+      "media_embed": {}, "levenshtein": null, "subreddit": "atheism", "selftext_html":
+      null, "selftext": "", "likes": null, "saved": false, "id": "m1zur", "clicked":
+      false, "title": "How I imagine Christians who try to start arguments in r/atheism",
+      "media": null, "score": 715, "over_18": false, "hidden": false, "thumbnail":
+      "http://f.thumbs.redditmedia.com/XJd4Hj8sNbd4W2oM.jpg", "subreddit_id": "t5_2qh2p",
+      "author_flair_css_class": null, "downs": 999, "is_self": false, "permalink":
+      "/r/atheism/comments/m1zur/how_i_imagine_christians_who_try_to_start/", "name":
+      "t3_m1zur", "created": 1320570896.0, "url": "http://imgur.com/NlNP2.gif", "author_flair_text":
+      null, "author": "efrance1", "created_utc": 1320545696.0, "num_comments": 150,
+      "ups": 1714}}, {"kind": "t3", "data": {"domain": "imgur.com", "media_embed":
+      {}, "levenshtein": null, "subreddit": "AdviceAnimals", "selftext_html": null,
+      "selftext": "", "likes": null, "saved": false, "id": "m1ym3", "clicked": false,
+      "title": "Socially awkward penguin talking dirty.", "media": null, "score":
+      744, "over_18": false, "hidden": false, "thumbnail": "http://b.thumbs.redditmedia.com/WjOaHvnY1emEn1dg.jpg",
+      "subreddit_id": "t5_2s7tt", "author_flair_css_class": null, "downs": 837, "is_self":
+      false, "permalink": "/r/AdviceAnimals/comments/m1ym3/socially_awkward_penguin_talking_dirty/",
+      "name": "t3_m1ym3", "created": 1320568453.0, "url": "http://imgur.com/BhiMZ",
+      "author_flair_text": null, "author": "fatalconvex", "created_utc": 1320543253.0,
+      "num_comments": 56, "ups": 1581}}, {"kind": "t3", "data": {"domain": "imgur.com",
+      "media_embed": {}, "levenshtein": null, "subreddit": "aww", "selftext_html":
+      null, "selftext": "", "likes": null, "saved": false, "id": "m1wca", "clicked":
+      false, "title": "This little guy came hunting with us...", "media": null, "score":
+      812, "over_18": false, "hidden": false, "thumbnail": "http://e.thumbs.redditmedia.com/TLae37nE3IO9m_CX.jpg",
+      "subreddit_id": "t5_2qh1o", "author_flair_css_class": null, "downs": 1753, "is_self":
+      false, "permalink": "/r/aww/comments/m1wca/this_little_guy_came_hunting_with_us/",
+      "name": "t3_m1wca", "created": 1320563848.0, "url": "http://imgur.com/S8gk4",
+      "author_flair_text": null, "author": "migumi", "created_utc": 1320538648.0,
+      "num_comments": 237, "ups": 2565}}, {"kind": "t3", "data": {"domain": "youtube.com",
+      "media_embed": {"content": "&lt;object width=\"600\" height=\"338\"&gt;&lt;param
+      name=\"movie\" value=\"http://www.youtube.com/v/Kn8jLlDdYtc?version=3&amp;feature=oembed\"&gt;&lt;/param&gt;&lt;param
+      name=\"allowFullScreen\" value=\"true\"&gt;&lt;/param&gt;&lt;param name=\"allowscriptaccess\"
+      value=\"always\"&gt;&lt;/param&gt;&lt;embed src=\"http://www.youtube.com/v/Kn8jLlDdYtc?version=3&amp;feature=oembed\"
+      type=\"application/x-shockwave-flash\" width=\"600\" height=\"338\" allowscriptaccess=\"always\"
+      allowfullscreen=\"true\"&gt;&lt;/embed&gt;&lt;/object&gt;", "width": 600, "scrolling":
+      false, "height": 338}, "levenshtein": null, "subreddit": "videos", "selftext_html":
+      null, "selftext": "", "likes": null, "saved": false, "id": "m1qbf", "clicked":
+      false, "title": "Stephen Colbert impersonates a nuclear explosion", "media":
+      {"type": "youtube.com", "oembed": {"provider_url": "http://www.youtube.com/",
+      "description": "What a nice and funny interview", "title": "Steven Colbert nuclear
+      explosion [HQ]", "url": "http://www.youtube.com/watch?v=Kn8jLlDdYtc", "author_name":
+      "MrJohnFCA", "height": 338, "width": 600, "html": "&lt;object width=\"600\"
+      height=\"338\"&gt;&lt;param name=\"movie\" value=\"http://www.youtube.com/v/Kn8jLlDdYtc?version=3&amp;feature=oembed\"&gt;&lt;/param&gt;&lt;param
+      name=\"allowFullScreen\" value=\"true\"&gt;&lt;/param&gt;&lt;param name=\"allowscriptaccess\"
+      value=\"always\"&gt;&lt;/param&gt;&lt;embed src=\"http://www.youtube.com/v/Kn8jLlDdYtc?version=3&amp;feature=oembed\"
+      type=\"application/x-shockwave-flash\" width=\"600\" height=\"338\" allowscriptaccess=\"always\"
+      allowfullscreen=\"true\"&gt;&lt;/embed&gt;&lt;/object&gt;", "thumbnail_width":
+      480, "version": "1.0", "provider_name": "YouTube", "thumbnail_url": "http://i4.ytimg.com/vi/Kn8jLlDdYtc/hqdefault.jpg",
+      "type": "video", "thumbnail_height": 360, "author_url": "http://www.youtube.com/user/MrJohnFCA"}},
+      "score": 1362, "over_18": false, "hidden": false, "thumbnail": "http://d.thumbs.redditmedia.com/yQAipPBwHYBNc9zu.jpg",
+      "subreddit_id": "t5_2qh1e", "author_flair_css_class": null, "downs": 3712, "is_self":
+      false, "permalink": "/r/videos/comments/m1qbf/stephen_colbert_impersonates_a_nuclear_explosion/",
+      "name": "t3_m1qbf", "created": 1320552187.0, "url": "http://www.youtube.com/watch?feature=player_embedded&amp;v=Kn8jLlDdYtc#!",
+      "author_flair_text": null, "author": "Hawtt", "created_utc": 1320526987.0, "num_comments":
+      189, "ups": 5074}}, {"kind": "t3", "data": {"domain": "guardian.co.uk", "media_embed":
+      {}, "levenshtein": null, "subreddit": "worldnews", "selftext_html": null, "selftext":
+      "", "likes": null, "saved": false, "id": "m1zk8", "clicked": false, "title":
+      "Murdoch gave loyal lieutenant Rebekah Brooks \n\u00a31.7m pay-off, car and
+      office - News International \nchairman may face questions in Commons over \ngenerous
+      severance deal despite phone-hacking \nscandal", "media": null, "score": 320,
+      "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2qh13",
+      "author_flair_css_class": null, "downs": 187, "is_self": false, "permalink":
+      "/r/worldnews/comments/m1zk8/murdoch_gave_loyal_lieutenant_rebekah_brooks_17m/",
+      "name": "t3_m1zk8", "created": 1320570366.0, "url": "http://www.guardian.co.uk/media/2011/nov/05/murdoch-phone-hacking-rebekah-brooks",
+      "author_flair_text": null, "author": "JackIsidore", "created_utc": 1320545166.0,
+      "num_comments": 19, "ups": 507}}, {"kind": "t3", "data": {"domain": "self.AskReddit",
+      "media_embed": {}, "levenshtein": null, "subreddit": "AskReddit", "selftext_html":
+      "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;My dad used to (and still
+      does to some extent) get angry if he caught me eating anything outside of the
+      main three meals.  He purposefully would fill the pantry with the base essentials
+      to make dinner, some cereal, and some lunch meat.  Bulk food items, even though
+      we could afford much better food.  If he came downstairs, I would have to stuff
+      whatever I was eating into a drawer.  Sometimes I got caught, and I was punished.  Now
+      I feel ashamed or guilty just for eating food in front of people.  It sucks
+      because I know there''s no rational reason for the fear.&lt;/p&gt;\n\n&lt;p&gt;What
+      are your quirks?&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;", "selftext": "My
+      dad used to (and still does to some extent) get angry if he caught me eating
+      anything outside of the main three meals.  He purposefully would fill the pantry
+      with the base essentials to make dinner, some cereal, and some lunch meat.  Bulk
+      food items, even though we could afford much better food.  If he came downstairs,
+      I would have to stuff whatever I was eating into a drawer.  Sometimes I got
+      caught, and I was punished.  Now I feel ashamed or guilty just for eating food
+      in front of people.  It sucks because I know there''s no rational reason for
+      the fear.\n\nWhat are your quirks?", "likes": null, "saved": false, "id": "m1nqi",
+      "clicked": false, "title": "In what little ways did your parents fuck you up?",
+      "media": null, "score": 972, "over_18": false, "hidden": false, "thumbnail":
+      "", "subreddit_id": "t5_2qh1i", "author_flair_css_class": null, "downs": 1879,
+      "is_self": true, "permalink": "/r/AskReddit/comments/m1nqi/in_what_little_ways_did_your_parents_fuck_you_up/",
+      "name": "t3_m1nqi", "created": 1320547401.0, "url": "http://www.reddit.com/r/AskReddit/comments/m1nqi/in_what_little_ways_did_your_parents_fuck_you_up/",
+      "author_flair_text": null, "author": "astro_nerd", "created_utc": 1320522201.0,
+      "num_comments": 5468, "ups": 2851}}, {"kind": "t3", "data": {"domain": "alternet.org",
+      "media_embed": {}, "levenshtein": null, "subreddit": "politics", "selftext_html":
+      null, "selftext": "", "likes": null, "saved": false, "id": "m1fja", "clicked":
+      false, "title": "Why Bank Transfer Day Is Only the Beginning of Something Huge:  The
+      movement to make sure our money serves our own values rather than the bottom
+      line of huge banks will only gain energy as small victories accumulate. \n",
+      "media": null, "score": 1967, "over_18": false, "hidden": false, "thumbnail":
+      "", "subreddit_id": "t5_2cneq", "author_flair_css_class": null, "downs": 4730,
+      "is_self": false, "permalink": "/r/politics/comments/m1fja/why_bank_transfer_day_is_only_the_beginning_of/",
+      "name": "t3_m1fja", "created": 1320531042.0, "url": "http://www.alternet.org/occupywallst/152975/why_bank_transfer_day_%28today%29_is_only_the_beginning_of_something_huge/?page=entire",
+      "author_flair_text": null, "author": "davidreiss666", "created_utc": 1320505842.0,
+      "num_comments": 857, "ups": 6697}}, {"kind": "t3", "data": {"domain": "flickr.com",
+      "media_embed": {}, "levenshtein": null, "subreddit": "todayilearned", "selftext_html":
+      null, "selftext": "", "likes": null, "saved": false, "id": "m1mqf", "clicked":
+      false, "title": "TIL that there is a species of snail that can grow up to 30cm
+      long. Meet the giant African land snail!", "media": null, "score": 842, "over_18":
+      false, "hidden": false, "thumbnail": "http://d.thumbs.redditmedia.com/NVrKUYNZRVX3h36-.jpg",
+      "subreddit_id": "t5_2qqjc", "author_flair_css_class": null, "downs": 2989, "is_self":
+      false, "permalink": "/r/todayilearned/comments/m1mqf/til_that_there_is_a_species_of_snail_that_can/",
+      "name": "t3_m1mqf", "created": 1320545514.0, "url": "http://www.flickr.com/photos/c-rayz/3409935543/lightbox/",
+      "author_flair_text": null, "author": "Fawne", "created_utc": 1320520314.0, "num_comments":
+      596, "ups": 3831}}, {"kind": "t3", "data": {"domain": "rocknewsdesk.com", "media_embed":
+      {}, "levenshtein": null, "subreddit": "Music", "selftext_html": null, "selftext":
+      "", "likes": null, "saved": false, "id": "m1xs8", "clicked": false, "title":
+      "20,000 Detroit citizens sign a petition to drop Nickelback from the half-time
+      show at the Thanksgiving Lions Game", "media": null, "score": 268, "over_18":
+      false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2qh1u", "author_flair_css_class":
+      null, "downs": 55, "is_self": false, "permalink": "/r/Music/comments/m1xs8/20000_detroit_citizens_sign_a_petition_to_drop/",
+      "name": "t3_m1xs8", "created": 1320566759.0, "url": "http://rocknewsdesk.com/world-news/20000-say-no-to-nickelback/3990/",
+      "author_flair_text": null, "author": "Irrelevant_Panda", "created_utc": 1320541559.0,
+      "num_comments": 36, "ups": 323}}, {"kind": "t3", "data": {"domain": "self.IAmA",
+      "media_embed": {}, "levenshtein": null, "subreddit": "IAmA", "selftext_html":
+      "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;My mum thought it''d
+      be cute to enter me in one, when I was around 3 years old. It wasn''t anything
+      big, since it was our first one, and I was just a baby, but she fell in love
+      with these pageants, and a few of her friends had their kids doing them, so
+      it caught on. I did pageants for 8 years until finally moving on with my life.
+      I''m answering some questions because the world of pageants isn''t always full
+      of crazy, spoiled little girls. I had some fun with it, when I was little.&lt;/p&gt;&lt;/div&gt;&lt;!--
+      SC_ON --&gt;", "selftext": "My mum thought it''d be cute to enter me in one,
+      when I was around 3 years old. It wasn''t anything big, since it was our first
+      one, and I was just a baby, but she fell in love with these pageants, and a
+      few of her friends had their kids doing them, so it caught on. I did pageants
+      for 8 years until finally moving on with my life. I''m answering some questions
+      because the world of pageants isn''t always full of crazy, spoiled little girls.
+      I had some fun with it, when I was little.", "likes": null, "saved": false,
+      "id": "m1uzg", "clicked": false, "title": "[as requested] IAmA girl that has
+      grown up doing child beauty pageants. AMA.", "media": null, "score": 339, "over_18":
+      false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2qzb6", "author_flair_css_class":
+      null, "downs": 614, "is_self": true, "permalink": "/r/IAmA/comments/m1uzg/as_requested_iama_girl_that_has_grown_up_doing/",
+      "name": "t3_m1uzg", "created": 1320561100.0, "url": "http://www.reddit.com/r/IAmA/comments/m1uzg/as_requested_iama_girl_that_has_grown_up_doing/",
+      "author_flair_text": null, "author": "lainee", "created_utc": 1320535900.0,
+      "num_comments": 710, "ups": 953}}, {"kind": "t3", "data": {"domain": "nytimes.com",
+      "media_embed": {}, "levenshtein": null, "subreddit": "science", "selftext_html":
+      null, "selftext": "", "likes": null, "saved": false, "id": "m1fp9", "clicked":
+      false, "title": "As much as 40 percent of the people who start out majoring
+      in science and engineering end up switching to other degrees. Why? The answers
+      are complex, and the people who drop out are often the best-of-the-best.", "media":
+      null, "score": 1468, "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id":
+      "t5_mouw", "author_flair_css_class": null, "downs": 2859, "is_self": false,
+      "permalink": "/r/science/comments/m1fp9/as_much_as_40_percent_of_the_people_who_start_out/",
+      "name": "t3_m1fp9", "created": 1320531429.0, "url": "http://www.nytimes.com/2011/11/06/education/edlife/why-science-majors-change-their-mind-its-just-so-darn-hard.html?_r=1&amp;pagewanted=all",
+      "author_flair_text": null, "author": "pyth", "created_utc": 1320506229.0, "num_comments":
+      1934, "ups": 4327}}, {"kind": "t3", "data": {"domain": "hackeducation.com",
+      "media_embed": {}, "levenshtein": null, "subreddit": "technology", "selftext_html":
+      null, "selftext": "", "likes": null, "saved": false, "id": "m1d06", "clicked":
+      false, "title": "Khan Academy Gets $5 Million to Expand Faculty &amp; Platform
+      &amp; to Build a Physical School ", "media": null, "score": 1823, "over_18":
+      false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2qh16", "author_flair_css_class":
+      null, "downs": 1925, "is_self": false, "permalink": "/r/technology/comments/m1d06/khan_academy_gets_5_million_to_expand_faculty/",
+      "name": "t3_m1d06", "created": 1320523408.0, "url": "http://www.hackeducation.com/2011/11/04/khan-academy-gets-5-million-to-expand-faculty-platform-to-build-a-physical-school/",
+      "author_flair_text": null, "author": "pmciano", "created_utc": 1320498208.0,
+      "num_comments": 282, "ups": 3748}}, {"kind": "t3", "data": {"domain": "self.askscience",
+      "media_embed": {}, "levenshtein": null, "subreddit": "askscience", "selftext_html":
+      "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Sometimes you''ll dream
+      about something pertinent to your day, or something looming on your mind. Other
+      times they will involve people and/or places you haven''t consciously thought
+      of in years.&lt;/p&gt;\n\n&lt;p&gt;Is there any scientific reasoning for what
+      shows up in our dreams, or is it something of a random process?&lt;/p&gt;&lt;/div&gt;&lt;!--
+      SC_ON --&gt;", "selftext": "Sometimes you''ll dream about something pertinent
+      to your day, or something looming on your mind. Other times they will involve
+      people and/or places you haven''t consciously thought of in years.\n\nIs there
+      any scientific reasoning for what shows up in our dreams, or is it something
+      of a random process?", "likes": null, "saved": false, "id": "m221s", "clicked":
+      false, "title": "What determines the content of our dreams?", "media": null,
+      "score": 50, "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id":
+      "t5_2qm4e", "author_flair_css_class": null, "downs": 12, "is_self": true, "permalink":
+      "/r/askscience/comments/m221s/what_determines_the_content_of_our_dreams/", "name":
+      "t3_m221s", "created": 1320575192.0, "url": "http://www.reddit.com/r/askscience/comments/m221s/what_determines_the_content_of_our_dreams/",
+      "author_flair_text": null, "author": "thehydrastation", "created_utc": 1320549992.0,
+      "num_comments": 24, "ups": 62}}, {"kind": "t3", "data": {"domain": "self.askscience",
+      "media_embed": {}, "levenshtein": null, "subreddit": "askscience", "selftext_html":
+      null, "selftext": "", "likes": null, "saved": false, "id": "m1gch", "clicked":
+      false, "title": "How far down can you sink an egg in water before it cracks?",
+      "media": null, "score": 444, "over_18": false, "hidden": false, "thumbnail":
+      "", "subreddit_id": "t5_2qm4e", "author_flair_css_class": null, "downs": 432,
+      "is_self": true, "permalink": "/r/askscience/comments/m1gch/how_far_down_can_you_sink_an_egg_in_water_before/",
+      "name": "t3_m1gch", "created": 1320532917.0, "url": "http://www.reddit.com/r/askscience/comments/m1gch/how_far_down_can_you_sink_an_egg_in_water_before/",
+      "author_flair_text": null, "author": "dingobert", "created_utc": 1320507717.0,
+      "num_comments": 405, "ups": 876}}, {"kind": "t3", "data": {"domain": "i.imgur.com",
+      "media_embed": {}, "levenshtein": null, "subreddit": "funny", "selftext_html":
+      null, "selftext": "", "likes": null, "saved": false, "id": "m215r", "clicked":
+      false, "title": "Every. Fucking. Morning.", "media": null, "score": 973, "over_18":
+      false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2qh33", "author_flair_css_class":
+      null, "downs": 1303, "is_self": false, "permalink": "/r/funny/comments/m215r/every_fucking_morning/",
+      "name": "t3_m215r", "created": 1320573445.0, "url": "http://i.imgur.com/XupHo.jpg",
+      "author_flair_text": null, "author": "MrRoboto113", "created_utc": 1320548245.0,
+      "num_comments": 218, "ups": 2276}}, {"kind": "t3", "data": {"domain": "forbes.com",
+      "media_embed": {}, "levenshtein": null, "subreddit": "gaming", "selftext_html":
+      null, "selftext": "", "likes": null, "saved": false, "id": "m1ysy", "clicked":
+      false, "title": "Steve Jobs and Apple''s Influence on Gaming Massively Overstated
+      - Forbes", "media": null, "score": 983, "over_18": false, "hidden": false, "thumbnail":
+      "http://e.thumbs.redditmedia.com/K3irbrkhXCmOJNI4.jpg", "subreddit_id": "t5_2qh03",
+      "author_flair_css_class": null, "downs": 763, "is_self": false, "permalink":
+      "/r/gaming/comments/m1ysy/steve_jobs_and_apples_influence_on_gaming/", "name":
+      "t3_m1ysy", "created": 1320568854.0, "url": "http://www.forbes.com/sites/insertcoin/2011/11/04/steve-jobs-and-apples-influence-on-gaming-massively-overstated/",
+      "author_flair_text": null, "author": "Monoclebear", "created_utc": 1320543654.0,
+      "num_comments": 368, "ups": 1746}}, {"kind": "t3", "data": {"domain": "i.imgur.com",
+      "media_embed": {}, "levenshtein": null, "subreddit": "funny", "selftext_html":
+      null, "selftext": "", "likes": null, "saved": false, "id": "m22nj", "clicked":
+      false, "title": "Not all YouTube comments suck", "media": null, "score": 749,
+      "over_18": false, "hidden": false, "thumbnail": "", "subreddit_id": "t5_2qh33",
+      "author_flair_css_class": "", "downs": 664, "is_self": false, "permalink": "/r/funny/comments/m22nj/not_all_youtube_comments_suck/",
+      "name": "t3_m22nj", "created": 1320576361.0, "url": "http://i.imgur.com/CSU89.jpg",
+      "author_flair_text": "My other couch is a futon.", "author": "DanAttack", "created_utc":
+      1320551161.0, "num_comments": 104, "ups": 1413}}, {"kind": "t3", "data": {"domain":
+      "dailykos.com", "media_embed": {}, "levenshtein": null, "subreddit": "politics",
+      "selftext_html": null, "selftext": "", "likes": null, "saved": false, "id":
+      "m1i6m", "clicked": false, "title": "2nd Iraq War Veterans Sister: \"I''m absolutely
+      furious at the way they treated my little brother.\" ::  \"He was walking down
+      14th Street in Oakland away from the protest,\" Kelly said. \"He walking to
+      his house. He got beaten by police. He''s got a lacerated spleen, maybe a couple
+      of broken ribs too.\"", "media": null, "score": 1400, "over_18": false, "hidden":
+      false, "thumbnail": "", "subreddit_id": "t5_2cneq", "author_flair_css_class":
+      null, "downs": 2493, "is_self": false, "permalink": "/r/politics/comments/m1i6m/2nd_iraq_war_veterans_sister_im_absolutely/",
+      "name": "t3_m1i6m", "created": 1320536845.0, "url": "http://www.dailykos.com/story/2011/11/04/1033346/-Vet-Oakland-Cops-Almost-Killed-Owned-Brew-Pub+Disturbing-Interview-With-Sister",
+      "author_flair_text": null, "author": "Mind_Virus", "created_utc": 1320511645.0,
+      "num_comments": 311, "ups": 3893}}, {"kind": "t3", "data": {"domain": "self.AskReddit",
+      "media_embed": {}, "levenshtein": null, "subreddit": "AskReddit", "selftext_html":
+      "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;The first time I attempted
+      sex WITH a condom I was so nervous/inexperienced that I got out of bed, went
+      into the bathroom to put the condom on, put my boxers back on (condom still
+      on) and crawled back into bed with the girl.  She ended up laying on top of
+      me for about a half an hour giving my hickeys all over my neck.  Never actually
+      put it in.  The next morning it looked like I had tried to hang myself.&lt;/p&gt;\n\n&lt;p&gt;The
+      first time I attempted sex WITHOUT a condom I ejaculated instantaneously upon
+      insertion.  I was so embarrassed that I immediately told her that \"we shouldn''t
+      be doing this, it was simply too risky without a condom.\"  Sweet girl, never
+      called me out on my one pump chumpery.&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+      "selftext": "The first time I attempted sex WITH a condom I was so nervous/inexperienced
+      that I got out of bed, went into the bathroom to put the condom on, put my boxers
+      back on (condom still on) and crawled back into bed with the girl.  She ended
+      up laying on top of me for about a half an hour giving my hickeys all over my
+      neck.  Never actually put it in.  The next morning it looked like I had tried
+      to hang myself.\n\nThe first time I attempted sex WITHOUT a condom I ejaculated
+      instantaneously upon insertion.  I was so embarrassed that I immediately told
+      her that \"we shouldn''t be doing this, it was simply too risky without a condom.\"  Sweet
+      girl, never called me out on my one pump chumpery.", "likes": null, "saved":
+      false, "id": "m1se9", "clicked": false, "title": "What is your most awkward
+      sex story?", "media": null, "score": 599, "over_18": false, "hidden": false,
+      "thumbnail": "", "subreddit_id": "t5_2qh1i", "author_flair_css_class": null,
+      "downs": 781, "is_self": true, "permalink": "/r/AskReddit/comments/m1se9/what_is_your_most_awkward_sex_story/",
+      "name": "t3_m1se9", "created": 1320556072.0, "url": "http://www.reddit.com/r/AskReddit/comments/m1se9/what_is_your_most_awkward_sex_story/",
+      "author_flair_text": null, "author": "TheLuckman", "created_utc": 1320530872.0,
+      "num_comments": 2163, "ups": 1380}}, {"kind": "t3", "data": {"domain": "self.IAmA",
+      "media_embed": {}, "levenshtein": null, "subreddit": "IAmA", "selftext_html":
+      "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I was in a Children''s
+      Shelter for almost a year, and then was taken in by a foster family, who was
+      also abusive.  I can answer any questions about childhood drug hallucinations,
+      the aftereffect of such, foster care, the family court system, the children''s
+      shelter, etc.&lt;/p&gt;\n\n&lt;p&gt;I''m doing this because I thought maybe
+      I could help someone, somehow.  Who knows.&lt;/p&gt;\n\n&lt;p&gt;Edit 1:  I
+      will add more detail, to clear up some confusion.  When I was 7 my mother started
+      dating a meth cook.  She began to do drugs with him, and also helped him deal.  Before
+      that, she was a normal, good mother.  At 8 years old, my Father saw what was
+      happening and began to fight for custody, at which point my Mother started drugging
+      my little sister and I, spiking our drinks, and food.  I did not know for those
+      three years, what was happening.  I just thought I was crazy.  My Mother would
+      tell me to see things, and I would.  She would say \"Your father is on the roof
+      dressed as an Indian!\", and I would see him there.  Many many things like that
+      happened.  After 3 years of Family Court, and Social Workers (Yes, I know...
+      it is CRIMINAL that it took 3 years) the state took my sister and I and stuck
+      us in a Children''s Shelter, then Foster Care.  We did not go to our Father''s,
+      because we were scared of him, and were accusing him of stalking us.&lt;/p&gt;\n\n&lt;p&gt;In
+      Foster Care there was abuse- but it was not physical or drug related.  Just
+      emotional.  The Foster Family was running a sort of \"Foster Farm\", where they
+      collected Foster Kids for the Money.  They sold all the clothes and toys I came
+      there with, stuck my sister in a room with three other foster kids, and thats
+      it.  They would keep food from us, wake us up in the night to yell at us for
+      things we hadnt done, etc.&lt;/p&gt;\n\n&lt;p&gt;My Father did eventually get
+      custody of my sister and I, and we had a somewhat normal life after that, other
+      than the lasting effects of that sort of abuse.&lt;/p&gt;&lt;/div&gt;&lt;!--
+      SC_ON --&gt;", "selftext": "I was in a Children''s Shelter for almost a year,
+      and then was taken in by a foster family, who was also abusive.  I can answer
+      any questions about childhood drug hallucinations, the aftereffect of such,
+      foster care, the family court system, the children''s shelter, etc.\n\nI''m
+      doing this because I thought maybe I could help someone, somehow.  Who knows.\n\nEdit
+      1:  I will add more detail, to clear up some confusion.  When I was 7 my mother
+      started dating a meth cook.  She began to do drugs with him, and also helped
+      him deal.  Before that, she was a normal, good mother.  At 8 years old, my Father
+      saw what was happening and began to fight for custody, at which point my Mother
+      started drugging my little sister and I, spiking our drinks, and food.  I did
+      not know for those three years, what was happening.  I just thought I was crazy.  My
+      Mother would tell me to see things, and I would.  She would say \"Your father
+      is on the roof dressed as an Indian!\", and I would see him there.  Many many
+      things like that happened.  After 3 years of Family Court, and Social Workers
+      (Yes, I know... it is CRIMINAL that it took 3 years) the state took my sister
+      and I and stuck us in a Children''s Shelter, then Foster Care.  We did not go
+      to our Father''s, because we were scared of him, and were accusing him of stalking
+      us.  \n\nIn Foster Care there was abuse- but it was not physical or drug related.  Just
+      emotional.  The Foster Family was running a sort of \"Foster Farm\", where they
+      collected Foster Kids for the Money.  They sold all the clothes and toys I came
+      there with, stuck my sister in a room with three other foster kids, and thats
+      it.  They would keep food from us, wake us up in the night to yell at us for
+      things we hadnt done, etc.  \n\nMy Father did eventually get custody of my sister
+      and I, and we had a somewhat normal life after that, other than the lasting
+      effects of that sort of abuse.", "likes": null, "saved": false, "id": "m20u5",
+      "clicked": false, "title": "IAmA person who was drugged by my own Mother as
+      a form of brainwashing from age 8-11 until I was taken from her by Child Protective
+      Services. AMA", "media": null, "score": 174, "over_18": false, "hidden": false,
+      "thumbnail": "", "subreddit_id": "t5_2qzb6", "author_flair_css_class": null,
+      "downs": 127, "is_self": true, "permalink": "/r/IAmA/comments/m20u5/iama_person_who_was_drugged_by_my_own_mother_as_a/",
+      "name": "t3_m20u5", "created": 1320572819.0, "url": "http://www.reddit.com/r/IAmA/comments/m20u5/iama_person_who_was_drugged_by_my_own_mother_as_a/",
+      "author_flair_text": null, "author": "marisunday", "created_utc": 1320547619.0,
+      "num_comments": 185, "ups": 301}}, {"kind": "t3", "data": {"domain": "self.politics",
+      "media_embed": {}, "levenshtein": null, "subreddit": "politics", "selftext_html":
+      "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;\"Get a job\" seems to
+      be the popular sentiment during the republican primary, and I don''t understand
+      why no one is getting calling out for it. How is it that this view is so popular
+      during a fucking recession?&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;", "selftext":
+      "\"Get a job\" seems to be the popular sentiment during the republican primary,
+      and I don''t understand why no one is getting calling out for it. How is it
+      that this view is so popular during a fucking recession?", "likes": null, "saved":
+      false, "id": "m1oqj", "clicked": false, "title": "A note to Republican figureheads:
+      until legislation is passed on a jobs bill, do not tell protesters to \"get
+      a job\"", "media": null, "score": 690, "over_18": false, "hidden": false, "thumbnail":
+      "", "subreddit_id": "t5_2cneq", "author_flair_css_class": null, "downs": 606,
+      "is_self": true, "permalink": "/r/politics/comments/m1oqj/a_note_to_republican_figureheads_until/",
+      "name": "t3_m1oqj", "created": 1320549309.0, "url": "http://www.reddit.com/r/politics/comments/m1oqj/a_note_to_republican_figureheads_until/",
+      "author_flair_text": null, "author": "SeahorseOfDoom", "created_utc": 1320524109.0,
+      "num_comments": 286, "ups": 1296}}], "after": "t3_m1oqj", "before": null}}'
+    http_version: '1.1'
+- !ruby/struct:VCR::HTTPInteraction
+  request: !ruby/struct:VCR::Request
+    method: :get
+    uri: http://www.reddit.com:80//r/pics/comments/m1yc5/no_paula_its_a_pot/.json
+    body: !!null 
+    headers: !!null 
+  response: !ruby/struct:VCR::Response
+    status: !ruby/struct:VCR::ResponseStatus
+      code: 200
+      message: OK
+    headers:
+      content-type:
+      - application/json; charset=UTF-8
+      vary:
+      - Accept-Encoding
+      last-modified:
+      - Sun, 06 Nov 2011 06:49:22 GMT
+      set-cookie:
+      - reddit_first=%7B%22firsttime%22%3A%20%22first%22%7D; Domain=reddit.com; expires=Thu,
+        31 Dec 2037 23:59:59 GMT; Path=/
+      content-encoding:
+      - gzip
+      server:
+      - ! '''; DROP TABLE servertypes; --'
+      content-length:
+      - '21675'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      date:
+      - Sun, 06 Nov 2011 06:50:33 GMT
+      connection:
+      - keep-alive
+    body: ! '[{"kind": "Listing", "data": {"modhash": "", "children": [{"kind": "t3",
+      "data": {"domain": "i.imgur.com", "media_embed": {}, "levenshtein": null, "subreddit":
+      "pics", "selftext_html": null, "selftext": "", "likes": null, "saved": false,
+      "id": "m1yc5", "clicked": false, "title": "No, Paula.  It''s a pot.", "media":
+      null, "score": 1488, "over_18": false, "hidden": false, "thumbnail": "http://f.thumbs.redditmedia.com/llXi45JyOxK3IwVq.jpg",
+      "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "downs": 4613, "is_self":
+      false, "permalink": "/r/pics/comments/m1yc5/no_paula_its_a_pot/", "name": "t3_m1yc5",
+      "created": 1320567888.0, "url": "http://i.imgur.com/Izid9.png", "author_flair_text":
+      null, "author": "ajoshw", "created_utc": 1320542688.0, "num_comments": 378,
+      "ups": 6101}}], "after": null, "before": null}}, {"kind": "Listing", "data":
+      {"modhash": "", "children": [{"kind": "t1", "data": {"body": "Technically it''s
+      a saucepan. With a fancy name. So they can charge you more for it. ", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320568275.0, "author_flair_text":
+      null, "downs": 32, "author": "profanusnothus", "created_utc": 1320543075.0,
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Technically it''s a saucepan.
+      With a fancy name. So they can charge you more for it.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "t1", "data": {"body": "That paula dean cookware is cheap.  I got a regular
+      sized butter warmer for around 4 dollars cause I wanted a small pot for scrambling
+      a few eggs.", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created":
+      1320577178.0, "author_flair_text": null, "downs": 14, "author": "schwagnificent",
+      "created_utc": 1320551978.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;That
+      paula dean cookware is cheap.  I got a regular sized butter warmer for around
+      4 dollars cause I wanted a small pot for scrambling a few eggs.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xeo6u", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "t1", "data": {"body": "Why not buy a pan?", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320578650.0, "author_flair_text": null, "downs": 9, "author":
+      "bldkis", "created_utc": 1320553450.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Why
+      not buy a pan?&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5",
+      "parent_id": "t1_c2xfs67", "likes": null, "replies": {"kind": "Listing", "data":
+      {"modhash": "", "children": [{"kind": "t1", "data": {"body": "Because [this](http://www.youtube.com/watch?v=dU_B3QNu_Ks)
+      is an awesome way to make scrambled eggs.", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320579552.0, "author_flair_text": null, "downs": 18, "author":
+      "TheLastBadger", "created_utc": 1320554352.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Because
+      &lt;a href=\"http://www.youtube.com/watch?v=dU_B3QNu_Ks\" &gt;this&lt;/a&gt;
+      is an awesome way to make scrambled eggs.&lt;/p&gt;&lt;/div&gt;", "levenshtein":
+      null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xfyky", "likes": null, "replies":
+      {"kind": "Listing", "data": {"modhash": "", "children": [{"kind": "t1", "data":
+      {"body": "I''m going to go buy a pot now.", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320579733.0, "author_flair_text": null, "downs": 6, "author":
+      "bldkis", "created_utc": 1320554533.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I''m
+      going to go buy a pot now.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id":
+      "t3_m1yc5", "parent_id": "t1_c2xg25a", "likes": null, "replies": {"kind": "Listing",
+      "data": {"modhash": "", "children": [{"kind": "t1", "data": {"body": "[Link
+      to buy a really, really nice sauce pan like Ramsey is using.](http://www.amazon.com/exec/obidos/ASIN/B00005AL1I/V.-20?ie=UTF8)\n\n[Link
+      to a much more economical but quality sauce pan.](http://www.amazon.com/exec/obidos/ASIN/B00008CM69/V.-20?ie=UTF8)",
+      "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created": 1320582336.0,
+      "author_flair_text": null, "downs": 3, "author": "link_4_the_lazy", "created_utc":
+      1320557136.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;&lt;a href=\"http://www.amazon.com/exec/obidos/ASIN/B00005AL1I/V.-20?ie=UTF8\"
+      &gt;Link to buy a really, really nice sauce pan like Ramsey is using.&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a
+      href=\"http://www.amazon.com/exec/obidos/ASIN/B00008CM69/V.-20?ie=UTF8\" &gt;Link
+      to a much more economical but quality sauce pan.&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xg2vc", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "t1", "data": {"body": "Wow, that is a ridiculously expensive pan...", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320583582.0, "author_flair_text":
+      null, "downs": 0, "author": "Astrodogg", "created_utc": 1320558382.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;Wow, that is a ridiculously expensive pan...&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xgd83", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "t1", "data": {"body": "It is, but then again you probably only need to buy
+      it once. My parents'' pots were good quality, and they have been using the same
+      single set since they received them as wedding presents 42 years ago. ", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320584514.0, "author_flair_text":
+      null, "downs": 0, "author": "Big_McLargeHuge", "created_utc": 1320559314.0,
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;It is, but then again you probably
+      only need to buy it once. My parents'' pots were good quality, and they have
+      been using the same single set since they received them as wedding presents
+      42 years ago.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5",
+      "parent_id": "t1_c2xghvk", "likes": null, "replies": {"kind": "Listing", "data":
+      {"modhash": "", "children": [{"kind": "more", "data": {"name": "t1_c2xgmc6",
+      "id": "c2xgmc6"}}], "after": null, "before": null}}, "id": "c2xglc5", "subreddit":
+      "pics", "ups": 10, "name": "t1_c2xglc5"}}], "after": null, "before": null}},
+      "id": "c2xghvk", "subreddit": "pics", "ups": 8, "name": "t1_c2xghvk"}}, {"kind":
+      "t1", "data": {"body": "You deserve all my thanks, but all I can give is an
+      upvote.", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created":
+      1320582422.0, "author_flair_text": null, "downs": 2, "author": "bldkis", "created_utc":
+      1320557222.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;You deserve all
+      my thanks, but all I can give is an upvote.&lt;/p&gt;&lt;/div&gt;", "levenshtein":
+      null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xgd83", "likes": null, "replies":
+      "", "id": "c2xgdjg", "subreddit": "pics", "ups": 7, "name": "t1_c2xgdjg"}},
+      {"kind": "t1", "data": {"body": "I''m not sure I have a good sense for what
+      those sizes look like; what size is the pot he uses in the video?", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320585156.0, "author_flair_text":
+      null, "downs": 0, "author": "Chevron", "created_utc": 1320559956.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;I''m not sure I have a good sense for what
+      those sizes look like; what size is the pot he uses in the video?&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xgd83", "likes":
+      null, "replies": "", "id": "c2xgnnu", "subreddit": "pics", "ups": 1, "name":
+      "t1_c2xgnnu"}}], "after": null, "before": null}}, "id": "c2xgd83", "subreddit":
+      "pics", "ups": 22, "name": "t1_c2xgd83"}}, {"kind": "more", "data": {"name":
+      "t1_c2xg5gd", "id": "c2xg5gd"}}], "after": null, "before": null}}, "id": "c2xg2vc",
+      "subreddit": "pics", "ups": 30, "name": "t1_c2xg2vc"}}, {"kind": "t1", "data":
+      {"body": "I thought I had scrambled eggs all figured out. This makes me question
+      everything. \n\nmight be time for 1am scrambled eggs.", "subreddit_id": "t5_2qh0u",
+      "author_flair_css_class": null, "created": 1320580751.0, "author_flair_text":
+      null, "downs": 1, "author": "wizzardo", "created_utc": 1320555551.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;I thought I had scrambled eggs all figured
+      out. This makes me question everything.&lt;/p&gt;\n\n&lt;p&gt;might be time
+      for 1am scrambled eggs.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id":
+      "t3_m1yc5", "parent_id": "t1_c2xg25a", "likes": null, "replies": {"kind": "Listing",
+      "data": {"modhash": "", "children": [{"kind": "t1", "data": {"body": "First
+      you need to make 1am creme fraiche", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320581877.0, "author_flair_text": null, "downs": 0, "author":
+      "TwoDeuces", "created_utc": 1320556677.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;First
+      you need to make 1am creme fraiche&lt;/p&gt;&lt;/div&gt;", "levenshtein": null,
+      "link_id": "t3_m1yc5", "parent_id": "t1_c2xg6yy", "likes": null, "replies":
+      {"kind": "Listing", "data": {"modhash": "", "children": [{"kind": "t1", "data":
+      {"body": "It''s just fancy sour cream. You can also use (less) whole milk, or
+      heavy cream if you have it around.", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320582382.0, "author_flair_text": null, "downs": 0, "author":
+      "helicopterindian", "created_utc": 1320557182.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;It''s
+      just fancy sour cream. You can also use (less) whole milk, or heavy cream if
+      you have it around.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id":
+      "t3_m1yc5", "parent_id": "t1_c2xgbfh", "likes": null, "replies": {"kind": "Listing",
+      "data": {"modhash": "", "children": [{"kind": "more", "data": {"name": "t1_c2xgpng",
+      "id": "c2xgpng"}}], "after": null, "before": null}}, "id": "c2xgde4", "subreddit":
+      "pics", "ups": 7, "name": "t1_c2xgde4"}}, {"kind": "t1", "data": {"body": "But
+      it takes a few hours for creme fraiche to settle. By then it''d be 4am eggs.",
+      "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created": 1320583146.0,
+      "author_flair_text": null, "downs": 0, "author": "cynognathus", "created_utc":
+      1320557946.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;But it takes a
+      few hours for creme fraiche to settle. By then it''d be 4am eggs.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xgbfh", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "more", "data": {"name": "t1_c2xgr25", "id": "c2xgr25"}}], "after": null, "before":
+      null}}, "id": "c2xgg8i", "subreddit": "pics", "ups": 6, "name": "t1_c2xgg8i"}},
+      {"kind": "t1", "data": {"body": "Better yet, 1am chili", "subreddit_id": "t5_2qh0u",
+      "author_flair_css_class": null, "created": 1320586881.0, "author_flair_text":
+      null, "downs": 0, "author": "FuManJew", "created_utc": 1320561681.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;Better yet, 1am chili&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xgbfh", "likes":
+      null, "replies": "", "id": "c2xgtpr", "subreddit": "pics", "ups": 1, "name":
+      "t1_c2xgtpr"}}], "after": null, "before": null}}, "id": "c2xgbfh", "subreddit":
+      "pics", "ups": 17, "name": "t1_c2xgbfh"}}, {"kind": "t1", "data": {"body": "oh
+      fuck, here we go. I call dibs on the karma for egg soap.", "subreddit_id": "t5_2qh0u",
+      "author_flair_css_class": null, "created": 1320581151.0, "author_flair_text":
+      null, "downs": 2, "author": "drummererb", "created_utc": 1320555951.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;oh fuck, here we go. I call dibs on the karma
+      for egg soap.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5",
+      "parent_id": "t1_c2xg6yy", "likes": null, "replies": {"kind": "Listing", "data":
+      {"modhash": "", "children": [{"kind": "more", "data": {"name": "t1_c2xgr65",
+      "id": "c2xgr65"}}], "after": null, "before": null}}, "id": "c2xg8hw", "subreddit":
+      "pics", "ups": 19, "name": "t1_c2xg8hw"}}, {"kind": "t1", "data": {"body": "if
+      you make 2 a.m. eggs you can have them twice tonight!", "subreddit_id": "t5_2qh0u",
+      "author_flair_css_class": null, "created": 1320586145.0, "author_flair_text":
+      null, "downs": 0, "author": "aerosol999", "created_utc": 1320560945.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;if you make 2 a.m. eggs you can have them
+      twice tonight!&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5",
+      "parent_id": "t1_c2xg6yy", "likes": null, "replies": "", "id": "c2xgr6g", "subreddit":
+      "pics", "ups": 1, "name": "t1_c2xgr6g"}}], "after": null, "before": null}},
+      "id": "c2xg6yy", "subreddit": "pics", "ups": 27, "name": "t1_c2xg6yy"}}, {"kind":
+      "t1", "data": {"body": "Ehh, I don''t like scrambled eggs that you literally
+      pour onto your plate.  Sorry, I must be American or something.  I whisk the
+      hell out of my eggs, dump them in a hot (7 on my electric stove) nonstick pan
+      with plenty of butter.  Then push them around with a rubber spatula until they
+      are in big fluffy nuggets, and get them out quick before they overcook.", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320581272.0, "author_flair_text":
+      null, "downs": 6, "author": "lolwtfhaha", "created_utc": 1320556072.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;Ehh, I don''t like scrambled eggs that you
+      literally pour onto your plate.  Sorry, I must be American or something.  I
+      whisk the hell out of my eggs, dump them in a hot (7 on my electric stove) nonstick
+      pan with plenty of butter.  Then push them around with a rubber spatula until
+      they are in big fluffy nuggets, and get them out quick before they overcook.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xg25a", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "t1", "data": {"body": "Haha, no worries fellow American. That''s how I usually
+      make my eggs.", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null,
+      "created": 1320581440.0, "author_flair_text": null, "downs": 2, "author": "TheLastBadger",
+      "created_utc": 1320556240.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Haha,
+      no worries fellow American. That''s how I usually make my eggs.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xg8zz", "likes":
+      null, "replies": "", "id": "c2xg9ok", "subreddit": "pics", "ups": 11, "name":
+      "t1_c2xg9ok"}}, {"kind": "t1", "data": {"body": "I do either, depending on my
+      mood.\n\nPre-whisking:\n\n- Cleans up a lot faster (the pan doesn''t get as
+      dirty)\n- More consistent\n- Lets me start prepping my eggs while bacon is being
+      cooked\n- Works if I want to be bad and ''ruin'' my eggs with a bit of delicious
+      soy sauce (guilty pleasure, hahaha)\n\n''Gordon Ramsey'' way:\n\n- Less consistent,
+      which is good and bad. I''ve had really stellar amazing eggs sometimes and then
+      regular or bad eggs too. It''s a bit harder for an amateur to tell when they''re
+      done with the Ramsey method.\n- They can turn our really light and fluffy, making
+      them fun to look at and eat when compared to the broken up ''nuggets''\n- More
+      fun to cook, haha", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null,
+      "created": 1320584429.0, "author_flair_text": null, "downs": 0, "author": "Speciou5",
+      "created_utc": 1320559229.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I
+      do either, depending on my mood.&lt;/p&gt;\n\n&lt;p&gt;Pre-whisking:&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;Cleans
+      up a lot faster (the pan doesn''t get as dirty)&lt;/li&gt;\n&lt;li&gt;More consistent&lt;/li&gt;\n&lt;li&gt;Lets
+      me start prepping my eggs while bacon is being cooked&lt;/li&gt;\n&lt;li&gt;Works
+      if I want to be bad and ''ruin'' my eggs with a bit of delicious soy sauce (guilty
+      pleasure, hahaha)&lt;/li&gt;\n&lt;/ul&gt;\n\n\n&lt;p&gt;''Gordon Ramsey'' way:&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;Less
+      consistent, which is good and bad. I''ve had really stellar amazing eggs sometimes
+      and then regular or bad eggs too. It''s a bit harder for an amateur to tell
+      when they''re done with the Ramsey method.&lt;/li&gt;\n&lt;li&gt;They can turn
+      our really light and fluffy, making them fun to look at and eat when compared
+      to the broken up ''nuggets''&lt;/li&gt;\n&lt;li&gt;More fun to cook, haha&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xg8zz", "likes":
+      null, "replies": "", "id": "c2xgkzt", "subreddit": "pics", "ups": 4, "name":
+      "t1_c2xgkzt"}}, {"kind": "t1", "data": {"body": "Yeah, I''m the same, except
+      I cook in scallion and ham/tomatoes. ", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320584762.0, "author_flair_text": null, "downs": 0, "author":
+      "PuerPessimus", "created_utc": 1320559562.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Yeah,
+      I''m the same, except I cook in scallion and ham/tomatoes.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xg8zz", "likes":
+      null, "replies": "", "id": "c2xgmah", "subreddit": "pics", "ups": 1, "name":
+      "t1_c2xgmah"}}, {"kind": "more", "data": {"name": "t1_c2xgct4", "id": "c2xgct4"}}],
+      "after": null, "before": null}}, "id": "c2xg8zz", "subreddit": "pics", "ups":
+      40, "name": "t1_c2xg8zz"}}, {"kind": "t1", "data": {"body": "what the...he''s
+      not screaming obscenities... ", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320580891.0, "author_flair_text": null, "downs": 2, "author":
+      "babiesloveboobies", "created_utc": 1320555691.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;what
+      the...he''s not screaming obscenities...&lt;/p&gt;&lt;/div&gt;", "levenshtein":
+      null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xg25a", "likes": null, "replies":
+      {"kind": "Listing", "data": {"modhash": "", "children": [{"kind": "t1", "data":
+      {"body": "Yeah, in all his UK shows he''s actually a nice, likable guy.  We
+      Americans like our Brits to be assholes.  See every British host/judge on any
+      American show ever.", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320582521.0, "author_flair_text": null, "downs": 2, "author":
+      "genthree", "created_utc": 1320557321.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Yeah,
+      in all his UK shows he''s actually a nice, likable guy.  We Americans like our
+      Brits to be assholes.  See every British host/judge on any American show ever.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xg7ic", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "more", "data": {"name": "t1_c2xgjwd", "id": "c2xgjwd"}}], "after": null, "before":
+      null}}, "id": "c2xgdxz", "subreddit": "pics", "ups": 11, "name": "t1_c2xgdxz"}},
+      {"kind": "t1", "data": {"body": "He only swears profusely in American stuff,
+      because American audiences expect him to and love it when he does.  outside
+      the U.S., his shows have about the same amount of swearing as any other cooking
+      show (that is to say, not very much).", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320582170.0, "author_flair_text": null, "downs": 2, "author":
+      "gehringer", "created_utc": 1320556970.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;He
+      only swears profusely in American stuff, because American audiences expect him
+      to and love it when he does.  outside the U.S., his shows have about the same
+      amount of swearing as any other cooking show (that is to say, not very much).&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xg7ic", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "t1", "data": {"body": "Well, he says \"bloody\" a lot in the UK version of
+      Kitchen Nightmares. ", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320582412.0, "author_flair_text": null, "downs": 0, "author":
+      "offwiththepants", "created_utc": 1320557212.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Well,
+      he says \"bloody\" a lot in the UK version of Kitchen Nightmares.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xgcmm", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "more", "data": {"name": "t1_c2xghmo", "id": "c2xghmo"}}], "after": null, "before":
+      null}}, "id": "c2xgdia", "subreddit": "pics", "ups": 4, "name": "t1_c2xgdia"}},
+      {"kind": "t1", "data": {"body": "After spending all summer watching BBC America,
+      I am now disgusted by how he''s portrayed on American TV. He''s such a nice
+      guy.", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created":
+      1320583134.0, "author_flair_text": null, "downs": 0, "author": "Calebm12", "created_utc":
+      1320557934.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;After spending
+      all summer watching BBC America, I am now disgusted by how he''s portrayed on
+      American TV. He''s such a nice guy.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null,
+      "link_id": "t3_m1yc5", "parent_id": "t1_c2xgcmm", "likes": null, "replies":
+      "", "id": "c2xgg71", "subreddit": "pics", "ups": 4, "name": "t1_c2xgg71"}}],
+      "after": null, "before": null}}, "id": "c2xgcmm", "subreddit": "pics", "ups":
+      8, "name": "t1_c2xgcmm"}}, {"kind": "more", "data": {"name": "t1_c2xgkrh", "id":
+      "c2xgkrh"}}], "after": null, "before": null}}, "id": "c2xg7ic", "subreddit":
+      "pics", "ups": 17, "name": "t1_c2xg7ic"}}, {"kind": "t1", "data": {"body": "I
+      love the way he laughs at the end &lt;3", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320580631.0, "author_flair_text": null, "downs": 0, "author":
+      "jcook92", "created_utc": 1320555431.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I
+      love the way he laughs at the end &amp;lt;3&lt;/p&gt;&lt;/div&gt;", "levenshtein":
+      null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xg25a", "likes": null, "replies":
+      "", "id": "c2xg6jn", "subreddit": "pics", "ups": 4, "name": "t1_c2xg6jn"}},
+      {"kind": "t1", "data": {"body": "I''m totally going to make my eggs like that
+      now.", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created":
+      1320580197.0, "author_flair_text": null, "downs": 0, "author": "BigDaddyBrad",
+      "created_utc": 1320554997.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I''m
+      totally going to make my eggs like that now.&lt;/p&gt;&lt;/div&gt;", "levenshtein":
+      null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xg25a", "likes": null, "replies":
+      "", "id": "c2xg4t4", "subreddit": "pics", "ups": 3, "name": "t1_c2xg4t4"}},
+      {"kind": "t1", "data": {"body": "Wipes chin. Well, so much for my diet!", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320580358.0, "author_flair_text":
+      null, "downs": 1, "author": "no1_vern", "created_utc": 1320555158.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;Wipes chin. Well, so much for my diet!&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xg25a", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "t1", "data": {"body": "this is actually very healthy meal so it''s good for
+      any diet unless you''re on some obscure one like \"grapefruit\" diet or \"cucumber\"
+      diet... if you take out the sourdoghbread, it''s very good for low-carb dieters.",
+      "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created": 1320581470.0,
+      "author_flair_text": null, "downs": 1, "author": "elephantpoop", "created_utc":
+      1320556270.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;this is actually
+      very healthy meal so it''s good for any diet unless you''re on some obscure
+      one like \"grapefruit\" diet or \"cucumber\" diet... if you take out the sourdoghbread,
+      it''s very good for low-carb dieters.&lt;/p&gt;&lt;/div&gt;", "levenshtein":
+      null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xg5gk", "likes": null, "replies":
+      {"kind": "Listing", "data": {"modhash": "", "children": [{"kind": "t1", "data":
+      {"body": "...a knob of butter? A tablespoon of creme fraiche? Lots of olive
+      oil? I can understand it as a once-in-a-while thing for dieters, but I don''t
+      think you''d want to have it every morning.", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320582241.0, "author_flair_text": null, "downs": 2, "author":
+      "ereli1", "created_utc": 1320557041.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;...a
+      knob of butter? A tablespoon of creme fraiche? Lots of olive oil? I can understand
+      it as a once-in-a-while thing for dieters, but I don''t think you''d want to
+      have it every morning.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id":
+      "t3_m1yc5", "parent_id": "t1_c2xg9t1", "likes": null, "replies": {"kind": "Listing",
+      "data": {"modhash": "", "children": [{"kind": "t1", "data": {"body": "Welcome
+      to [r/Keto](http://www.reddit.com/help/faqs/keto)!  (or perhaps even r/Paleo).  Many
+      people think that high fat diets get a bad rap for no reason.  There is some
+      evidence that suggests carbohydrates are far worse for you.", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320583217.0, "author_flair_text":
+      null, "downs": 1, "author": "mou5", "created_utc": 1320558017.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;Welcome to &lt;a href=\"http://www.reddit.com/help/faqs/keto\"
+      &gt;r/Keto&lt;/a&gt;!  (or perhaps even r/Paleo).  Many people think that high
+      fat diets get a bad rap for no reason.  There is some evidence that suggests
+      carbohydrates are far worse for you.&lt;/p&gt;&lt;/div&gt;", "levenshtein":
+      null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xgcvx", "likes": null, "replies":
+      {"kind": "Listing", "data": {"modhash": "", "children": [{"kind": "more", "data":
+      {"name": "t1_c2xgmf2", "id": "c2xgmf2"}}], "after": null, "before": null}},
+      "id": "c2xggih", "subreddit": "pics", "ups": 9, "name": "t1_c2xggih"}}, {"kind":
+      "t1", "data": {"body": "Olive oil is bad for you since when?", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320583734.0, "author_flair_text":
+      null, "downs": 1, "author": "cocktails4", "created_utc": 1320558534.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;Olive oil is bad for you since when?&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xgcvx", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "more", "data": {"name": "t1_c2xgloi", "id": "c2xgloi"}}], "after": null, "before":
+      null}}, "id": "c2xgig8", "subreddit": "pics", "ups": 5, "name": "t1_c2xgig8"}},
+      {"kind": "t1", "data": {"body": "butter = bad is a misconception... [here](http://www.naturalnews.com/025564_butter_health_healthy.html)
+      and [here](http://www.msnbc.msn.com/id/22116724/) and [here](http://books.google.com/books?id=NPThUn6T0kIC&amp;pg=PA45&amp;lpg=PA45&amp;dq=butter+is+healthy+tnt+diet&amp;source=bl&amp;ots=_NxT-zIetg&amp;sig=FcHsTUF6fl6RKXEMAJI6Qoo1wdA&amp;hl=en&amp;ei=Jx22TvXZMrLKiAL8v-xV&amp;sa=X&amp;oi=book_result&amp;ct=result&amp;resnum=1&amp;ved=0CB4Q6AEwAA#v=onepage&amp;q=butter%20is%20healthy%20tnt%20diet&amp;f=false)",
+      "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created": 1320582969.0,
+      "author_flair_text": null, "downs": 1, "author": "elephantpoop", "created_utc":
+      1320557769.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;butter = bad is
+      a misconception... &lt;a href=\"http://www.naturalnews.com/025564_butter_health_healthy.html\"
+      &gt;here&lt;/a&gt; and &lt;a href=\"http://www.msnbc.msn.com/id/22116724/\"
+      &gt;here&lt;/a&gt; and &lt;a href=\"http://books.google.com/books?id=NPThUn6T0kIC&amp;amp;pg=PA45&amp;amp;lpg=PA45&amp;amp;dq=butter+is+healthy+tnt+diet&amp;amp;source=bl&amp;amp;ots=_NxT-zIetg&amp;amp;sig=FcHsTUF6fl6RKXEMAJI6Qoo1wdA&amp;amp;hl=en&amp;amp;ei=Jx22TvXZMrLKiAL8v-xV&amp;amp;sa=X&amp;amp;oi=book_result&amp;amp;ct=result&amp;amp;resnum=1&amp;amp;ved=0CB4Q6AEwAA#v=onepage&amp;amp;q=butter%20is%20healthy%20tnt%20diet&amp;amp;f=false\"
+      &gt;here&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5",
+      "parent_id": "t1_c2xgcvx", "likes": null, "replies": {"kind": "Listing", "data":
+      {"modhash": "", "children": [{"kind": "more", "data": {"name": "t1_c2xgmph",
+      "id": "c2xgmph"}}], "after": null, "before": null}}, "id": "c2xgfkn", "subreddit":
+      "pics", "ups": 5, "name": "t1_c2xgfkn"}}], "after": null, "before": null}},
+      "id": "c2xgcvx", "subreddit": "pics", "ups": 11, "name": "t1_c2xgcvx"}}, {"kind":
+      "more", "data": {"name": "t1_c2xgdrq", "id": "c2xgdrq"}}], "after": null, "before":
+      null}}, "id": "c2xg9t1", "subreddit": "pics", "ups": 9, "name": "t1_c2xg9t1"}}],
+      "after": null, "before": null}}, "id": "c2xg5gk", "subreddit": "pics", "ups":
+      1, "name": "t1_c2xg5gk"}}, {"kind": "t1", "data": {"body": "Me so hungee now.
+      You win.", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created":
+      1320581111.0, "author_flair_text": null, "downs": 0, "author": "FistOrFamine",
+      "created_utc": 1320555911.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Me
+      so hungee now. You win.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id":
+      "t3_m1yc5", "parent_id": "t1_c2xg25a", "likes": null, "replies": "", "id": "c2xg8c7",
+      "subreddit": "pics", "ups": 2, "name": "t1_c2xg8c7"}}, {"kind": "t1", "data":
+      {"body": "was hungry so I tried it, fantastic!  I don''t think i will make them
+      any other way again, thanks!", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320581757.0, "author_flair_text": null, "downs": 0, "author":
+      "Navy_Beans", "created_utc": 1320556557.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;was
+      hungry so I tried it, fantastic!  I don''t think i will make them any other
+      way again, thanks!&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5",
+      "parent_id": "t1_c2xg25a", "likes": null, "replies": "", "id": "c2xgaxu", "subreddit":
+      "pics", "ups": 2, "name": "t1_c2xgaxu"}}, {"kind": "t1", "data": {"body": "I
+      like it, but he didn''t use enough butter. PD wouldn''t approve. ", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320582195.0, "author_flair_text":
+      null, "downs": 0, "author": "luckyjinxer", "created_utc": 1320556995.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;I like it, but he didn''t use enough butter.
+      PD wouldn''t approve.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id":
+      "t3_m1yc5", "parent_id": "t1_c2xg25a", "likes": null, "replies": "", "id": "c2xgcps",
+      "subreddit": "pics", "ups": 2, "name": "t1_c2xgcps"}}, {"kind": "t1", "data":
+      {"body": "My scrambled eggs were revolutionized by that video a few weeks ago.",
+      "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created": 1320582330.0,
+      "author_flair_text": null, "downs": 0, "author": "helicopterindian", "created_utc":
+      1320557130.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;My scrambled eggs
+      were revolutionized by that video a few weeks ago.&lt;/p&gt;&lt;/div&gt;", "levenshtein":
+      null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xg25a", "likes": null, "replies":
+      "", "id": "c2xgd76", "subreddit": "pics", "ups": 1, "name": "t1_c2xgd76"}},
+      {"kind": "t1", "data": {"body": "I made scrambled eggs this way once because
+      of Reddit. I was not disappointed.", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320582341.0, "author_flair_text": null, "downs": 0, "author":
+      "offwiththepants", "created_utc": 1320557141.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I
+      made scrambled eggs this way once because of Reddit. I was not disappointed.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xg25a", "likes":
+      null, "replies": "", "id": "c2xgd8o", "subreddit": "pics", "ups": 2, "name":
+      "t1_c2xgd8o"}}, {"kind": "t1", "data": {"body": "yes, but my ateries clogged
+      and I think I''m having a heart at.....arrrrggghh!", "subreddit_id": "t5_2qh0u",
+      "author_flair_css_class": null, "created": 1320583138.0, "author_flair_text":
+      null, "downs": 1, "author": "gerg6111", "created_utc": 1320557938.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;yes, but my ateries clogged and I think I''m
+      having a heart at.....arrrrggghh!&lt;/p&gt;&lt;/div&gt;", "levenshtein": null,
+      "link_id": "t3_m1yc5", "parent_id": "t1_c2xg25a", "likes": null, "replies":
+      "", "id": "c2xgg7k", "subreddit": "pics", "ups": 1, "name": "t1_c2xgg7k"}},
+      {"kind": "t1", "data": {"body": "Oh my i just made them and being not a big
+      egg fan  i must say they where yummy , made my toast all soggy with eggy goodness.  I
+      think i found my new quick breakfast ", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320584130.0, "author_flair_text": null, "downs": 0, "author":
+      "wocks", "created_utc": 1320558930.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Oh
+      my i just made them and being not a big egg fan  i must say they where yummy
+      , made my toast all soggy with eggy goodness.  I think i found my new quick
+      breakfast&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5",
+      "parent_id": "t1_c2xg25a", "likes": null, "replies": "", "id": "c2xgjwn", "subreddit":
+      "pics", "ups": 1, "name": "t1_c2xgjwn"}}, {"kind": "t1", "data": {"body": "Seems
+      more like whipped eggs than my idea of scrambled eggs...", "subreddit_id": "t5_2qh0u",
+      "author_flair_css_class": null, "created": 1320584442.0, "author_flair_text":
+      null, "downs": 0, "author": "Rabid_Llama8", "created_utc": 1320559242.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;Seems more like whipped eggs than my idea
+      of scrambled eggs...&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id":
+      "t3_m1yc5", "parent_id": "t1_c2xg25a", "likes": null, "replies": "", "id": "c2xgl1o",
+      "subreddit": "pics", "ups": 1, "name": "t1_c2xgl1o"}}, {"kind": "t1", "data":
+      {"body": "Does anyone besides TV chefs actually like their scrambled eggs so
+      soft? I like mine to have a cooked texture. ", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320584486.0, "author_flair_text": null, "downs": 0, "author":
+      "evange", "created_utc": 1320559286.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Does
+      anyone besides TV chefs actually like their scrambled eggs so soft? I like mine
+      to have a cooked texture.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id":
+      "t3_m1yc5", "parent_id": "t1_c2xg25a", "likes": null, "replies": "", "id": "c2xgl88",
+      "subreddit": "pics", "ups": 1, "name": "t1_c2xgl88"}}, {"kind": "t1", "data":
+      {"body": "After watching that I realised I didn''t know what his voice really
+      sounded like because I''ve only ever heard him yelling on commercials.", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320584757.0, "author_flair_text":
+      null, "downs": 0, "author": "batglass", "created_utc": 1320559557.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;After watching that I realised I didn''t know
+      what his voice really sounded like because I''ve only ever heard him yelling
+      on commercials.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5",
+      "parent_id": "t1_c2xg25a", "likes": null, "replies": "", "id": "c2xgm9r", "subreddit":
+      "pics", "ups": 1, "name": "t1_c2xgm9r"}}, {"kind": "t1", "data": {"body": "Now
+      I''m confused - watched that whole thing waiting for the big ''reveal'' - it
+      was just Gordon Ramsey making scrambled eggs.  Granted, I don''t add creme fraiche
+      and chives to mine (usually because I''m hungover when I cook it...)   But apart
+      from this, what the hell is special about those eggs?  I thought that was how
+      *everyone* scrambled eggs.\n\nIs this going to go the way of electric kettles
+      and the word ''fortnight'', and be yet another thing I''m astonished that Americans
+      don''t do?", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created":
+      1320585082.0, "author_flair_text": null, "downs": 0, "author": "ernestisimportant",
+      "created_utc": 1320559882.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Now
+      I''m confused - watched that whole thing waiting for the big ''reveal'' - it
+      was just Gordon Ramsey making scrambled eggs.  Granted, I don''t add creme fraiche
+      and chives to mine (usually because I''m hungover when I cook it...)   But apart
+      from this, what the hell is special about those eggs?  I thought that was how
+      &lt;em&gt;everyone&lt;/em&gt; scrambled eggs.&lt;/p&gt;\n\n&lt;p&gt;Is this
+      going to go the way of electric kettles and the word ''fortnight'', and be yet
+      another thing I''m astonished that Americans don''t do?&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xg25a", "likes":
+      null, "replies": "", "id": "c2xgnek", "subreddit": "pics", "ups": 1, "name":
+      "t1_c2xgnek"}}, {"kind": "t1", "data": {"body": "instead of creme fraiche, we
+      put a little cream cheese in our scrambled eggs. Makes them super fluffy and
+      gives them a nice creamy flavor. We also like to mix the tomatoes right into
+      the eggs, but those tomatoes roasted on the vine look pretty damn amazing.",
+      "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created": 1320585528.0,
+      "author_flair_text": null, "downs": 1, "author": "portezbie", "created_utc":
+      1320560328.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;instead of creme
+      fraiche, we put a little cream cheese in our scrambled eggs. Makes them super
+      fluffy and gives them a nice creamy flavor. We also like to mix the tomatoes
+      right into the eggs, but those tomatoes roasted on the vine look pretty damn
+      amazing.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5",
+      "parent_id": "t1_c2xg25a", "likes": null, "replies": "", "id": "c2xgoz8", "subreddit":
+      "pics", "ups": 1, "name": "t1_c2xgoz8"}}, {"kind": "t1", "data": {"body": "THESE
+      ARE SO GOOD.\n\nEverything you think you know about scrambled eggs is wrong.
+      This video changed my life. For real.", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320586995.0, "author_flair_text": null, "downs": 0, "author":
+      "YoureReadingThis", "created_utc": 1320561795.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;THESE
+      ARE SO GOOD.&lt;/p&gt;\n\n&lt;p&gt;Everything you think you know about scrambled
+      eggs is wrong. This video changed my life. For real.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xg25a", "likes":
+      null, "replies": "", "id": "c2xgu4i", "subreddit": "pics", "ups": 1, "name":
+      "t1_c2xgu4i"}}, {"kind": "more", "data": {"name": "t1_c2xga74", "id": "c2xga74"}}],
+      "after": null, "before": null}}, "id": "c2xg25a", "subreddit": "pics", "ups":
+      109, "name": "t1_c2xg25a"}}, {"kind": "t1", "data": {"body": "For example, this
+      [single egg pan](http://freesamplefreak.com/viewpoints-free-t-fal-one-egg-wonder-frying-pan/).",
+      "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created": 1320586848.0,
+      "author_flair_text": null, "downs": 0, "author": "ajoshw", "created_utc": 1320561648.0,
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;For example, this &lt;a href=\"http://freesamplefreak.com/viewpoints-free-t-fal-one-egg-wonder-frying-pan/\"
+      &gt;single egg pan&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id":
+      "t3_m1yc5", "parent_id": "t1_c2xfyky", "likes": null, "replies": "", "id": "c2xgtlu",
+      "subreddit": "pics", "ups": 1, "name": "t1_c2xgtlu"}}, {"kind": "more", "data":
+      {"name": "t1_c2xg8u0", "id": "c2xg8u0"}}], "after": null, "before": null}},
+      "id": "c2xfyky", "subreddit": "pics", "ups": 33, "name": "t1_c2xfyky"}}, {"kind":
+      "more", "data": {"name": "t1_c2xftem", "id": "c2xftem"}}], "after": null, "before":
+      null}}, "id": "c2xfs67", "subreddit": "pics", "ups": 61, "name": "t1_c2xfs67"}},
+      {"kind": "t1", "data": {"body": "Who the fuck wants to warm that much butter?\n\nAlso
+      what in the damn fuck is warming butter? It supposed to be either cold, room
+      temperature or melted. I''ve never read \"warm butter\" in a recipe book. What,
+      it''s the point where half your square is melted and half is still solid? The
+      \"get your eggs out of the fridge\" step in the recipe? What the fuck. /home
+      cook", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created":
+      1320579578.0, "author_flair_text": null, "downs": 3, "author": "trimbach", "created_utc":
+      1320554378.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Who the fuck wants
+      to warm that much butter?&lt;/p&gt;\n\n&lt;p&gt;Also what in the damn fuck is
+      warming butter? It supposed to be either cold, room temperature or melted. I''ve
+      never read \"warm butter\" in a recipe book. What, it''s the point where half
+      your square is melted and half is still solid? The \"get your eggs out of the
+      fridge\" step in the recipe? What the fuck. /home cook&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xeo6u", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "t1", "data": {"body": "paula the diabetic", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320582204.0, "author_flair_text": null, "downs": 0, "author":
+      "jiniton", "created_utc": 1320557004.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;paula
+      the diabetic&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5",
+      "parent_id": "t1_c2xg29n", "likes": null, "replies": {"kind": "Listing", "data":
+      {"modhash": "", "children": [{"kind": "more", "data": {"name": "t1_c2xgigf",
+      "id": "c2xgigf"}}], "after": null, "before": null}}, "id": "c2xgcqp", "subreddit":
+      "pics", "ups": 9, "name": "t1_c2xgcqp"}}, {"kind": "t1", "data": {"body": "To
+      clarify butter, I generally do a pound at a time.  Melt it, skim the solids
+      from the top, then pour off gently to a long-term container because there will
+      be a 2nd layer of solids at the bottom.\n\nWhy a whole pound?  Because it''s
+      a bit of a pain, and the finished product is good for weeks or months.\n\nWhy
+      clarify?  To use it for high heat pan frying.  It won''t sputter from the milk
+      solids or burn like \"whole\" butter.  Fantastic for fish.  \n\nAlso for dipping
+      crab or lobster meat.", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320583372.0, "author_flair_text": null, "downs": 0, "author":
+      "toastedbutts", "created_utc": 1320558172.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;To
+      clarify butter, I generally do a pound at a time.  Melt it, skim the solids
+      from the top, then pour off gently to a long-term container because there will
+      be a 2nd layer of solids at the bottom.&lt;/p&gt;\n\n&lt;p&gt;Why a whole pound?  Because
+      it''s a bit of a pain, and the finished product is good for weeks or months.&lt;/p&gt;\n\n&lt;p&gt;Why
+      clarify?  To use it for high heat pan frying.  It won''t sputter from the milk
+      solids or burn like \"whole\" butter.  Fantastic for fish.&lt;/p&gt;\n\n&lt;p&gt;Also
+      for dipping crab or lobster meat.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null,
+      "link_id": "t3_m1yc5", "parent_id": "t1_c2xg29n", "likes": null, "replies":
+      {"kind": "Listing", "data": {"modhash": "", "children": [{"kind": "t1", "data":
+      {"body": "I can''t say I blame you for making clarified butter in bulk.  That
+      stuff is a pain to do without scorching the butter.  Restaurants do like 50
+      pounds at a time from what I''ve heard.", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320584667.0, "author_flair_text": null, "downs": 0, "author":
+      "Rabid_Llama8", "created_utc": 1320559467.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I
+      can''t say I blame you for making clarified butter in bulk.  That stuff is a
+      pain to do without scorching the butter.  Restaurants do like 50 pounds at a
+      time from what I''ve heard.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id":
+      "t3_m1yc5", "parent_id": "t1_c2xgh3a", "likes": null, "replies": "", "id": "c2xglx8",
+      "subreddit": "pics", "ups": 4, "name": "t1_c2xglx8"}}], "after": null, "before":
+      null}}, "id": "c2xgh3a", "subreddit": "pics", "ups": 4, "name": "t1_c2xgh3a"}},
+      {"kind": "more", "data": {"name": "t1_c2xgjxq", "id": "c2xgjxq"}}], "after":
+      null, "before": null}}, "id": "c2xg29n", "subreddit": "pics", "ups": 9, "name":
+      "t1_c2xg29n"}}, {"kind": "t1", "data": {"body": "still its a pot\n", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320582228.0, "author_flair_text":
+      null, "downs": 1, "author": "manf0x", "created_utc": 1320557028.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;still its a pot&lt;/p&gt;&lt;/div&gt;", "levenshtein":
+      null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xeo6u", "likes": null, "replies":
+      "", "id": "c2xgcu6", "subreddit": "pics", "ups": 1, "name": "t1_c2xgcu6"}},
+      {"kind": "t1", "data": {"body": "Its a milk saucepan, as it has a lip on the
+      side. Never heard of a butter saucepan.", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320585645.0, "author_flair_text": null, "downs": 0, "author":
+      "Devvils", "created_utc": 1320560445.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Its
+      a milk saucepan, as it has a lip on the side. Never heard of a butter saucepan.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xeo6u", "likes":
+      null, "replies": "", "id": "c2xgpel", "subreddit": "pics", "ups": 1, "name":
+      "t1_c2xgpel"}}, {"kind": "t1", "data": {"body": "Is that why your name is profanusnothaosus?
+      (*hint = fancy*)", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null,
+      "created": 1320586989.0, "author_flair_text": null, "downs": 0, "author": "YardenGarden",
+      "created_utc": 1320561789.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Is
+      that why your name is profanusnothaosus? (&lt;em&gt;hint = fancy&lt;/em&gt;)&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xeo6u", "likes":
+      null, "replies": "", "id": "c2xgu3s", "subreddit": "pics", "ups": 1, "name":
+      "t1_c2xgu3s"}}, {"kind": "more", "data": {"name": "t1_c2xg1iz", "id": "c2xg1iz"}}],
+      "after": null, "before": null}}, "id": "c2xeo6u", "subreddit": "pics", "ups":
+      163, "name": "t1_c2xeo6u"}}, {"kind": "t1", "data": {"body": "Every pot is a
+      butter warmer for Paula Deen. ", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320569481.0, "author_flair_text": null, "downs": 73, "author":
+      "pflynn", "created_utc": 1320544281.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Every
+      pot is a butter warmer for Paula Deen.&lt;/p&gt;&lt;/div&gt;", "levenshtein":
+      null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies":
+      {"kind": "Listing", "data": {"modhash": "", "children": [{"kind": "t1", "data":
+      {"body": "Paula Deen IS a jumbo butter warmer.", "subreddit_id": "t5_2qh0u",
+      "author_flair_css_class": null, "created": 1320580592.0, "author_flair_text":
+      null, "downs": 0, "author": "GoTeamShake", "created_utc": 1320555392.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;Paula Deen IS a jumbo butter warmer.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xetic", "likes":
+      null, "replies": "", "id": "c2xg6dr", "subreddit": "pics", "ups": 11, "name":
+      "t1_c2xg6dr"}}, {"kind": "t1", "data": {"body": "[thats_the_joke.jpg](https://)",
+      "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created": 1320571968.0,
+      "author_flair_text": null, "downs": 66, "author": "poptart2nd", "created_utc":
+      1320546768.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;&lt;a href=\"https://\"
+      &gt;thats_the_joke.jpg&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;", "levenshtein": null,
+      "link_id": "t3_m1yc5", "parent_id": "t1_c2xetic", "likes": null, "replies":
+      {"kind": "Listing", "data": {"modhash": "", "children": [{"kind": "t1", "data":
+      {"body": "Damn it! When will people learn to start using .png?", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320575999.0, "author_flair_text":
+      null, "downs": 56, "author": "smithysmitherson", "created_utc": 1320550799.0,
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Damn it! When will people learn
+      to start using .png?&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id":
+      "t3_m1yc5", "parent_id": "t1_c2xf50y", "likes": null, "replies": {"kind": "Listing",
+      "data": {"modhash": "", "children": [{"kind": "t1", "data": {"body": "the fact
+      that you have 4 points in under a minute makes me think that you have 3 novelty
+      accounts and just always upvote yourself.\n\nedit: and now you have an obscene
+      amount of karma because of this comment *sigh*", "subreddit_id": "t5_2qh0u",
+      "author_flair_css_class": null, "created": 1320576188.0, "author_flair_text":
+      null, "downs": 43, "author": "poptart2nd", "created_utc": 1320550988.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;the fact that you have 4 points in under a
+      minute makes me think that you have 3 novelty accounts and just always upvote
+      yourself.&lt;/p&gt;\n\n&lt;p&gt;edit: and now you have an obscene amount of
+      karma because of this comment &lt;em&gt;sigh&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xfmz0", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "t1", "data": {"body": "I_upvoted_him.bmp", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320576265.0, "author_flair_text": null, "downs": 13, "author":
+      "GreasyDan", "created_utc": 1320551065.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I_upvoted_him.bmp&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xfnrz", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "t1", "data": {"body": "me_too.tiff", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320576894.0, "author_flair_text": null, "downs": 8, "author":
+      "Thick-McRunFast", "created_utc": 1320551694.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;me_too.tiff&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xfo3u", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "t1", "data": {"body": "Upvotes_For_All.rle", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320577217.0, "author_flair_text": null, "downs": 6, "author":
+      "panamaspace", "created_utc": 1320552017.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Upvotes_For_All.rle&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xfqy1", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "t1", "data": {"body": "unrelated.gif", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320577716.0, "author_flair_text": null, "downs": 6, "author":
+      "potatofish", "created_utc": 1320552516.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;unrelated.gif&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xfsc7", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "t1", "data": {"body": "correlation.psd", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320578955.0, "author_flair_text": null, "downs": 6, "author":
+      "732", "created_utc": 1320553755.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;correlation.psd&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xfuk8", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "t1", "data": {"body": "The size of that PSD is waaaaaay off.", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320579209.0, "author_flair_text":
+      null, "downs": 2, "author": "HOODzy", "created_utc": 1320554009.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;The size of that PSD is waaaaaay off.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xfzq2", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "more", "data": {"name": "t1_c2xg1tp", "id": "c2xg1tp"}}], "after": null, "before":
+      null}}, "id": "c2xg0or", "subreddit": "pics", "ups": 19, "name": "t1_c2xg0or"}},
+      {"kind": "t1", "data": {"body": "karma_train.raw", "subreddit_id": "t5_2qh0u",
+      "author_flair_css_class": null, "created": 1320580000.0, "author_flair_text":
+      null, "downs": 2, "author": "Mechakoopa", "created_utc": 1320554800.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;karma_train.raw&lt;/p&gt;&lt;/div&gt;", "levenshtein":
+      null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xfzq2", "likes": null, "replies":
+      "", "id": "c2xg3zn", "subreddit": "pics", "ups": 15, "name": "t1_c2xg3zn"}},
+      {"kind": "t1", "data": {"body": "I_use_GIMP.xcf", "subreddit_id": "t5_2qh0u",
+      "author_flair_css_class": null, "created": 1320579512.0, "author_flair_text":
+      null, "downs": 5, "author": "wewtaco", "created_utc": 1320554312.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;I_use_GIMP.xcf&lt;/p&gt;&lt;/div&gt;", "levenshtein":
+      null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xfzq2", "likes": null, "replies":
+      {"kind": "Listing", "data": {"modhash": "", "children": [{"kind": "more", "data":
+      {"name": "t1_c2xgc6r", "id": "c2xgc6r"}}], "after": null, "before": null}},
+      "id": "c2xg1z1", "subreddit": "pics", "ups": 16, "name": "t1_c2xg1z1"}}, {"kind":
+      "t1", "data": {"body": "txtscanbepicturestoo.txt", "subreddit_id": "t5_2qh0u",
+      "author_flair_css_class": null, "created": 1320580716.0, "author_flair_text":
+      null, "downs": 2, "author": "BreSput", "created_utc": 1320555516.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;txtscanbepicturestoo.txt&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xfzq2", "likes":
+      null, "replies": "", "id": "c2xg6up", "subreddit": "pics", "ups": 7, "name":
+      "t1_c2xg6up"}}, {"kind": "more", "data": {"name": "t1_c2xgvbv", "id": "c2xgvbv"}}],
+      "after": null, "before": null}}, "id": "c2xfzq2", "subreddit": "pics", "ups":
+      26, "name": "t1_c2xfzq2"}}, {"kind": "t1", "data": {"body": "How the fuck did
+      you get sound in that gif?", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320583276.0, "author_flair_text": null, "downs": 2, "author":
+      "ablatner", "created_utc": 1320558076.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;How
+      the fuck did you get sound in that gif?&lt;/p&gt;&lt;/div&gt;", "levenshtein":
+      null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xfuk8", "likes": null, "replies":
+      "", "id": "c2xggqe", "subreddit": "pics", "ups": 2, "name": "t1_c2xggqe"}},
+      {"kind": "more", "data": {"name": "t1_c2xgh7q", "id": "c2xgh7q"}}], "after":
+      null, "before": null}}, "id": "c2xfuk8", "subreddit": "pics", "ups": 38, "name":
+      "t1_c2xfuk8"}}, {"kind": "t1", "data": {"body": "even_for_irrelevant_file_types?.pages",
+      "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created": 1320577801.0,
+      "author_flair_text": null, "downs": 7, "author": "limp_bisquick", "created_utc":
+      1320552601.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;even_for_irrelevant_file_types?.pages&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xfsc7", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "t1", "data": {"body": "no_one_remembers.art", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320578728.0, "author_flair_text": null, "downs": 7, "author":
+      "NotTechSupport", "created_utc": 1320553528.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;no_one_remembers.art&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xfuxp", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "t1", "data": {"body": "especially_those.rmvb", "subreddit_id": "t5_2qh0u",
+      "author_flair_css_class": null, "created": 1320579066.0, "author_flair_text":
+      null, "downs": 4, "author": "bapp", "created_utc": 1320553866.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;especially_those.rmvb&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xfywo", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "more", "data": {"name": "t1_c2xg1y6", "id": "c2xg1y6"}}, {"kind": "more", "data":
+      {"name": "t1_c2xg1xd", "id": "c2xg1xd"}}], "after": null, "before": null}},
+      "id": "c2xg049", "subreddit": "pics", "ups": 15, "name": "t1_c2xg049"}}], "after":
+      null, "before": null}}, "id": "c2xfywo", "subreddit": "pics", "ups": 20, "name":
+      "t1_c2xfywo"}}], "after": null, "before": null}}, "id": "c2xfuxp", "subreddit":
+      "pics", "ups": 21, "name": "t1_c2xfuxp"}}], "after": null, "before": null}},
+      "id": "c2xfsc7", "subreddit": "pics", "ups": 45, "name": "t1_c2xfsc7"}}], "after":
+      null, "before": null}}, "id": "c2xfqy1", "subreddit": "pics", "ups": 52, "name":
+      "t1_c2xfqy1"}}, {"kind": "t1", "data": {"body": "Bandwidth costs money.  Sheesh.",
+      "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created": 1320577444.0,
+      "author_flair_text": null, "downs": 0, "author": "alanpugh", "created_utc":
+      1320552244.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Bandwidth costs
+      money.  Sheesh.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5",
+      "parent_id": "t1_c2xfo3u", "likes": null, "replies": "", "id": "c2xftea", "subreddit":
+      "pics", "ups": 6, "name": "t1_c2xftea"}}, {"kind": "more", "data": {"name":
+      "t1_c2xg3gv", "id": "c2xg3gv"}}], "after": null, "before": null}}, "id": "c2xfo3u",
+      "subreddit": "pics", "ups": 79, "name": "t1_c2xfo3u"}}, {"kind": "t1", "data":
+      {"body": "IIRC IPs from the same account don''t get counted.", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320576851.0, "author_flair_text":
+      null, "downs": 0, "author": "No_name_Johnson", "created_utc": 1320551651.0,
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;IIRC IPs from the same account
+      don''t get counted.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id":
+      "t3_m1yc5", "parent_id": "t1_c2xfnrz", "likes": null, "replies": {"kind": "Listing",
+      "data": {"modhash": "", "children": [{"kind": "more", "data": {"name": "t1_c2xfr5b",
+      "id": "c2xfr5b"}}], "after": null, "before": null}}, "id": "c2xfqra", "subreddit":
+      "pics", "ups": 4, "name": "t1_c2xfqra"}}, {"kind": "more", "data": {"name":
+      "t1_c2xg356", "id": "c2xg356"}}], "after": null, "before": null}}, "id": "c2xfnrz",
+      "subreddit": "pics", "ups": 72, "name": "t1_c2xfnrz"}}, {"kind": "more", "data":
+      {"name": "t1_c2xgqvc", "id": "c2xgqvc"}}], "after": null, "before": null}},
+      "id": "c2xfmz0", "subreddit": "pics", "ups": 229, "name": "t1_c2xfmz0"}}, {"kind":
+      "t1", "data": {"body": "Your link is down.", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320577536.0, "author_flair_text": null, "downs": 0, "author":
+      "BrotherSeamus", "created_utc": 1320552336.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Your
+      link is down.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5",
+      "parent_id": "t1_c2xf50y", "likes": null, "replies": {"kind": "Listing", "data":
+      {"modhash": "", "children": [{"kind": "t1", "data": {"body": "hmm... how about
+      now?", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created":
+      1320577668.0, "author_flair_text": null, "downs": 0, "author": "poptart2nd",
+      "created_utc": 1320552468.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;hmm...
+      how about now?&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5",
+      "parent_id": "t1_c2xfts3", "likes": null, "replies": {"kind": "Listing", "data":
+      {"modhash": "", "children": [{"kind": "t1", "data": {"body": "Still down. Maybe
+      try https?", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created":
+      1320577919.0, "author_flair_text": null, "downs": 1, "author": "kj6dou", "created_utc":
+      1320552719.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Still down. Maybe
+      try https?&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5",
+      "parent_id": "t1_c2xfucb", "likes": null, "replies": {"kind": "Listing", "data":
+      {"modhash": "", "children": [{"kind": "t1", "data": {"body": "figured it out.
+      should be good now.", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320578004.0, "author_flair_text": null, "downs": 0, "author":
+      "poptart2nd", "created_utc": 1320552804.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;figured
+      it out. should be good now.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id":
+      "t3_m1yc5", "parent_id": "t1_c2xfvgc", "likes": null, "replies": "", "id": "c2xfvtn",
+      "subreddit": "pics", "ups": 9, "name": "t1_c2xfvtn"}}], "after": null, "before":
+      null}}, "id": "c2xfvgc", "subreddit": "pics", "ups": 9, "name": "t1_c2xfvgc"}}],
+      "after": null, "before": null}}, "id": "c2xfucb", "subreddit": "pics", "ups":
+      9, "name": "t1_c2xfucb"}}, {"kind": "t1", "data": {"body": "ultimate slowpoke",
+      "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created": 1320579288.0,
+      "author_flair_text": null, "downs": 0, "author": "Fidena", "created_utc": 1320554088.0,
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;ultimate slowpoke&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xfts3", "likes":
+      null, "replies": "", "id": "c2xg114", "subreddit": "pics", "ups": 4, "name":
+      "t1_c2xg114"}}], "after": null, "before": null}}, "id": "c2xfts3", "subreddit":
+      "pics", "ups": 6, "name": "t1_c2xfts3"}}, {"kind": "more", "data": {"name":
+      "t1_c2xg7m5", "id": "c2xg7m5"}}], "after": null, "before": null}}, "id": "c2xf50y",
+      "subreddit": "pics", "ups": 153, "name": "t1_c2xf50y"}}, {"kind": "t1", "data":
+      {"body": "Is your name Joe Mathlete? http://www.29-95.com/time-suck/comic-strip/marmaduke-explained",
+      "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created": 1320579699.0,
+      "author_flair_text": null, "downs": 1, "author": "porkfatty", "created_utc":
+      1320554499.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Is your name Joe
+      Mathlete? &lt;a href=\"http://www.29-95.com/time-suck/comic-strip/marmaduke-explained\"
+      &gt;http://www.29-95.com/time-suck/comic-strip/marmaduke-explained&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xetic", "likes":
+      null, "replies": "", "id": "c2xg2qp", "subreddit": "pics", "ups": 1, "name":
+      "t1_c2xg2qp"}}, {"kind": "more", "data": {"name": "t1_c2xghw8", "id": "c2xghw8"}}],
+      "after": null, "before": null}}, "id": "c2xetic", "subreddit": "pics", "ups":
+      293, "name": "t1_c2xetic"}}, {"kind": "t1", "data": {"body": "I saw [Alton Brown](http://www.foodnetwork.com/alton-brown/index.html)
+      at a Q&amp;A. When asked what new shows were coming out, he said, \"Guy Fiery
+      Gets Eaten by a Python, Cupcake Massacre, and Paula Dean''s Embalming with Butter.\"
+      I''m looking forward to the new season!", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320576537.0, "author_flair_text": null, "downs": 8, "author":
+      "MundeNex", "created_utc": 1320551337.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I
+      saw &lt;a href=\"http://www.foodnetwork.com/alton-brown/index.html\" &gt;Alton
+      Brown&lt;/a&gt; at a Q&amp;amp;A. When asked what new shows were coming out,
+      he said, \"Guy Fiery Gets Eaten by a Python, Cupcake Massacre, and Paula Dean''s
+      Embalming with Butter.\" I''m looking forward to the new season!&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "t1", "data": {"body": "Is it odd that I watched Good Eats for him, more than
+      for the food or recipes?", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320579423.0, "author_flair_text": null, "downs": 3, "author":
+      "ZeldaZealot", "created_utc": 1320554223.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Is
+      it odd that I watched Good Eats for him, more than for the food or recipes?&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xfpbw", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "t1", "data": {"body": "No, me too. It was more educational than anything else.
+      I''m not interested in making my own mayo, but it''s cool to see how it''s done.
+      For recipes, gotta watch Test Kitchen on PBS.", "subreddit_id": "t5_2qh0u",
+      "author_flair_css_class": null, "created": 1320579942.0, "author_flair_text":
+      null, "downs": 3, "author": "CADragon", "created_utc": 1320554742.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;No, me too. It was more educational than anything
+      else. I''m not interested in making my own mayo, but it''s cool to see how it''s
+      done. For recipes, gotta watch Test Kitchen on PBS.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xg1l1", "likes":
+      null, "replies": "", "id": "c2xg3r9", "subreddit": "pics", "ups": 16, "name":
+      "t1_c2xg3r9"}}, {"kind": "t1", "data": {"body": "I like to, uh, listen to him,
+      uh, talk, uh. The rhythmic, uh, predictability of his \u201cuhs,\u201d uh, really
+      helped with my, uh, insomnia. \n\nUh. \n\n", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320581977.0, "author_flair_text": null, "downs": 1, "author":
+      "scottb84", "created_utc": 1320556777.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I
+      like to, uh, listen to him, uh, talk, uh. The rhythmic, uh, predictability of
+      his \u201cuhs,\u201d uh, really helped with my, uh, insomnia.&lt;/p&gt;\n\n&lt;p&gt;Uh.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xg1l1", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "more", "data": {"name": "t1_c2xghkn", "id": "c2xghkn"}}], "after": null, "before":
+      null}}, "id": "c2xgbud", "subreddit": "pics", "ups": 5, "name": "t1_c2xgbud"}}],
+      "after": null, "before": null}}, "id": "c2xg1l1", "subreddit": "pics", "ups":
+      14, "name": "t1_c2xg1l1"}}, {"kind": "t1", "data": {"body": "I love him he teach
+      me thing about food i would have never ever... even... Hes just cool ", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320581975.0, "author_flair_text":
+      null, "downs": 1, "author": "ineedateam1", "created_utc": 1320556775.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;I love him he teach me thing about food i
+      would have never ever... even... Hes just cool&lt;/p&gt;&lt;/div&gt;", "levenshtein":
+      null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xfpbw", "likes": null, "replies":
+      "", "id": "c2xgbtr", "subreddit": "pics", "ups": 3, "name": "t1_c2xgbtr"}},
+      {"kind": "t1", "data": {"body": "Food Network is such a joke now. ", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320583632.0, "author_flair_text":
+      null, "downs": 0, "author": "jcenters", "created_utc": 1320558432.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;Food Network is such a joke now.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xfpbw", "likes":
+      null, "replies": "", "id": "c2xgi26", "subreddit": "pics", "ups": 1, "name":
+      "t1_c2xgi26"}}], "after": null, "before": null}}, "id": "c2xfpbw", "subreddit":
+      "pics", "ups": 34, "name": "t1_c2xfpbw"}}, {"kind": "t1", "data": {"body": "1qt
+      is not a pot at all, you can really only use it for making sauce...", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320568098.0, "author_flair_text":
+      null, "downs": 6, "author": "732", "created_utc": 1320542898.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;1qt is not a pot at all, you can really only
+      use it for making sauce...&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id":
+      "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies": {"kind": "Listing",
+      "data": {"modhash": "", "children": [{"kind": "t1", "data": {"body": "Something
+      like a saucepot?", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null,
+      "created": 1320568922.0, "author_flair_text": null, "downs": 12, "author": "BaronSamhedi",
+      "created_utc": 1320543722.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Something
+      like a saucepot?&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5",
+      "parent_id": "t1_c2xenf3", "likes": null, "replies": {"kind": "Listing", "data":
+      {"modhash": "", "children": [{"kind": "t1", "data": {"body": "No. Who told you
+      that?", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created":
+      1320569022.0, "author_flair_text": null, "downs": 5, "author": "732", "created_utc":
+      1320543822.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;No. Who told you
+      that?&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5", "parent_id":
+      "t1_c2xer07", "likes": null, "replies": {"kind": "Listing", "data": {"modhash":
+      "", "children": [{"kind": "t1", "data": {"body": "Elves.  French ones.", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320569090.0, "author_flair_text":
+      null, "downs": 6, "author": "BaronSamhedi", "created_utc": 1320543890.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;Elves.  French ones.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xerfz", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "t1", "data": {"body": "Damn French...", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320569133.0, "author_flair_text": null, "downs": 1, "author":
+      "732", "created_utc": 1320543933.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Damn
+      French...&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5",
+      "parent_id": "t1_c2xerr5", "likes": null, "replies": {"kind": "Listing", "data":
+      {"modhash": "", "children": [{"kind": "more", "data": {"name": "t1_c2xgew4",
+      "id": "c2xgew4"}}], "after": null, "before": null}}, "id": "c2xeryj", "subreddit":
+      "pics", "ups": 14, "name": "t1_c2xeryj"}}], "after": null, "before": null}},
+      "id": "c2xerr5", "subreddit": "pics", "ups": 50, "name": "t1_c2xerr5"}}], "after":
+      null, "before": null}}, "id": "c2xerfz", "subreddit": "pics", "ups": 40, "name":
+      "t1_c2xerfz"}}, {"kind": "t1", "data": {"body": "A proper saucier should have
+      rounded sides at the bottom, for thorough mixing during simmering. Can''t make
+      a halfway decent roux without one.", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320569550.0, "author_flair_text": null, "downs": 0, "author":
+      "zanhoshi", "created_utc": 1320544350.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;A
+      proper saucier should have rounded sides at the bottom, for thorough mixing
+      during simmering. Can''t make a halfway decent roux without one.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xer07", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "t1", "data": {"body": "I was raised to be a saucier, a great saucier.", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320577627.0, "author_flair_text":
+      null, "downs": 1, "author": "BrotherSeamus", "created_utc": 1320552427.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;I was raised to be a saucier, a great saucier.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xett3", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "t1", "data": {"body": "How saucy!", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320579956.0, "author_flair_text": null, "downs": 2, "author":
+      "gervaismainline", "created_utc": 1320554756.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;How
+      saucy!&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5", "parent_id":
+      "t1_c2xfu5r", "likes": null, "replies": "", "id": "c2xg3tp", "subreddit": "pics",
+      "ups": 5, "name": "t1_c2xg3tp"}}], "after": null, "before": null}}, "id": "c2xfu5r",
+      "subreddit": "pics", "ups": 12, "name": "t1_c2xfu5r"}}, {"kind": "t1", "data":
+      {"body": "Couldn''t you just use a silicon spatula to stir? Very easy to get
+      even corners using those. ", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320575392.0, "author_flair_text": null, "downs": 0, "author":
+      "beanso", "created_utc": 1320550192.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Couldn''t
+      you just use a silicon spatula to stir? Very easy to get even corners using
+      those.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5", "parent_id":
+      "t1_c2xett3", "likes": null, "replies": {"kind": "Listing", "data": {"modhash":
+      "", "children": [{"kind": "more", "data": {"name": "t1_c2xfyg3", "id": "c2xfyg3"}}],
+      "after": null, "before": null}}, "id": "c2xfkc5", "subreddit": "pics", "ups":
+      4, "name": "t1_c2xfkc5"}}, {"kind": "more", "data": {"name": "t1_c2xg3oj", "id":
+      "c2xg3oj"}}], "after": null, "before": null}}, "id": "c2xett3", "subreddit":
+      "pics", "ups": 18, "name": "t1_c2xett3"}}, {"kind": "t1", "data": {"body": "You
+      mean saucepan?", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null,
+      "created": 1320579260.0, "author_flair_text": null, "downs": 0, "author": "JavaLSU",
+      "created_utc": 1320554060.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;You
+      mean saucepan?&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5",
+      "parent_id": "t1_c2xer07", "likes": null, "replies": "", "id": "c2xg0wr", "subreddit":
+      "pics", "ups": 3, "name": "t1_c2xg0wr"}}, {"kind": "more", "data": {"name":
+      "t1_c2xgi7h", "id": "c2xgi7h"}}], "after": null, "before": null}}, "id": "c2xer07",
+      "subreddit": "pics", "ups": 88, "name": "t1_c2xer07"}}, {"kind": "t1", "data":
+      {"body": "I know that the paper even mentions other sauces, but I got a huge
+      kick out of it being specifically labeled a butter [w](http://pauladeenridingthings.com/post/3700188273/paula-deen-riding-fat-pony-of)[a](http://4.bp.blogspot.com/-ssZzZEsvTxA/TXPw-E9qh6I/AAAAAAAAGHQ/ThBvvO6-eiY/s400/6a00d83451d48a69e20147e2ef2daf970b-350wi.jpg)[r](http://media.tumblr.com/tumblr_lhd183Uyu41qbn4r1.jpg)[m](http://28.media.tumblr.com/tumblr_lj6y4bKh5e1qzgz3mo1_400.jpg)[e](http://sarahsscrumptioussamplings.files.wordpress.com/2010/07/paulaeatingbutter-300x300.jpg)[r](http://26.media.tumblr.com/tumblr_lj7h3tHhGB1qcbo9lo1_400.jpg).
+      ", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created": 1320569911.0,
+      "author_flair_text": null, "downs": 6, "author": "ajoshw", "created_utc": 1320544711.0,
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I know that the paper even mentions
+      other sauces, but I got a huge kick out of it being specifically labeled a butter
+      &lt;a href=\"http://pauladeenridingthings.com/post/3700188273/paula-deen-riding-fat-pony-of\"
+      &gt;w&lt;/a&gt;&lt;a href=\"http://4.bp.blogspot.com/-ssZzZEsvTxA/TXPw-E9qh6I/AAAAAAAAGHQ/ThBvvO6-eiY/s400/6a00d83451d48a69e20147e2ef2daf970b-350wi.jpg\"
+      &gt;a&lt;/a&gt;&lt;a href=\"http://media.tumblr.com/tumblr_lhd183Uyu41qbn4r1.jpg\"
+      &gt;r&lt;/a&gt;&lt;a href=\"http://28.media.tumblr.com/tumblr_lj6y4bKh5e1qzgz3mo1_400.jpg\"
+      &gt;m&lt;/a&gt;&lt;a href=\"http://sarahsscrumptioussamplings.files.wordpress.com/2010/07/paulaeatingbutter-300x300.jpg\"
+      &gt;e&lt;/a&gt;&lt;a href=\"http://26.media.tumblr.com/tumblr_lj7h3tHhGB1qcbo9lo1_400.jpg\"
+      &gt;r&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5",
+      "parent_id": "t1_c2xenf3", "likes": null, "replies": {"kind": "Listing", "data":
+      {"modhash": "", "children": [{"kind": "t1", "data": {"body": "Wasn''t sure I
+      was on board there but \"r\" got me.", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320577987.0, "author_flair_text": null, "downs": 0, "author":
+      "eifersucht12a", "created_utc": 1320552787.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Wasn''t
+      sure I was on board there but \"r\" got me.&lt;/p&gt;&lt;/div&gt;", "levenshtein":
+      null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xevft", "likes": null, "replies":
+      {"kind": "Listing", "data": {"modhash": "", "children": [{"kind": "more", "data":
+      {"name": "t1_c2xgunc", "id": "c2xgunc"}}], "after": null, "before": null}},
+      "id": "c2xfvrn", "subreddit": "pics", "ups": 7, "name": "t1_c2xfvrn"}}, {"kind":
+      "more", "data": {"name": "t1_c2xg44u", "id": "c2xg44u"}}], "after": null, "before":
+      null}}, "id": "c2xevft", "subreddit": "pics", "ups": 36, "name": "t1_c2xevft"}},
+      {"kind": "more", "data": {"name": "t1_c2xfy45", "id": "c2xfy45"}}], "after":
+      null, "before": null}}, "id": "c2xenf3", "subreddit": "pics", "ups": 54, "name":
+      "t1_c2xenf3"}}, {"kind": "t1", "data": {"body": "Who needs to warm that much
+      butter?\nBetter question: How is she still alive?", "subreddit_id": "t5_2qh0u",
+      "author_flair_css_class": null, "created": 1320575373.0, "author_flair_text":
+      null, "downs": 1, "author": "rosamor86", "created_utc": 1320550173.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;Who needs to warm that much butter?\nBetter
+      question: How is she still alive?&lt;/p&gt;&lt;/div&gt;", "levenshtein": null,
+      "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies": {"kind":
+      "Listing", "data": {"modhash": "", "children": [{"kind": "more", "data": {"name":
+      "t1_c2xgtpa", "id": "c2xgtpa"}}], "after": null, "before": null}}, "id": "c2xfk8m",
+      "subreddit": "pics", "ups": 10, "name": "t1_c2xfk8m"}}, {"kind": "t1", "data":
+      {"body": "That''s like calling a jacuzzi a pasta pot.", "subreddit_id": "t5_2qh0u",
+      "author_flair_css_class": null, "created": 1320575601.0, "author_flair_text":
+      null, "downs": 0, "author": "whosbloodisthat", "created_utc": 1320550401.0,
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;That''s like calling a jacuzzi
+      a pasta pot.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5",
+      "parent_id": "t3_m1yc5", "likes": null, "replies": {"kind": "Listing", "data":
+      {"modhash": "", "children": [{"kind": "t1", "data": {"body": "Are you trying
+      to say that I shouldn''t cook my spaghetti in the jacuzz?", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320583505.0, "author_flair_text":
+      null, "downs": 0, "author": "lololnopants", "created_utc": 1320558305.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;Are you trying to say that I shouldn''t cook
+      my spaghetti in the jacuzz?&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id":
+      "t3_m1yc5", "parent_id": "t1_c2xfl9q", "likes": null, "replies": "", "id": "c2xghln",
+      "subreddit": "pics", "ups": 3, "name": "t1_c2xghln"}}, {"kind": "more", "data":
+      {"name": "t1_c2xgl5m", "id": "c2xgl5m"}}], "after": null, "before": null}},
+      "id": "c2xfl9q", "subreddit": "pics", "ups": 9, "name": "t1_c2xfl9q"}}, {"kind":
+      "t1", "data": {"body": "Hope that comes in her signature [yellow.](http://www.walmart.com/catalog/product.do?product_id=15385495&amp;findingMethod=rr)",
+      "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created": 1320572824.0,
+      "author_flair_text": null, "downs": 1, "author": "Oleander42", "created_utc":
+      1320547624.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Hope that comes
+      in her signature &lt;a href=\"http://www.walmart.com/catalog/product.do?product_id=15385495&amp;amp;findingMethod=rr\"
+      &gt;yellow.&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id":
+      "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies": {"kind": "Listing",
+      "data": {"modhash": "", "children": [{"kind": "more", "data": {"name": "t1_c2xgmdo",
+      "id": "c2xgmdo"}}], "after": null, "before": null}}, "id": "c2xf8u7", "subreddit":
+      "pics", "ups": 17, "name": "t1_c2xf8u7"}}, {"kind": "t1", "data": {"body": "Paula
+      isn''t the only one that calls it that: http://www.allclad-stainless.com/butter.php",
+      "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created": 1320576474.0,
+      "author_flair_text": null, "downs": 1, "author": "rmo4", "created_utc": 1320551274.0,
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Paula isn''t the only one that
+      calls it that: &lt;a href=\"http://www.allclad-stainless.com/butter.php\" &gt;http://www.allclad-stainless.com/butter.php&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "t1", "data": {"body": "Come Monday morning, some one is going to be pretty
+      smug at Allclad Stainless. \"See I told you it would be successful to call it
+      a Butter Warmer! Just look at all these hits we had over the weekend!\"", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320579549.0, "author_flair_text":
+      null, "downs": 1, "author": "gordigor", "created_utc": 1320554349.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;Come Monday morning, some one is going to
+      be pretty smug at Allclad Stainless. \"See I told you it would be successful
+      to call it a Butter Warmer! Just look at all these hits we had over the weekend!\"&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xfp1w", "likes":
+      null, "replies": "", "id": "c2xg24r", "subreddit": "pics", "ups": 12, "name":
+      "t1_c2xg24r"}}, {"kind": "t1", "data": {"body": "The difference is that the
+      All-Clad is a tiny pot. You''d never melt even a half quart of butter, but when
+      you are melting butter, you want some space at the top of the pot for foam.\n\nI
+      own one. It''s very good for melting butter with garlic and herbs without burning
+      it.", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created":
+      1320581128.0, "author_flair_text": null, "downs": 0, "author": "Dipsomaniac",
+      "created_utc": 1320555928.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;The
+      difference is that the All-Clad is a tiny pot. You''d never melt even a half
+      quart of butter, but when you are melting butter, you want some space at the
+      top of the pot for foam.&lt;/p&gt;\n\n&lt;p&gt;I own one. It''s very good for
+      melting butter with garlic and herbs without burning it.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xfp1w", "likes":
+      null, "replies": "", "id": "c2xg8eo", "subreddit": "pics", "ups": 4, "name":
+      "t1_c2xg8eo"}}], "after": null, "before": null}}, "id": "c2xfp1w", "subreddit":
+      "pics", "ups": 17, "name": "t1_c2xfp1w"}}, {"kind": "t1", "data": {"body": "And
+      it''s also a WEAPON.", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320568154.0, "author_flair_text": null, "downs": 0, "author":
+      "DV8R", "created_utc": 1320542954.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;And
+      it''s also a WEAPON.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id":
+      "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies": {"kind": "Listing",
+      "data": {"modhash": "", "children": [{"kind": "more", "data": {"name": "t1_c2xg3xl",
+      "id": "c2xg3xl"}}], "after": null, "before": null}}, "id": "c2xennr", "subreddit":
+      "pics", "ups": 9, "name": "t1_c2xennr"}}, {"kind": "t1", "data": {"body": "It''s
+      the perfect size for that stick of butter i need on my toast every morning!
+      ", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created": 1320575563.0,
+      "author_flair_text": null, "downs": 0, "author": "KimmieK", "created_utc": 1320550363.0,
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;It''s the perfect size for that
+      stick of butter i need on my toast every morning!&lt;/p&gt;&lt;/div&gt;", "levenshtein":
+      null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies":
+      {"kind": "Listing", "data": {"modhash": "", "children": [{"kind": "more", "data":
+      {"name": "t1_c2xg55q", "id": "c2xg55q"}}], "after": null, "before": null}},
+      "id": "c2xfl3g", "subreddit": "pics", "ups": 8, "name": "t1_c2xfl3g"}}, {"kind":
+      "t1", "data": {"body": "Why would a butter warmer need to be nonstick?", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320578672.0, "author_flair_text":
+      null, "downs": 1, "author": "jknecht", "created_utc": 1320553472.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;Why would a butter warmer need to be nonstick?&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "t1", "data": {"body": "So that the block of cheese that you''re melting in
+      the quart of butter doesn''t stick to the sides.", "subreddit_id": "t5_2qh0u",
+      "author_flair_css_class": null, "created": 1320580939.0, "author_flair_text":
+      null, "downs": 0, "author": "rabidhamster", "created_utc": 1320555739.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;So that the block of cheese that you''re melting
+      in the quart of butter doesn''t stick to the sides.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xfyny", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "more", "data": {"name": "t1_c2xgid8", "id": "c2xgid8"}}], "after": null, "before":
+      null}}, "id": "c2xg7o6", "subreddit": "pics", "ups": 6, "name": "t1_c2xg7o6"}}],
+      "after": null, "before": null}}, "id": "c2xfyny", "subreddit": "pics", "ups":
+      9, "name": "t1_c2xfyny"}}, {"kind": "t1", "data": {"body": "I''d love to see
+      a run-down of kitchen utensils and tools from her point of view.", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320579020.0, "author_flair_text":
+      null, "downs": 0, "author": "cauldcuts", "created_utc": 1320553820.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;I''d love to see a run-down of kitchen utensils
+      and tools from her point of view.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null,
+      "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies": {"kind":
+      "Listing", "data": {"modhash": "", "children": [{"kind": "more", "data": {"name":
+      "t1_c2xg4bk", "id": "c2xg4bk"}}], "after": null, "before": null}}, "id": "c2xfzxu",
+      "subreddit": "pics", "ups": 8, "name": "t1_c2xfzxu"}}, {"kind": "t1", "data":
+      {"body": "Paula pot, preferred cookware of the Khmer Rouge", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320579725.0, "author_flair_text":
+      null, "downs": 0, "author": "sneakynotsneaky", "created_utc": 1320554525.0,
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Paula pot, preferred cookware
+      of the Khmer Rouge&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5",
+      "parent_id": "t3_m1yc5", "likes": null, "replies": "", "id": "c2xg2ua", "subreddit":
+      "pics", "ups": 7, "name": "t1_c2xg2ua"}}, {"kind": "t1", "data": {"body": "**HAY
+      YA''LL**", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created":
+      1320578418.0, "author_flair_text": null, "downs": 6, "author": "kaptainkaos",
+      "created_utc": 1320553218.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;&lt;strong&gt;HAY
+      YA''LL&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id":
+      "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies": {"kind": "Listing",
+      "data": {"modhash": "", "children": [{"kind": "t1", "data": {"body": "It''s
+      \"y''all\", you dolt, and the Bulldogs won today!  [Holla!](http://velocity.t-nation.com/forum_images/9/9/995098.1143735311441.Jamie_Bobby_Deen,_Paula_Deens_sons.jpg)",
+      "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created": 1320579563.0,
+      "author_flair_text": null, "downs": 2, "author": "aureo", "created_utc": 1320554363.0,
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;It''s \"y''all\", you dolt, and
+      the Bulldogs won today!  &lt;a href=\"http://velocity.t-nation.com/forum_images/9/9/995098.1143735311441.Jamie_Bobby_Deen,_Paula_Deens_sons.jpg\"
+      &gt;Holla!&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id":
+      "t3_m1yc5", "parent_id": "t1_c2xfxly", "likes": null, "replies": {"kind": "Listing",
+      "data": {"modhash": "", "children": [{"kind": "t1", "data": {"body": "BUTT CHINS
+      FOR EVERYONE!", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null,
+      "created": 1320582008.0, "author_flair_text": null, "downs": 0, "author": "TwoDeuces",
+      "created_utc": 1320556808.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;BUTT
+      CHINS FOR EVERYONE!&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id":
+      "t3_m1yc5", "parent_id": "t1_c2xg26y", "likes": null, "replies": "", "id": "c2xgbzg",
+      "subreddit": "pics", "ups": 6, "name": "t1_c2xgbzg"}}], "after": null, "before":
+      null}}, "id": "c2xg26y", "subreddit": "pics", "ups": 12, "name": "t1_c2xg26y"}},
+      {"kind": "t1", "data": {"body": "Y''all \n\n(you+all-ou=y''all)\n\n*:)", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320579728.0, "author_flair_text":
+      null, "downs": 2, "author": "sapzilla", "created_utc": 1320554528.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;Y''all&lt;/p&gt;\n\n&lt;p&gt;(you+all-ou=y''all)&lt;/p&gt;\n\n&lt;p&gt;*:)&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xfxly", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "more", "data": {"name": "t1_c2xgksk", "id": "c2xgksk"}}], "after": null, "before":
+      null}}, "id": "c2xg2uw", "subreddit": "pics", "ups": 8, "name": "t1_c2xg2uw"}},
+      {"kind": "more", "data": {"name": "t1_c2xgml8", "id": "c2xgml8"}}], "after":
+      null, "before": null}}, "id": "c2xfxly", "subreddit": "pics", "ups": 25, "name":
+      "t1_c2xfxly"}}, {"kind": "t1", "data": {"body": "\"Butter warmer\" \n\nNow that''s
+      how you sell in America right there.", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320568921.0, "author_flair_text": null, "downs": 27, "author":
+      "Hotwir3", "created_utc": 1320543721.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;\"Butter
+      warmer\"&lt;/p&gt;\n\n&lt;p&gt;Now that''s how you sell in America right there.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "t1", "data": {"body": "\"\"JUMBO Butter warmer\"\nNow that''s how you sell
+      in America right there.\"\n\nFTFY", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320575998.0, "author_flair_text": null, "downs": 12, "author":
+      "TheLoveTin", "created_utc": 1320550798.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;\"\"JUMBO
+      Butter warmer\"\nNow that''s how you sell in America right there.\"&lt;/p&gt;\n\n&lt;p&gt;FTFY&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xer04", "likes":
+      null, "replies": "", "id": "c2xfmyr", "subreddit": "pics", "ups": 49, "name":
+      "t1_c2xfmyr"}}, {"kind": "more", "data": {"name": "t1_c2xgs5f", "id": "c2xgs5f"}}],
+      "after": null, "before": null}}, "id": "c2xer04", "subreddit": "pics", "ups":
+      85, "name": "t1_c2xer04"}}, {"kind": "t1", "data": {"body": "I feel like at
+      this point she''s just trolling us", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320577547.0, "author_flair_text": null, "downs": 0, "author":
+      "soggywaffle", "created_utc": 1320552347.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I
+      feel like at this point she''s just trolling us&lt;/p&gt;&lt;/div&gt;", "levenshtein":
+      null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies":
+      {"kind": "Listing", "data": {"modhash": "", "children": [{"kind": "more", "data":
+      {"name": "t1_c2xgs9y", "id": "c2xgs9y"}}], "after": null, "before": null}},
+      "id": "c2xfttm", "subreddit": "pics", "ups": 6, "name": "t1_c2xfttm"}}, {"kind":
+      "t1", "data": {"body": "Anyone else get an Earthbound vibe before you read the
+      label?", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created":
+      1320576064.0, "author_flair_text": null, "downs": 0, "author": "ImASoftwareEngineer",
+      "created_utc": 1320550864.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Anyone
+      else get an Earthbound vibe before you read the label?&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "t1", "data": {"body": "Yes! I dressed as Paula from Earthbound this Halloween.
+      Best game from my childhood. :3\n\nOhsnipsnap became impressed! It left a present!
+      Inside the present was an upvote!\n", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320580029.0, "author_flair_text": null, "downs": 1, "author":
+      "ohsnipsnap", "created_utc": 1320554829.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Yes!
+      I dressed as Paula from Earthbound this Halloween. Best game from my childhood.
+      :3&lt;/p&gt;\n\n&lt;p&gt;Ohsnipsnap became impressed! It left a present! Inside
+      the present was an upvote!&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id":
+      "t3_m1yc5", "parent_id": "t1_c2xfn8s", "likes": null, "replies": "", "id": "c2xg43t",
+      "subreddit": "pics", "ups": 5, "name": "t1_c2xg43t"}}, {"kind": "more", "data":
+      {"name": "t1_c2xg9jk", "id": "c2xg9jk"}}], "after": null, "before": null}},
+      "id": "c2xfn8s", "subreddit": "pics", "ups": 5, "name": "t1_c2xfn8s"}}, {"kind":
+      "t1", "data": {"body": "This would be funny if \"Butter Warmer\" wasn''t just
+      a cutesy name she gave her pan. I''m worried that the OP might actually think
+      that they are really just marketing this as a butter warmer or something like
+      that.", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created":
+      1320581808.0, "author_flair_text": null, "downs": 0, "author": "liverpoop",
+      "created_utc": 1320556608.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;This
+      would be funny if \"Butter Warmer\" wasn''t just a cutesy name she gave her
+      pan. I''m worried that the OP might actually think that they are really just
+      marketing this as a butter warmer or something like that.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "t1", "data": {"body": "Are we sure it isn''t a special pan like an omlette
+      pan, that has an air space in the bottom to prevent scalding?", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320582329.0, "author_flair_text":
+      null, "downs": 0, "author": "I0I0I0I", "created_utc": 1320557129.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;Are we sure it isn''t a special pan like an
+      omlette pan, that has an air space in the bottom to prevent scalding?&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xgb5k", "likes":
+      null, "replies": "", "id": "c2xgd71", "subreddit": "pics", "ups": 3, "name":
+      "t1_c2xgd71"}}], "after": null, "before": null}}, "id": "c2xgb5k", "subreddit":
+      "pics", "ups": 4, "name": "t1_c2xgb5k"}}, {"kind": "t1", "data": {"body": "Actually
+      it''s a pan.", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created":
+      1320577266.0, "author_flair_text": null, "downs": 2, "author": "AfroKona", "created_utc":
+      1320552066.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Actually it''s
+      a pan.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5", "parent_id":
+      "t3_m1yc5", "likes": null, "replies": "", "id": "c2xfskg", "subreddit": "pics",
+      "ups": 7, "name": "t1_c2xfskg"}}, {"kind": "t1", "data": {"body": "Isn''t that
+      a pan? I thought the difference was number of handles.", "subreddit_id": "t5_2qh0u",
+      "author_flair_css_class": null, "created": 1320577268.0, "author_flair_text":
+      null, "downs": 0, "author": "johnmcawesome", "created_utc": 1320552068.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;Isn''t that a pan? I thought the difference
+      was number of handles.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id":
+      "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies": "", "id": "c2xfskv",
+      "subreddit": "pics", "ups": 3, "name": "t1_c2xfskv"}}, {"kind": "t1", "data":
+      {"body": "No it''s a pot butter warmer.", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320578183.0, "author_flair_text": null, "downs": 0, "author":
+      "rustyshacklefurt", "created_utc": 1320552983.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;No
+      it''s a pot butter warmer.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id":
+      "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies": "", "id": "c2xfwl9",
+      "subreddit": "pics", "ups": 3, "name": "t1_c2xfwl9"}}, {"kind": "t1", "data":
+      {"body": "Meh, it''s only one quart.  I''d really only use it for melting butter
+      or re-heating single servings of soup.  Even my sauce pan is two quarts.", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320578527.0, "author_flair_text":
+      null, "downs": 1, "author": "nefffffffffff", "created_utc": 1320553327.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;Meh, it''s only one quart.  I''d really only
+      use it for melting butter or re-heating single servings of soup.  Even my sauce
+      pan is two quarts.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5",
+      "parent_id": "t3_m1yc5", "likes": null, "replies": {"kind": "Listing", "data":
+      {"modhash": "", "children": [{"kind": "more", "data": {"name": "t1_c2xg38e",
+      "id": "c2xg38e"}}], "after": null, "before": null}}, "id": "c2xfy2s", "subreddit":
+      "pics", "ups": 2, "name": "t1_c2xfy2s"}}, {"kind": "t1", "data": {"body": "Oh
+      well, [I give up.](http://www.reddit.com/r/funny/comments/lmp18/i_cant_take_her_seriously_anymore/)",
+      "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created": 1320580619.0,
+      "author_flair_text": null, "downs": 0, "author": "mace9984", "created_utc":
+      1320555419.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Oh well, &lt;a
+      href=\"http://www.reddit.com/r/funny/comments/lmp18/i_cant_take_her_seriously_anymore/\"
+      &gt;I give up.&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id":
+      "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies": "", "id": "c2xg6hv",
+      "subreddit": "pics", "ups": 3, "name": "t1_c2xg6hv"}}, {"kind": "t1", "data":
+      {"body": "You know Paula''s titties be lactating heavy cream.", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320581790.0, "author_flair_text":
+      null, "downs": 0, "author": "phantasma186", "created_utc": 1320556590.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;You know Paula''s titties be lactating heavy
+      cream.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5", "parent_id":
+      "t3_m1yc5", "likes": null, "replies": "", "id": "c2xgb2g", "subreddit": "pics",
+      "ups": 3, "name": "t1_c2xgb2g"}}, {"kind": "t1", "data": {"body": "Hey Y''all.
+      I can''t fucking making things taste good unless I add a bunch of fat. ", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320582657.0, "author_flair_text":
+      null, "downs": 0, "author": "arcyn", "created_utc": 1320557457.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;Hey Y''all. I can''t fucking making things
+      taste good unless I add a bunch of fat.&lt;/p&gt;&lt;/div&gt;", "levenshtein":
+      null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies":
+      "", "id": "c2xgefv", "subreddit": "pics", "ups": 3, "name": "t1_c2xgefv"}},
+      {"kind": "t1", "data": {"body": "Actually, its a topless cylinder, if you really
+      want to be accurate.\n", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320568490.0, "author_flair_text": null, "downs": 5, "author":
+      "mmmmCake", "created_utc": 1320543290.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Actually,
+      its a topless cylinder, if you really want to be accurate.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "t1", "data": {"body": "no thats a circle, a topless cylinder is something you
+      pleasure a woman with", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320575351.0, "author_flair_text": null, "downs": 5, "author":
+      "noggleberry", "created_utc": 1320550151.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;no
+      thats a circle, a topless cylinder is something you pleasure a woman with&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xep5t", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "t1", "data": {"body": "No, that''s an upside down male vacuum pump.  You pleasure
+      a woman with a new BMW.", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320575726.0, "author_flair_text": null, "downs": 5, "author":
+      "TheTalentedAmateur", "created_utc": 1320550526.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;No,
+      that''s an upside down male vacuum pump.  You pleasure a woman with a new BMW.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xfk4t", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "t1", "data": {"body": "This chat has become unproductive. I''m going to disconnect
+      now.", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created":
+      1320578124.0, "author_flair_text": null, "downs": 1, "author": "youcannotpass",
+      "created_utc": 1320552924.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;This
+      chat has become unproductive. I''m going to disconnect now.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t1_c2xfls6", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "t1", "data": {"body": "Wait, wait! I''ve found my robe and wizard hat!", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320579233.0, "author_flair_text":
+      null, "downs": 1, "author": "nemec", "created_utc": 1320554033.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;Wait, wait! I''ve found my robe and wizard
+      hat!&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5", "parent_id":
+      "t1_c2xfwc1", "likes": null, "replies": "", "id": "c2xg0s6", "subreddit": "pics",
+      "ups": 5, "name": "t1_c2xg0s6"}}, {"kind": "more", "data": {"name": "t1_c2xg1v8",
+      "id": "c2xg1v8"}}], "after": null, "before": null}}, "id": "c2xfwc1", "subreddit":
+      "pics", "ups": 8, "name": "t1_c2xfwc1"}}], "after": null, "before": null}},
+      "id": "c2xfls6", "subreddit": "pics", "ups": 15, "name": "t1_c2xfls6"}}], "after":
+      null, "before": null}}, "id": "c2xfk4t", "subreddit": "pics", "ups": 8, "name":
+      "t1_c2xfk4t"}}], "after": null, "before": null}}, "id": "c2xep5t", "subreddit":
+      "pics", "ups": 10, "name": "t1_c2xep5t"}}, {"kind": "t1", "data": {"body": "I
+      can''t fucking stand that woman.  She has the most fake smile on the planet,
+      fucking bug eyed ''southern'' freak.  I use ''southern'' in quotes because she
+      plays up the southern belle stereotype to push her horrible, horrible persona
+      on Walfuckingmart cheap cookware.  She''s a pox on society.  ", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320578921.0, "author_flair_text":
+      null, "downs": 5, "author": "ChoadFarmer", "created_utc": 1320553721.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;I can''t fucking stand that woman.  She has
+      the most fake smile on the planet, fucking bug eyed ''southern'' freak.  I use
+      ''southern'' in quotes because she plays up the southern belle stereotype to
+      push her horrible, horrible persona on Walfuckingmart cheap cookware.  She''s
+      a pox on society.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5",
+      "parent_id": "t3_m1yc5", "likes": null, "replies": {"kind": "Listing", "data":
+      {"modhash": "", "children": [{"kind": "t1", "data": {"body": "She''s Paula Dean,
+      y''all!", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created":
+      1320580151.0, "author_flair_text": null, "downs": 0, "author": "dmcnelly", "created_utc":
+      1320554951.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;She''s Paula Dean,
+      y''all!&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5",
+      "parent_id": "t1_c2xfzm5", "likes": null, "replies": "", "id": "c2xg4lj", "subreddit":
+      "pics", "ups": 4, "name": "t1_c2xg4lj"}}, {"kind": "more", "data": {"name":
+      "t1_c2xgtbk", "id": "c2xgtbk"}}], "after": null, "before": null}}, "id": "c2xfzm5",
+      "subreddit": "pics", "ups": 8, "name": "t1_c2xfzm5"}}, {"kind": "t1", "data":
+      {"body": "... says the kettle.", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320571759.0, "author_flair_text": null, "downs": 0, "author":
+      "pockkets", "created_utc": 1320546559.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;...
+      says the kettle.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5",
+      "parent_id": "t3_m1yc5", "likes": null, "replies": "", "id": "c2xf40v", "subreddit":
+      "pics", "ups": 2, "name": "t1_c2xf40v"}}, {"kind": "t1", "data": {"body": "It''s
+      nonstick because it melts the butter.", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320577506.0, "author_flair_text": null, "downs": 0, "author":
+      "BoreasBlack", "created_utc": 1320552306.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;It''s
+      nonstick because it melts the butter.&lt;/p&gt;&lt;/div&gt;", "levenshtein":
+      null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies":
+      "", "id": "c2xftmu", "subreddit": "pics", "ups": 1, "name": "t1_c2xftmu"}},
+      {"kind": "t1", "data": {"body": "OP should read \"No, paula. It''s pot.\"",
+      "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created": 1320577685.0,
+      "author_flair_text": null, "downs": 0, "author": "5larm", "created_utc": 1320552485.0,
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;OP should read \"No, paula. It''s
+      pot.\"&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5", "parent_id":
+      "t3_m1yc5", "likes": null, "replies": "", "id": "c2xfuf8", "subreddit": "pics",
+      "ups": 2, "name": "t1_c2xfuf8"}}, {"kind": "t1", "data": {"body": "Ok, where
+      is this magnificent place. I am way overpaying for my hot sauces and need to
+      re-up on a few. [Please help?](http://www.youtube.com/watch?v=HxDZE_rm5l4)",
+      "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created": 1320577821.0,
+      "author_flair_text": null, "downs": 0, "author": "FistfulOfDollHairs", "created_utc":
+      1320552621.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Ok, where is this
+      magnificent place. I am way overpaying for my hot sauces and need to re-up on
+      a few. &lt;a href=\"http://www.youtube.com/watch?v=HxDZE_rm5l4\" &gt;Please
+      help?&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5",
+      "parent_id": "t3_m1yc5", "likes": null, "replies": "", "id": "c2xfv0q", "subreddit":
+      "pics", "ups": 1, "name": "t1_c2xfv0q"}}, {"kind": "t1", "data": {"body": "I
+      think the difference is the side dip to allow for pouring that a \"pot\" does
+      not have.....", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null,
+      "created": 1320578377.0, "author_flair_text": null, "downs": 0, "author": "chronicdr2000",
+      "created_utc": 1320553177.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I
+      think the difference is the side dip to allow for pouring that a \"pot\" does
+      not have.....&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5",
+      "parent_id": "t3_m1yc5", "likes": null, "replies": "", "id": "c2xfxfa", "subreddit":
+      "pics", "ups": 2, "name": "t1_c2xfxfa"}}, {"kind": "t1", "data": {"body": "I
+      use mine to make butter smoothies!", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320578710.0, "author_flair_text": null, "downs": 0, "author":
+      "ChoadFarmer", "created_utc": 1320553510.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I
+      use mine to make butter smoothies!&lt;/p&gt;&lt;/div&gt;", "levenshtein": null,
+      "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies": "",
+      "id": "c2xfyua", "subreddit": "pics", "ups": 2, "name": "t1_c2xfyua"}}, {"kind":
+      "t1", "data": {"body": "Unlike the homeless, who may not have a pot to piss
+      in, Paula Deen has several, for that specific purpose as well as many others.",
+      "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created": 1320579048.0,
+      "author_flair_text": null, "downs": 0, "author": "barbarbinx", "created_utc":
+      1320553848.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Unlike the homeless,
+      who may not have a pot to piss in, Paula Deen has several, for that specific
+      purpose as well as many others.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null,
+      "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies": {"kind":
+      "Listing", "data": {"modhash": "", "children": [{"kind": "more", "data": {"name":
+      "t1_c2xgk9n", "id": "c2xgk9n"}}], "after": null, "before": null}}, "id": "c2xg01q",
+      "subreddit": "pics", "ups": 2, "name": "t1_c2xg01q"}}, {"kind": "t1", "data":
+      {"body": "GODDAM.", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null,
+      "created": 1320579433.0, "author_flair_text": null, "downs": 0, "author": "neightdog",
+      "created_utc": 1320554233.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;GODDAM.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes":
+      null, "replies": "", "id": "c2xg1mp", "subreddit": "pics", "ups": 1, "name":
+      "t1_c2xg1mp"}}, {"kind": "t1", "data": {"body": "There are a lot of things that
+      make me proud to be a part of America, Paula is not one of them.", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320579454.0, "author_flair_text":
+      null, "downs": 0, "author": "Helmut2009", "created_utc": 1320554254.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;There are a lot of things that make me proud
+      to be a part of America, Paula is not one of them.&lt;/p&gt;&lt;/div&gt;", "levenshtein":
+      null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies":
+      "", "id": "c2xg1q7", "subreddit": "pics", "ups": 1, "name": "t1_c2xg1q7"}},
+      {"kind": "t1", "data": {"body": "Saw pot and automatically assumed r/trees..
+      Was a little disappointed..", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320579948.0, "author_flair_text": null, "downs": 0, "author":
+      "KlamzXtreme", "created_utc": 1320554748.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Saw
+      pot and automatically assumed r/trees.. Was a little disappointed..&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes":
+      null, "replies": "", "id": "c2xg3s6", "subreddit": "pics", "ups": 2, "name":
+      "t1_c2xg3s6"}}, {"kind": "t1", "data": {"body": "The real issue here is, why
+      would anyone need to melt a quart of butter?", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320580032.0, "author_flair_text": null, "downs": 0, "author":
+      "heavyJam", "created_utc": 1320554832.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;The
+      real issue here is, why would anyone need to melt a quart of butter?&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes":
+      null, "replies": "", "id": "c2xg449", "subreddit": "pics", "ups": 1, "name":
+      "t1_c2xg449"}}, {"kind": "t1", "data": {"body": "[I''m Sandra Lee](https://www.youtube.com/watch?v=RLMNZ6xY6YY)
+      and [this](http://www.amazon.com/Luminarc-Quadro-2-Quart-57-Ounce-Pitcher/dp/B0013ZCQ44/ref=sr_1_4?ie=UTF8&amp;qid=1320554806&amp;sr=8-4)
+      is my Semi-Home Made^TM Drinking Cup.", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320580041.0, "author_flair_text": null, "downs": 0, "author":
+      "gospelwut", "created_utc": 1320554841.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;&lt;a
+      href=\"https://www.youtube.com/watch?v=RLMNZ6xY6YY\" &gt;I''m Sandra Lee&lt;/a&gt;
+      and &lt;a href=\"http://www.amazon.com/Luminarc-Quadro-2-Quart-57-Ounce-Pitcher/dp/B0013ZCQ44/ref=sr_1_4?ie=UTF8&amp;amp;qid=1320554806&amp;amp;sr=8-4\"
+      &gt;this&lt;/a&gt; is my Semi-Home Made&lt;sup&gt;TM&lt;/sup&gt; Drinking Cup.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes":
+      null, "replies": "", "id": "c2xg45l", "subreddit": "pics", "ups": 1, "name":
+      "t1_c2xg45l"}}, {"kind": "t1", "data": {"body": "That is a pan.", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320580093.0, "author_flair_text":
+      null, "downs": 0, "author": "evilpoptart", "created_utc": 1320554893.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;That is a pan.&lt;/p&gt;&lt;/div&gt;", "levenshtein":
+      null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies":
+      "", "id": "c2xg4do", "subreddit": "pics", "ups": 1, "name": "t1_c2xg4do"}},
+      {"kind": "t1", "data": {"body": "Paula Dean cannot do anything without butter.
+      ", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created": 1320580226.0,
+      "author_flair_text": null, "downs": 0, "author": "dudewazup654", "created_utc":
+      1320555026.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Paula Dean cannot
+      do anything without butter.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id":
+      "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies": "", "id": "c2xg4x3",
+      "subreddit": "pics", "ups": 1, "name": "t1_c2xg4x3"}}, {"kind": "t1", "data":
+      {"body": "ummm so guys if you buy me a qt of butter i will heat it up and drink
+      it all just sayin", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null,
+      "created": 1320580291.0, "author_flair_text": null, "downs": 1, "author": "achillies47",
+      "created_utc": 1320555091.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;ummm
+      so guys if you buy me a qt of butter i will heat it up and drink it all just
+      sayin&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5", "parent_id":
+      "t3_m1yc5", "likes": null, "replies": "", "id": "c2xg56l", "subreddit": "pics",
+      "ups": 1, "name": "t1_c2xg56l"}}, {"kind": "t1", "data": {"body": "Hahaha, I
+      cook for a living and stick with my Calphalon stuff for the most part.  You
+      can pretty much do anything you want at home with three pieces of equip.. a
+      stock pot, a sauce pan, and a 10\" skillet.  Buy the best you can afford, cook
+      away!", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created":
+      1320580382.0, "author_flair_text": null, "downs": 0, "author": "sigsinthecity",
+      "created_utc": 1320555182.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Hahaha,
+      I cook for a living and stick with my Calphalon stuff for the most part.  You
+      can pretty much do anything you want at home with three pieces of equip.. a
+      stock pot, a sauce pan, and a 10\" skillet.  Buy the best you can afford, cook
+      away!&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5", "parent_id":
+      "t3_m1yc5", "likes": null, "replies": "", "id": "c2xg5jx", "subreddit": "pics",
+      "ups": 1, "name": "t1_c2xg5jx"}}, {"kind": "t1", "data": {"body": "This is just
+      awesomely consistent product branding right here. Paula Deen = Butter Queen.
+      ", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created": 1320580545.0,
+      "author_flair_text": null, "downs": 0, "author": "chelac", "created_utc": 1320555345.0,
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;This is just awesomely consistent
+      product branding right here. Paula Deen = Butter Queen.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes":
+      null, "replies": "", "id": "c2xg66o", "subreddit": "pics", "ups": 2, "name":
+      "t1_c2xg66o"}}, {"kind": "t1", "data": {"body": "haha, is funny because she''s
+      fat and southern.", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null,
+      "created": 1320580683.0, "author_flair_text": null, "downs": 0, "author": "phantomneko",
+      "created_utc": 1320555483.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;haha,
+      is funny because she''s fat and southern.&lt;/p&gt;&lt;/div&gt;", "levenshtein":
+      null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies":
+      "", "id": "c2xg6py", "subreddit": "pics", "ups": 1, "name": "t1_c2xg6py"}},
+      {"kind": "t1", "data": {"body": "Oh. I actually thought the joke was that this
+      *pot* would be good for making marijuana butter. ", "subreddit_id": "t5_2qh0u",
+      "author_flair_css_class": null, "created": 1320580791.0, "author_flair_text":
+      null, "downs": 0, "author": "Ferniff", "created_utc": 1320555591.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;Oh. I actually thought the joke was that this
+      &lt;em&gt;pot&lt;/em&gt; would be good for making marijuana butter.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes":
+      null, "replies": "", "id": "c2xg74v", "subreddit": "pics", "ups": 2, "name":
+      "t1_c2xg74v"}}, {"kind": "t1", "data": {"body": "You''re both wrong. It''s a
+      pan.", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created":
+      1320581320.0, "author_flair_text": null, "downs": 1, "author": "schluecker",
+      "created_utc": 1320556120.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;You''re
+      both wrong. It''s a pan.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id":
+      "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies": {"kind": "Listing",
+      "data": {"modhash": "", "children": [{"kind": "more", "data": {"name": "t1_c2xggjd",
+      "id": "c2xggjd"}}], "after": null, "before": null}}, "id": "c2xg978", "subreddit":
+      "pics", "ups": 1, "name": "t1_c2xg978"}}, {"kind": "t1", "data": {"body": "Paula
+      Deen looks eerily similar to my dad''s new wife. My dad remarried in 2004, after
+      my mom died. I haven''t had cable tv for years (all tv programs streamed in
+      our house), so I had no idea who Paula Deen was. One day in 2007, I''m walking
+      through the store during the holiday season, and my stepmom''s face is plastered
+      all over the magazines and cookware. Even trippier? Stepmom is a brilliant fucking
+      cook. It weirded me out so bad at first glance, and even after a closer look
+      ascertained that my stepmom had not, in fact, become famous and failed to mention
+      it to anyone, the resemblance remains creepy as fuck.\n\nThey''ve got the same
+      hair. Same face. Same creepy, empty gaze and fake friendly smile. They''re like
+      soulless, frightening twins.", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320581405.0, "author_flair_text": null, "downs": 0, "author":
+      "Mephistia", "created_utc": 1320556205.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Paula
+      Deen looks eerily similar to my dad''s new wife. My dad remarried in 2004, after
+      my mom died. I haven''t had cable tv for years (all tv programs streamed in
+      our house), so I had no idea who Paula Deen was. One day in 2007, I''m walking
+      through the store during the holiday season, and my stepmom''s face is plastered
+      all over the magazines and cookware. Even trippier? Stepmom is a brilliant fucking
+      cook. It weirded me out so bad at first glance, and even after a closer look
+      ascertained that my stepmom had not, in fact, become famous and failed to mention
+      it to anyone, the resemblance remains creepy as fuck.&lt;/p&gt;\n\n&lt;p&gt;They''ve
+      got the same hair. Same face. Same creepy, empty gaze and fake friendly smile.
+      They''re like soulless, frightening twins.&lt;/p&gt;&lt;/div&gt;", "levenshtein":
+      null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies":
+      "", "id": "c2xg9jz", "subreddit": "pics", "ups": 2, "name": "t1_c2xg9jz"}},
+      {"kind": "t1", "data": {"body": "Mother fucker I saw this as the store the other
+      day. When I saw this post I pointed it out to my boyfriend and cursed myself
+      for not posting it. Of COURSE it would end up on the front page.", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320581461.0, "author_flair_text":
+      null, "downs": 0, "author": "ashleyrenae592", "created_utc": 1320556261.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;Mother fucker I saw this as the store the
+      other day. When I saw this post I pointed it out to my boyfriend and cursed
+      myself for not posting it. Of COURSE it would end up on the front page.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes":
+      null, "replies": "", "id": "c2xg9re", "subreddit": "pics", "ups": 1, "name":
+      "t1_c2xg9re"}}, {"kind": "t1", "data": {"body": "Relevant twitter: http://twitter.com/#!/PaulaDeenVagina",
+      "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created": 1320581797.0,
+      "author_flair_text": null, "downs": 0, "author": "GeorgeTaylorG", "created_utc":
+      1320556597.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Relevant twitter:
+      &lt;a href=\"http://twitter.com/#!/PaulaDeenVagina\" &gt;http://twitter.com/#!/PaulaDeenVagina&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes":
+      null, "replies": {"kind": "Listing", "data": {"modhash": "", "children": [{"kind":
+      "more", "data": {"name": "t1_c2xgggz", "id": "c2xgggz"}}], "after": null, "before":
+      null}}, "id": "c2xgb3u", "subreddit": "pics", "ups": 1, "name": "t1_c2xgb3u"}},
+      {"kind": "t1", "data": {"body": "God, I love Paula Deen. ", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320581805.0, "author_flair_text":
+      null, "downs": 0, "author": "luckyjinxer", "created_utc": 1320556605.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;God, I love Paula Deen.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes":
+      null, "replies": "", "id": "c2xgb53", "subreddit": "pics", "ups": 1, "name":
+      "t1_c2xgb53"}}, {"kind": "t1", "data": {"body": "No it''s a butter warmer",
+      "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created": 1320581899.0,
+      "author_flair_text": null, "downs": 0, "author": "donald347", "created_utc":
+      1320556699.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;No it''s a butter
+      warmer&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5", "parent_id":
+      "t3_m1yc5", "likes": null, "replies": "", "id": "c2xgbip", "subreddit": "pics",
+      "ups": 2, "name": "t1_c2xgbip"}}, {"kind": "t1", "data": {"body": "No ajoshw,
+      it''s a cannabis butter maker.", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320582247.0, "author_flair_text": null, "downs": 0, "author":
+      "I0I0I0I", "created_utc": 1320557047.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;No
+      ajoshw, it''s a cannabis butter maker.&lt;/p&gt;&lt;/div&gt;", "levenshtein":
+      null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies":
+      "", "id": "c2xgcwo", "subreddit": "pics", "ups": 2, "name": "t1_c2xgcwo"}},
+      {"kind": "t1", "data": {"body": "This is truly awesome.", "subreddit_id": "t5_2qh0u",
+      "author_flair_css_class": null, "created": 1320582410.0, "author_flair_text":
+      null, "downs": 0, "author": "ax255", "created_utc": 1320557210.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;This is truly awesome.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes":
+      null, "replies": "", "id": "c2xgdhy", "subreddit": "pics", "ups": 1, "name":
+      "t1_c2xgdhy"}}, {"kind": "t1", "data": {"body": "I see this everyday at work...dear
+      god\nEDIT: number 1 on home page...", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320582634.0, "author_flair_text": null, "downs": 0, "author":
+      "TheGreatGumbino", "created_utc": 1320557434.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;I
+      see this everyday at work...dear god\nEDIT: number 1 on home page...&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes":
+      null, "replies": "", "id": "c2xgecn", "subreddit": "pics", "ups": 1, "name":
+      "t1_c2xgecn"}}, {"kind": "t1", "data": {"body": "Well when you use as much butter
+      as she does, I''m sure you need a large \"Pot\" as you call it!", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320582643.0, "author_flair_text":
+      null, "downs": 0, "author": "keky1130", "created_utc": 1320557443.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;Well when you use as much butter as she does,
+      I''m sure you need a large \"Pot\" as you call it!&lt;/p&gt;&lt;/div&gt;", "levenshtein":
+      null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies":
+      "", "id": "c2xgeds", "subreddit": "pics", "ups": 1, "name": "t1_c2xgeds"}},
+      {"kind": "t1", "data": {"body": "But can it make hot ham water?", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320582667.0, "author_flair_text":
+      null, "downs": 0, "author": "PandaBearShenyu", "created_utc": 1320557467.0,
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;But can it make hot ham water?&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes":
+      null, "replies": "", "id": "c2xgeh7", "subreddit": "pics", "ups": 1, "name":
+      "t1_c2xgeh7"}}, {"kind": "t1", "data": {"body": "Oh Paula, you dummy.", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320582981.0, "author_flair_text":
+      null, "downs": 0, "author": "Poo_Stainz", "created_utc": 1320557781.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;Oh Paula, you dummy.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes":
+      null, "replies": "", "id": "c2xgfly", "subreddit": "pics", "ups": 1, "name":
+      "t1_c2xgfly"}}, {"kind": "t1", "data": {"body": "You also fail ajoshw that is
+      a pan. ", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created":
+      1320583487.0, "author_flair_text": null, "downs": 0, "author": "cdb03b", "created_utc":
+      1320558287.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;You also fail ajoshw
+      that is a pan.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5",
+      "parent_id": "t3_m1yc5", "likes": null, "replies": "", "id": "c2xghj7", "subreddit":
+      "pics", "ups": 1, "name": "t1_c2xghj7"}}, {"kind": "t1", "data": {"body": "Pot?
+      Where? ", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created":
+      1320583502.0, "author_flair_text": null, "downs": 0, "author": "highguy420",
+      "created_utc": 1320558302.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Pot?
+      Where?&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5", "parent_id":
+      "t3_m1yc5", "likes": null, "replies": "", "id": "c2xghlb", "subreddit": "pics",
+      "ups": 1, "name": "t1_c2xghlb"}}, {"kind": "t1", "data": {"body": "Is that a
+      quart of melted butter?  That''s right, you''re soaking in it.  ", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320583585.0, "author_flair_text":
+      null, "downs": 0, "author": "ms_rebel", "created_utc": 1320558385.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;Is that a quart of melted butter?  That''s
+      right, you''re soaking in it.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id":
+      "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies": "", "id": "c2xghwb",
+      "subreddit": "pics", "ups": 1, "name": "t1_c2xghwb"}}, {"kind": "t1", "data":
+      {"body": "Does she also sell toasters called \"bread warmers\" and spatulas
+      called \"food movement tools\"?", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320583816.0, "author_flair_text": null, "downs": 0, "author":
+      "iamandrus", "created_utc": 1320558616.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Does
+      she also sell toasters called \"bread warmers\" and spatulas called \"food movement
+      tools\"?&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5",
+      "parent_id": "t3_m1yc5", "likes": null, "replies": "", "id": "c2xgiqw", "subreddit":
+      "pics", "ups": 1, "name": "t1_c2xgiqw"}}, {"kind": "t1", "data": {"body": "Not
+      in the south, Yankee!", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320583962.0, "author_flair_text": null, "downs": 0, "author":
+      "mkultraman", "created_utc": 1320558762.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Not
+      in the south, Yankee!&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id":
+      "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies": "", "id": "c2xgj9t",
+      "subreddit": "pics", "ups": 1, "name": "t1_c2xgj9t"}}, {"kind": "t1", "data":
+      {"body": "Paula Dean and butter are like crack and chore boy.", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320584022.0, "author_flair_text":
+      null, "downs": 0, "author": "shamelessone", "created_utc": 1320558822.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;Paula Dean and butter are like crack and chore
+      boy.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5", "parent_id":
+      "t3_m1yc5", "likes": null, "replies": "", "id": "c2xgjhp", "subreddit": "pics",
+      "ups": 1, "name": "t1_c2xgjhp"}}, {"kind": "t1", "data": {"body": "Paula Dean
+      the Butter Queen", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null,
+      "created": 1320584110.0, "author_flair_text": null, "downs": 0, "author": "Sugar_D",
+      "created_utc": 1320558910.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Paula
+      Dean the Butter Queen&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id":
+      "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies": "", "id": "c2xgjum",
+      "subreddit": "pics", "ups": 1, "name": "t1_c2xgjum"}}, {"kind": "t1", "data":
+      {"body": "More like a butter melter. ", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320584132.0, "author_flair_text": null, "downs": 0, "author":
+      "pillage", "created_utc": 1320558932.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;More
+      like a butter melter.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id":
+      "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies": "", "id": "c2xgjx0",
+      "subreddit": "pics", "ups": 2, "name": "t1_c2xgjx0"}}, {"kind": "t1", "data":
+      {"body": "Honestly Monica, everybody knows...", "subreddit_id": "t5_2qh0u",
+      "author_flair_css_class": null, "created": 1320584267.0, "author_flair_text":
+      null, "downs": 0, "author": "ok_you_win", "created_utc": 1320559067.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;Honestly Monica, everybody knows...&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes":
+      null, "replies": "", "id": "c2xgker", "subreddit": "pics", "ups": 1, "name":
+      "t1_c2xgker"}}, {"kind": "t1", "data": {"body": "i used to work on her show",
+      "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created": 1320584281.0,
+      "author_flair_text": null, "downs": 0, "author": "Dr_Niles_Crane", "created_utc":
+      1320559081.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;i used to work
+      on her show&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5",
+      "parent_id": "t3_m1yc5", "likes": null, "replies": "", "id": "c2xgkgi", "subreddit":
+      "pics", "ups": 1, "name": "t1_c2xgkgi"}}, {"kind": "t1", "data": {"body": "1
+      quart isn''t a fucking pot. \n\nThis is a fucking [pot](http://static.fastcommerce.com/content/ff808081163c05b00116e91602554137/FreeMerchant/mainimages/KTSP30_800.jpg).
+      ", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created": 1320584711.0,
+      "author_flair_text": null, "downs": 0, "author": "BLACK_PHANTOM", "created_utc":
+      1320559511.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;1 quart isn''t
+      a fucking pot.&lt;/p&gt;\n\n&lt;p&gt;This is a fucking &lt;a href=\"http://static.fastcommerce.com/content/ff808081163c05b00116e91602554137/FreeMerchant/mainimages/KTSP30_800.jpg\"
+      &gt;pot&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5",
+      "parent_id": "t3_m1yc5", "likes": null, "replies": "", "id": "c2xgm3e", "subreddit":
+      "pics", "ups": 1, "name": "t1_c2xgm3e"}}, {"kind": "t1", "data": {"body": "lol,
+      they call it porcelaine, (this is old people talk for ceramics)", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320584842.0, "author_flair_text":
+      null, "downs": 0, "author": "shodanx", "created_utc": 1320559642.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;lol, they call it porcelaine, (this is old
+      people talk for ceramics)&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id":
+      "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies": "", "id": "c2xgmk7",
+      "subreddit": "pics", "ups": 1, "name": "t1_c2xgmk7"}}, {"kind": "t1", "data":
+      {"body": "Actually this is a margarine boiler.", "subreddit_id": "t5_2qh0u",
+      "author_flair_css_class": null, "created": 1320584874.0, "author_flair_text":
+      null, "downs": 0, "author": "monkeyrocket", "created_utc": 1320559674.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;Actually this is a margarine boiler.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes":
+      null, "replies": "", "id": "c2xgmo8", "subreddit": "pics", "ups": 1, "name":
+      "t1_c2xgmo8"}}, {"kind": "t1", "data": {"body": "ok mr. sense of humor", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320584940.0, "author_flair_text":
+      null, "downs": 0, "author": "RuddyBollocks", "created_utc": 1320559740.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;ok mr. sense of humor&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes":
+      null, "replies": "", "id": "c2xgmvt", "subreddit": "pics", "ups": 1, "name":
+      "t1_c2xgmvt"}}, {"kind": "t1", "data": {"body": "Fat Glutton who cooks as such.
+      Good example of what is wrong with America. IMHO she is the Nancy Grace of cooking
+      shows. ", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created":
+      1320585061.0, "author_flair_text": null, "downs": 0, "author": "RP_tipping_point",
+      "created_utc": 1320559861.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Fat
+      Glutton who cooks as such. Good example of what is wrong with America. IMHO
+      she is the Nancy Grace of cooking shows.&lt;/p&gt;&lt;/div&gt;", "levenshtein":
+      null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies":
+      "", "id": "c2xgnbn", "subreddit": "pics", "ups": 1, "name": "t1_c2xgnbn"}},
+      {"kind": "t1", "data": {"body": "it''s a gumbo bowl as far as I''m concerned
+      (if you are not bright gumbo is a sorta thick stew with varying seafood/meat
+      such as crab, chicken and sausage, crawfish and shrimp)", "subreddit_id": "t5_2qh0u",
+      "author_flair_css_class": null, "created": 1320585186.0, "author_flair_text":
+      null, "downs": 0, "author": "lookieausername", "created_utc": 1320559986.0,
+      "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;it''s a gumbo bowl as far as
+      I''m concerned (if you are not bright gumbo is a sorta thick stew with varying
+      seafood/meat such as crab, chicken and sausage, crawfish and shrimp)&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes":
+      null, "replies": "", "id": "c2xgnrk", "subreddit": "pics", "ups": 1, "name":
+      "t1_c2xgnrk"}}, {"kind": "t1", "data": {"body": "I guess nobody here has a sense
+      of humor... Or at least the submitter of this post...", "subreddit_id": "t5_2qh0u",
+      "author_flair_css_class": null, "created": 1320585245.0, "author_flair_text":
+      null, "downs": 0, "author": "guntario", "created_utc": 1320560045.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;I guess nobody here has a sense of humor...
+      Or at least the submitter of this post...&lt;/p&gt;&lt;/div&gt;", "levenshtein":
+      null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies":
+      "", "id": "c2xgnzf", "subreddit": "pics", "ups": 1, "name": "t1_c2xgnzf"}},
+      {"kind": "t1", "data": {"body": "Warm up that butter, fat ass!", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320585460.0, "author_flair_text":
+      null, "downs": 0, "author": "bluebirdblues", "created_utc": 1320560260.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;Warm up that butter, fat ass!&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes":
+      null, "replies": "", "id": "c2xgoqg", "subreddit": "pics", "ups": 1, "name":
+      "t1_c2xgoqg"}}, {"kind": "t1", "data": {"body": "How in the hell did this picture
+      become number 1 on my frontpage?", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320585480.0, "author_flair_text": null, "downs": 0, "author":
+      "mra99", "created_utc": 1320560280.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;How
+      in the hell did this picture become number 1 on my frontpage?&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes":
+      null, "replies": "", "id": "c2xgosv", "subreddit": "pics", "ups": 1, "name":
+      "t1_c2xgosv"}}, {"kind": "t1", "data": {"body": "Maybe it''s the Quaaludes.
+      \n\nhttp://www.youtube.com/watch?v=K1PsDyhNFBI&amp;feature=youtube_gdata_player
+      ", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created": 1320585537.0,
+      "author_flair_text": null, "downs": 0, "author": "blackstomach", "created_utc":
+      1320560337.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Maybe it''s the
+      Quaaludes.&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"http://www.youtube.com/watch?v=K1PsDyhNFBI&amp;amp;feature=youtube_gdata_player\"
+      &gt;http://www.youtube.com/watch?v=K1PsDyhNFBI&amp;amp;feature=youtube_gdata_player&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes":
+      null, "replies": "", "id": "c2xgp0i", "subreddit": "pics", "ups": 1, "name":
+      "t1_c2xgp0i"}}, {"kind": "t1", "data": {"body": "Paula Deen is disgusting. I
+      saw her make biscuits once. She used 2 full sticks of butter for 12 biscuits.
+      That is just wrong.", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320585590.0, "author_flair_text": null, "downs": 0, "author":
+      "portezbie", "created_utc": 1320560390.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Paula
+      Deen is disgusting. I saw her make biscuits once. She used 2 full sticks of
+      butter for 12 biscuits. That is just wrong.&lt;/p&gt;&lt;/div&gt;", "levenshtein":
+      null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies":
+      "", "id": "c2xgp74", "subreddit": "pics", "ups": 1, "name": "t1_c2xgp74"}},
+      {"kind": "t1", "data": {"body": "That dude loves budder.", "subreddit_id": "t5_2qh0u",
+      "author_flair_css_class": null, "created": 1320586001.0, "author_flair_text":
+      null, "downs": 0, "author": "YardenGarden", "created_utc": 1320560801.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;That dude loves budder.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes":
+      null, "replies": "", "id": "c2xgqo6", "subreddit": "pics", "ups": 1, "name":
+      "t1_c2xgqo6"}}, {"kind": "t1", "data": {"body": "[Leaving this here](http://www.youtube.com/watch?v=K1PsDyhNFBI)..
+      Apologies if already posted", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320586208.0, "author_flair_text": null, "downs": 0, "author":
+      "kpham", "created_utc": 1320561008.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;&lt;a
+      href=\"http://www.youtube.com/watch?v=K1PsDyhNFBI\" &gt;Leaving this here&lt;/a&gt;..
+      Apologies if already posted&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id":
+      "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies": "", "id": "c2xgrec",
+      "subreddit": "pics", "ups": 1, "name": "t1_c2xgrec"}}, {"kind": "t1", "data":
+      {"body": "Uh, Paulas right. Those are what butter warmers look like. Downvoted
+      for ignorance.", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null,
+      "created": 1320586221.0, "author_flair_text": null, "downs": 0, "author": "NoBullet",
+      "created_utc": 1320561021.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Uh,
+      Paulas right. Those are what butter warmers look like. Downvoted for ignorance.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes":
+      null, "replies": "", "id": "c2xgrfm", "subreddit": "pics", "ups": 1, "name":
+      "t1_c2xgrfm"}}, {"kind": "t1", "data": {"body": "mmm warm mayynayze...", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320586239.0, "author_flair_text":
+      null, "downs": 0, "author": "publicsync", "created_utc": 1320561039.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;mmm warm mayynayze...&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes":
+      null, "replies": "", "id": "c2xgrhp", "subreddit": "pics", "ups": 1, "name":
+      "t1_c2xgrhp"}}, {"kind": "t1", "data": {"body": "  Paula Deen, I don''t need
+      no $20 \"butter warmer\", I have a microwave.", "subreddit_id": "t5_2qh0u",
+      "author_flair_css_class": null, "created": 1320586272.0, "author_flair_text":
+      null, "downs": 0, "author": "EmmaInk", "created_utc": 1320561072.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;  Paula Deen, I don''t need no $20 \"butter
+      warmer\", I have a microwave.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id":
+      "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies": "", "id": "c2xgrm0",
+      "subreddit": "pics", "ups": 1, "name": "t1_c2xgrm0"}}, {"kind": "t1", "data":
+      {"body": "I work retail, and I see this same pot every single day.  All I had
+      to do to make front page was take a damn picture of it?! FUCK ME", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320586274.0, "author_flair_text":
+      null, "downs": 0, "author": "larrykins", "created_utc": 1320561074.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;I work retail, and I see this same pot every
+      single day.  All I had to do to make front page was take a damn picture of it?!
+      FUCK ME&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5",
+      "parent_id": "t3_m1yc5", "likes": null, "replies": "", "id": "c2xgrm8", "subreddit":
+      "pics", "ups": 1, "name": "t1_c2xgrm8"}}, {"kind": "t1", "data": {"body": "But
+      it''s got butter in it!", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320586401.0, "author_flair_text": null, "downs": 0, "author":
+      "SonovaGunderson", "created_utc": 1320561201.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;But
+      it''s got butter in it!&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id":
+      "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies": "", "id": "c2xgs32",
+      "subreddit": "pics", "ups": 1, "name": "t1_c2xgs32"}}, {"kind": "t1", "data":
+      {"body": "Holy fuck I love me some butter.", "subreddit_id": "t5_2qh0u", "author_flair_css_class":
+      null, "created": 1320586846.0, "author_flair_text": null, "downs": 0, "author":
+      "Got_Engineers", "created_utc": 1320561646.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;Holy
+      fuck I love me some butter.&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id":
+      "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies": "", "id": "c2xgtlj",
+      "subreddit": "pics", "ups": 1, "name": "t1_c2xgtlj"}}, {"kind": "t1", "data":
+      {"body": "well isn''t that the pot calling the kettle \"butter warmer\"", "subreddit_id":
+      "t5_2qh0u", "author_flair_css_class": null, "created": 1320586972.0, "author_flair_text":
+      null, "downs": 0, "author": "punarvasu", "created_utc": 1320561772.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;well isn''t that the pot calling the kettle
+      \"butter warmer\"&lt;/p&gt;&lt;/div&gt;", "levenshtein": null, "link_id": "t3_m1yc5",
+      "parent_id": "t3_m1yc5", "likes": null, "replies": "", "id": "c2xgu1u", "subreddit":
+      "pics", "ups": 1, "name": "t1_c2xgu1u"}}, {"kind": "t1", "data": {"body": "My
+      ex was into this show and I found myself watching it one day. Paula had her
+      son on the show and after tasting one of her dishes, she said she was going
+      to have an orgasm it was so good. The look on her son''s face was fucking priceless.
+      ", "subreddit_id": "t5_2qh0u", "author_flair_css_class": null, "created": 1320587073.0,
+      "author_flair_text": null, "downs": 0, "author": "loneswish", "created_utc":
+      1320561873.0, "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;My ex was into
+      this show and I found myself watching it one day. Paula had her son on the show
+      and after tasting one of her dishes, she said she was going to have an orgasm
+      it was so good. The look on her son''s face was fucking priceless.&lt;/p&gt;&lt;/div&gt;",
+      "levenshtein": null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes":
+      null, "replies": "", "id": "c2xgue5", "subreddit": "pics", "ups": 1, "name":
+      "t1_c2xgue5"}}, {"kind": "t1", "data": {"body": "As a Target employee I see
+      those everyday and I can confirm that it is a saucepan.", "subreddit_id": "t5_2qh0u",
+      "author_flair_css_class": null, "created": 1320587301.0, "author_flair_text":
+      null, "downs": 0, "author": "AKAGoAway", "created_utc": 1320562101.0, "body_html":
+      "&lt;div class=\"md\"&gt;&lt;p&gt;As a Target employee I see those everyday
+      and I can confirm that it is a saucepan.&lt;/p&gt;&lt;/div&gt;", "levenshtein":
+      null, "link_id": "t3_m1yc5", "parent_id": "t3_m1yc5", "likes": null, "replies":
+      "", "id": "c2xgv5c", "subreddit": "pics", "ups": 1, "name": "t1_c2xgv5c"}},
+      {"kind": "more", "data": {"name": "t1_c2xetyj", "id": "c2xetyj"}}], "after":
+      null, "before": null}}]'
+    http_version: '1.1'

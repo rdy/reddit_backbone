@@ -33,7 +33,12 @@ describe('views.reddits.Index', function() {
       });
 
       it('should open an overlay', function() {
-        expect($.fn.dialog).toHaveBeenCalled();
+        expect($.fn.dialog).toHaveBeenCalledWith({
+          autoOpen : false,
+          title: 'No, Paula.  It\'s a pot.',
+          width: 500,
+          height: 500
+        });
         expect($.fn.dialog.mostRecentCall.object.selector).toMatch(/dialog/);
       });
     });

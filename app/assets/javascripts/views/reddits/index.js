@@ -24,20 +24,23 @@
     self.clickComments = function(e) {
       e.preventDefault();
       var $target = $(e.currentTarget);
-      var reddit = self.collection.get($target.closest('.reddit').data('id'));
-      $target.next('.dialog').dialog({
-        title: reddit.get('title'),
-        width: 500,
-        height: 500
-      });
+      var $reddit = $target.closest('.reddit');
+      var reddit = self.collection.get($reddit.data('id'));
+      var comments = new redditBackbone.Comments();
+
+      var view = $reddit.data('view');
+      if (!view) {
+        view = new redditBackbone.views.reddits.comments.Show({el: $reddit, model: reddit, collection: comments});
+        $reddit.data('view', view);
+      }
+      view.openDialog();
+      comments.fetch({url: '/comment?' + $.param({permalink: reddit.get('permalink')})});
     };
 
     function initialize() {
       self.collection.bind('reset', self.render);
-
       self.delegateEvents();
     }
-
     initialize();
     return self;
   };
