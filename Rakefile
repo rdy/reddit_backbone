@@ -9,4 +9,4 @@ RedditBackbone::Application.load_tasks
 Rake.application.send :eval, "@tasks.delete :default"
 Rake::Task[:default].prerequisites.clear
 
-task default: :spec
+task default: [:spec, :'jasmine:ci']

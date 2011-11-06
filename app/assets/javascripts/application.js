@@ -11,6 +11,7 @@
 //= require jquery.timeago
 //= require underscore
 //= require underscore.string
+//= require lib/underscore
 //= require backbone
 //= require reddit_backbone
 //= require_tree .
