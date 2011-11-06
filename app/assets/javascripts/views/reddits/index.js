@@ -2,22 +2,26 @@
   namespace.views = namespace.views || {};
   namespace.views.reddits = namespace.views.reddits || {};
 
-  namespace.views.reddits.Index = Backbone.View.extend({
-    initialize: function(options) {
-      _(this).bindAll('render');
+  namespace.views.reddits.Index = function(options) {
+    var self = new (Backbone.View.extend({}))(options);
 
-      this.collection.bind('reset', this.render);
-    },
-    render: function() {
-      var helpers = {
-        timeAgo: function(time) {
-          return $.timeago(new Date(time * 1000))
-        }
-      };
-      var $tmpl = $.tmpl('reddits/index', {reddits: this.collection.toJSON()}, helpers);
-      $(this.el).empty().append($tmpl);
+    var helpers = {
+      timeAgo: function(time) {
+        return $.timeago(new Date(time * 1000))
+      }
+    };
 
-      return this;
+    self.render = function() {
+      var $tmpl = $.tmpl('reddits/index', {reddits: self.collection.toJSON()}, helpers);
+      $(self.el).empty().append($tmpl);
+      return self;
+    };
+
+    function initialize() {
+      self.collection.bind('reset', self.render);
     }
-  });
+
+    initialize();
+    return self;
+  };
 })(redditBackbone);
