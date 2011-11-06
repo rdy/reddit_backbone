@@ -5,6 +5,7 @@
 // the compiled file.
 //
 //= require jquery-1.7
+//= require jquery-ui
 //= require jquery_ujs
 //= require jquery-tmpl
 //= require jquery.timeago

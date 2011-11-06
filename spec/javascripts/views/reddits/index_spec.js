@@ -5,6 +5,13 @@ describe('views.reddits.Index', function() {
     view = new redditBackbone.views.reddits.Index({collection: reddits});
     jasmine.content().append(view.el);
     reddits.fetch();
+    var request = mostRecentAjaxRequest();
+    expect(request).not.toBeNull();
+    expect(request.url).toMatch(/\/reddits$/);
+    request.response({
+      status: 200,
+      responseText: readFixtures('reddits/index.json')
+    });
   });
 
   describe('render', function() {
@@ -14,6 +21,21 @@ describe('views.reddits.Index', function() {
 
     it('should render the expected content', function() {
       expect($('ol.reddits')).toExist();
+    });
+
+    describe('when clicking on the comments link', function() {
+      var $commentsLink;
+      beforeEach(function() {
+        $commentsLink = $('.comments:eq(0) a');
+        expect($commentsLink).toExist();
+        spyOn($.fn, 'dialog').andCallThrough();
+        $commentsLink.click();
+      });
+
+      it('should open an overlay', function() {
+        expect($.fn.dialog).toHaveBeenCalled();
+        expect($.fn.dialog.mostRecentCall.object.selector).toMatch(/dialog/);
+      });
     });
   });
 });
