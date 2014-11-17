@@ -66,7 +66,6 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.17.2)
     multi_json (1.0.3)
-    mysql2 (0.3.7)
     polyglot (0.3.3)
     rack (1.3.3)
     rack-cache (1.1)
@@ -124,7 +123,8 @@ GEM
     sprockets (2.0.3)
       hike (~> 1.2)
       rack (~> 1.0)
-      tilt (!= 1.3.0, ~> 1.1)
+      tilt (~> 1.1, != 1.3.0)
+    sqlite3 (1.3.4)
     thin (1.2.11)
       daemons (>= 1.0.9)
       eventmachine (>= 0.12.6)
@@ -146,11 +146,11 @@ DEPENDENCIES
   coffee-rails (~> 3.1.1)
   jasmine
   jquery-rails
-  mysql2
   rack (= 1.3.3)
   rails (= 3.1.1)
   rspec
   rspec-rails
   sass-rails (~> 3.1.4)
+  sqlite3
   thin
   uglifier (>= 1.0.3)
